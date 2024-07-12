@@ -1,0 +1,163 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>{% blocktrans %}Rekivizitlar{% endblocktrans %}</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            {% include "institut/__card-box_left.html" %}
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            
+            <h2>{% blocktrans %}Jizzax politexnika instituti rekviziti{% endblocktrans %}</h2>
+            <h3 class="mt-5">{% blocktrans %}Rekvizit (byudjet){% endblocktrans %}</h3>
+            
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Rekvizit (byudjet)</th>
+                        <th scope="col">Qiymati</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Hisob raqami</td>
+                        <td>O’zbekiston Respublikasi Moliya vazirligi G’aznachiligi x/r h/r: 23402000300100001010</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>INN</td>
+                        <td>201122919</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>MFO</td>
+                        <td>00014 (XKKM Markaziy bank)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>ShXR</td>
+                        <td>100010860084017094100079001</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>INN</td>
+                        <td>201672757</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>OKONX</td>
+                        <td>92110</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 class="mt-5">Rekvizit (kontrakt)</h3>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Rekvizit (kontrakt)</th>
+                        <th scope="col">Qiymati</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Hisob raqami</td>
+                        <td>O’zbekiston Respublikasi Moliya vazirligi G’aznachiligi x/r
+                            h/r: 23402000300100001010</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>INN</td>
+                        <td>201122919</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>MFO</td>
+                        <td>00014 (XKKM Markaziy bank)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>ShXR</td>
+                        <td>400910860084017950100079001</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>INN</td>
+                        <td>201672757</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>OKONX</td>
+                        <td>92110</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h3 class="mt-5">Rekvizit (rivojlantirish jamg’armasi)</h3>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Rekvizit (rivojlantirish jamg’armasi)</th>
+                        <th scope="col">Qiymati</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Hisob raqami</td>
+                        <td>O’zbekiston Respublikasi Moliya vazirligi G’aznachiligi x/r
+                            h/r: 23402000300100001010</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>INN</td>
+                        <td>201122919</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>MFO</td>
+                        <td>00014 (XKKM Markaziy bank)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>ShXR</td>
+                        <td>400110860084017950100079001</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>INN</td>
+                        <td>201672757</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>OKONX</td>
+                        <td>92110</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

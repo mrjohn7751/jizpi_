@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>Bo'limlar</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            <div class="card-box_left">
+                {% include "rektorat/bolimlar/bolim-copy.html" %}
+            </div>
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="__user_cards mb-3">
+                <div class="left">
+                    <img src="{% static "Photos/iqtalaba.jpg" %}">
+                </div>
+                <div class="right">
+                    <p>Iqtidorli talabalarning ilmiy tadqiqot ishlarini tashkil etish bo’limi boshlig'i</p>
+                    <p>Pedagogika fanlari bo’yicha falsafa doktori, (PhD)<b>Mustafaqulov Asatulla Asrorovich</b></p>
+                    <p><b>Qabul vaqti:</b> Har kuni (9:00-18:00)</p>
+                    <p><b>Telefon:</b> +99891 591-22-25</p>
+                    <p><a href="amustafaqulov@mail.ru" class="poshta" ><b> E-mail: </b>amustafaqulov@mail.ru</a> </p>
+                </div>
+            </div>
+            <p>
+                <br><b>&nbsp;&nbsp;Bo‘lim boshlig‘ining vazifalari:</b><br>
+	Iqtidorli talabalarning chuqur bilim olishlari va intellektual qobiliyatlarini rivojlantirishga ilmiy muhit va sharoit yaratish;
+	Kafedralarning malakali professor-o‘qituvchilarini iqtidorli talabalar bilan individuval ilmiy-tadqiqot ishlarini olib boorish uchun “Maqsadli tayyorlash dasturi”ni ishlab chiqish;
+	Iqtidorli talabalar va magistorlarni ilm-fan taraqqiyotining ustuvor yo‘nalishlari bo’yicha ilmiy tadqiqot ishlariga, ilmiy loyihalarga keng jalb etishni;
+	Iqtidorli talabalar va magistorlarni turli nomdor Davlat stipendiyalari: Beruniy, Navoiy, Islom Karimov hamda O’zbekiston Respublikasi Prezidenti stipendiyalari tanlovlarida ishtirok etishlarini ta’minlash;
+	Kafedralarda olib borilayotgan dolzarb, ilmiy-tadqiqot, ijodiy ishlarga talabalarni faol qatnashishlarini ta’minlash;
+	“Yilning eng yaxshi tadqiqotchisi” iqtidorli talabalar va magistrantlar o‘rtasida tanlov tashkil etish va uni samarali faoliyat yuritishi bo‘yicha chora-tadbirlar ishlab chiqish;
+	“Innovatsion g‘oyalar, texnologiyalar va loyihalar” tanlovini tashkil etish va o‘tkazish;
+	Talabalar ilmiy anjumanlari, seminarlari, ilmiy-tadqiqot ishlari tanlovlarini, davra suhbatlarini, fan olimpiadalarini va boshqa tadbirlarni tashkil qilish va o‘tkazish va boshqalar.
+
+            </p>
+            
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}
+
+
+
+

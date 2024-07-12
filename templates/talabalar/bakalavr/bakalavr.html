@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>BAKALAVRIAT</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            {% include "talabalar/bakalavr/bakalavr-copy.html" %}
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="card-box_right">
+                <a href="{% url "tBp1" %}" class="btn">E’lon va yangiliklar</a>
+                <a href="{% url "tBp2" %}" class="btn">Yo’riqnoma</a>  
+                <a href="{% url "tBp3" %}" class="btn">Dars jadvali</a>
+                <a href="{% url "tBp4" %}" class="btn">O’zlashtrish</a>
+                <a href="{% url "tBp5" %}" class="btn">Davomat</a>
+                <a href="{% url "tBp6" %}" class="btn">Iqtidorli talabalar</a>
+                <a href="{% url "tBp7" %}" class="btn">Stipendiyalar</a>
+                <a href="{% url "tBp8" %}" class="btn">Kontrakt miqdorlari</a>
+                <a href="{% url "tBp9" %}" class="btn">Talabalar turar joyi</a>
+                <a href="{% url "tBp10" %}" class="btn">BMI ximoyasi</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

@@ -1,0 +1,179 @@
+{% load static %}
+{% load i18n %}
+
+<nav class="use-inf">
+    <div class="container">
+        <div class="cont-inf">
+            <div class="cont-inf-left">
+                <a href="{% url "bayroq" %}"><img width="30" height="20" src="{% static "/Photos/icons/flag.png" %}" alt=""></a><p>|</p>
+                <a href="{% url "gerb" %}"><img width="20" height="20" src="{% static "/Photos/icons/gerp.png" %}" alt=""></a><p>|</p>
+                <a href="#"><img src="{% static "/Photos/svg/music.svg" %}" alt=""></a><p>|</p>
+                <a href="#"><img src="{% static "/Photos/svg/lan.svg" %}" alt=""></a><p>|</p>
+                <a href="#"><img src="{% static "/Photos/svg/eays.svg" %}" alt=""></a><p>|</p>
+                <a href="https://jizpi.uz/webmail/"><img src="{% static "/Photos/svg/email.svg" %}" alt=""></a><p>|</p>
+                <a href="https://obhavo.uz/jizzakh"><img src="{% static "/Photos/svg/cloud.svg" %}" alt=""></a><p>|</p>
+                <a href="{% url "login" %}" class="tizim"><img src="{% static "Photos/svg/locked.svg" %}" alt=""> {% blocktrans %}Tizimga kirish{% endblocktrans %}</a>
+
+            </div>
+            <div class="cont-inf-right">
+                
+
+                <form id="languageForm" method="post" action="{% url 'set_language' %}" style="margin-left: -150px; margin-top: 3px !important;">
+                    {% csrf_token %}
+                    <input name="next" type="hidden" value="{{ request.path }}">
+                    <ul class="language-list">
+                        {% get_current_language as LANGUAGE_CODE %}
+                        {% get_available_languages as LANGUAGES %}
+                        {% get_language_info_list for LANGUAGES as languages %}
+                        {% for language in languages %}
+                            <li onclick="setLanguage('{{ language.code }}')" style="display:flex;cursor: pointer;{% if language.code == LANGUAGE_CODE %} font-weight: bold;{% endif %}">
+                                {{ language.code }}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                    <input type="hidden" name="language" id="languageInput">
+                </form>
+                
+                <script>
+                    function setLanguage(languageCode) {
+                        document.getElementById('languageInput').value = languageCode;
+                        document.getElementById('languageForm').submit();
+                    }
+                </script>
+                
+
+
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="bg-color">
+  <div class="container">
+    <div class="header_new">
+      <div class="nav-logo-left">
+          <a href="{% url "index" %}"><img class="jizpi-logo" src="{% static "Photos/icons/jizpi-logo.png" %}" alt=""></a>
+          <h2 class="text-jizpi">
+              <span class="mt-3">{% blocktrans %}JIZZAX{% endblocktrans %}</span>
+              <span>{% blocktrans %}POLITEXNIKA{% endblocktrans %}</span>
+              <span>{% blocktrans %}INSTITUTI{% endblocktrans %}</span>
+          </h2>
+      </div>  
+
+      <img class="menu" src="{% static "Photos/icons/menu512.png" %}">
+
+      <div class="navbar_new  responsive">
+        <img class="close" src="{% static "Photos/icons/close48.png" %}">
+            <div class="dropdown">
+                <a href="#" class="navbar_nav_a">{% blocktrans %}Yangiliklar{% endblocktrans %}</a>
+                <ul class="dropdown_ul">
+                  <li class="dropdown_li"><a href="{% url "news" %}">{% blocktrans %}Yangiliklar{% endblocktrans %}</a></li>
+                  <li class="dropdown_li"><a href="{% url "elon" %}">{% blocktrans %}Elonlar{% endblocktrans %}</a></li>
+                </ul>
+            </div>
+              
+            <div class="dropdown">
+                <a href="#" class="navbar_nav_a">{% blocktrans %}Institut{% endblocktrans %}</a>
+                <ul class="dropdown_ul">
+                  <li class="dropdown_li"><a href="{% url "institut" %}">{% blocktrans %}Institut{% endblocktrans %}</a></li>
+                  <li class="dropdown_li"><a href="{% url "kengash" %}">{% blocktrans %}Kengashlar{% endblocktrans %}</a></li>
+                  <li class="dropdown_li"><a href="{% url "meyoriy-hujjat" %}">{% blocktrans %}Meyoriy Hujjatlar{% endblocktrans %}</a></li>
+                </ul>
+            </div>
+              
+            <div class="dropdown">
+                <a href="#" class="navbar_nav_a">{% blocktrans %}Tuzilma{% endblocktrans %}</a>
+                <ul class="dropdown_ul">
+                  <li class="dropdown_li"><a href="{% url "rektorat" %}">{% blocktrans %}Rektorat{% endblocktrans %}</a></li>
+                  <li class="dropdown_li"><a href="{% url "bolimlar" %}">{% blocktrans %}Bo'limlar{% endblocktrans %}</a></li>
+                  <li class="dropdown_li"><a href="{% url "markazlar" %}">{% blocktrans %}Markazlar{% endblocktrans %}</a></li>
+                  <li class="dropdown_li"><a href="{% url "fakultet" %}">{% blocktrans %}Fakultetlar{% endblocktrans %}</a></li>
+                  <li class="dropdown_li"><a href="{% url "kafedra" %}">{% blocktrans %}Kafedralar{% endblocktrans %}</a></li>
+                </ul>
+            </div>
+              
+            <div class="dropdown">
+                <a href="#" class="navbar_nav_a">{% blocktrans %}Faoliyat{% endblocktrans %}</a>
+                <ul class="dropdown_ul">
+                    <li class="dropdown_li"><a href="{% url "ilmiyFaoliyat" %}">{% blocktrans %}Ilmiy Faoliyat{% endblocktrans %}</a></li>
+                    <li class="dropdown_li"><a href="{% url "oquvFaoliyat" %}">{% blocktrans %}O'quv Faoliyat{% endblocktrans %}</a></li>
+                    <li class="dropdown_li"><a href="{% url "xalqaroFaoliyat" %}">{% blocktrans %}Xalqaro Faoliyat{% endblocktrans %}</a></li>
+                    <li class="dropdown_li"><a href="{% url "moliyaviyFaoliyat" %}">{% blocktrans %}Moliyaviy Faoliyat{% endblocktrans %}</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <a href="#" class="navbar_nav_a">Erasmus +</a>
+                <ul class="dropdown_ul">
+                  <li class="dropdown_li"><a href="{% url "trigger" %}">TRIGGER</a></li>
+                  <li class="dropdown_li"><a href="{% url "debse" %}">DEBSEUz</a></li>
+                    
+                </ul>
+              </div>
+
+            <div class="dropdown">
+                <a href="#" class="navbar_nav_a">{% blocktrans %}Qabul-2024{% endblocktrans %}</a>
+                <ul class="dropdown_ul">
+                  <li class="dropdown_li"><a href="{% url "callCenter" %}">{% blocktrans %}CALL-CENTER{% endblocktrans %}</a></li>
+                  <li class="dropdown_li"><a href="{% url "bakalavr" %}">{% blocktrans %}Bakalavr{% endblocktrans %}</a></li>
+                  <li class="dropdown_li"><a href="{% url "magistr" %}">{% blocktrans %}Magistratura{% endblocktrans %}</a></li>
+                  <li class="dropdown_li"><a href="{% url "sirtqi" %}">{% blocktrans %}Sirtqi Ta'lim{% endblocktrans %}</a></li>
+                  <li class="dropdown_li"><a href="{% url "doktarantura" %}">{% blocktrans %}Doktorantura{% endblocktrans %}</a></li>
+                  <li class="dropdown_li"><a href="{% url "xorijiyTalabalar" %}">{% blocktrans %}Xorijiy Fuqarolar{% endblocktrans %}</a></li>
+                  <li class="dropdown_li"><a href="{% url "qoshmaTalim" %}">{% blocktrans %}Qoshma Ta'lim dasturi{% endblocktrans %}</a></li>
+                  <li class="dropdown_li"><a href="{% url "ikkiMutaxasislik" %}">{% blocktrans %}2 - Mutaxassislik{% endblocktrans %}</a></li>
+                  <li class="dropdown_li"><a href="{% url "texnikum" %}">{% blocktrans %}Texnikumlar{% endblocktrans %}</a></li>
+                </ul>
+            </div>
+              
+            <div class="dropdown">
+                <a href="#" class="navbar_nav_a">{% blocktrans %}Talabalar{% endblocktrans %}</a>
+                <ul class="dropdown_ul">
+                    <li class="dropdown_li"><a href="{% url "tB" %}">{% blocktrans %}Bakalavr{% endblocktrans %}</a></li>
+                    <li class="dropdown_li"><a href="{% url "tM" %}">{% blocktrans %}Magistratura{% endblocktrans %}</a></li>
+                    <li class="dropdown_li"><a href="{% url "sirtqiT" %}">{% blocktrans %}Sirtqi Ta'lim{% endblocktrans %}</a></li>
+                    <li class="dropdown_li"><a href="{% url "xt" %}">{% blocktrans %}Xorijiy Fuqarolar{% endblocktrans %}</a></li>
+                    <li class="dropdown_li"><a href="{% url "qt" %}" class="last-a">{% blocktrans %}O'qishni Ko'chirish va qayta tiklash{% endblocktrans %}</a></li>
+                </ul>
+            </div>
+              
+            
+            <div class="dropdown">
+                <a href="{% url "aloqa" %}" class="navbar_nav_a">{% blocktrans %}Aloqa{% endblocktrans %}</a>
+            </div>
+            
+            <div class="dropdown">
+                <a href="http://hnt.jizpi.uz:8080/" class="navbar_nav_a">{% blocktrans %}Interaktiv xizmatmatlar{% endblocktrans %}</a>
+            </div>
+              
+      </div>
+  </div>
+    
+  </div>
+</div>
+
+
+
+  
+  
+
+
+<script>
+  const menu = document.querySelector('.menu')
+  const close = document.querySelector('.close')
+  const navbarNew = document.querySelector('.responsive')
+
+  menu.addEventListener('click',()=>{
+    navbarNew.style="display: block !important;"
+  })
+
+  close.addEventListener('click',()=>{
+    navbarNew.style="display: none  !important;"
+  })
+
+
+
+</script>
+
+<!-- Navbar end -->

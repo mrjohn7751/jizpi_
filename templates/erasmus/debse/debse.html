@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>{% blocktrans %}DebseUz{% endblocktrans %}</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+           {% include "erasmus/debse/debse-copy.html" %}
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="card-box_right">
+                <div class="card-box_right">
+                    <a href="{% url "pageED1" %}" class="btn">{% blocktrans %}DebseUz haqida{% endblocktrans %}</a>
+                    <a href="{% url "pageED2" %}" class="btn">{% blocktrans %}Tadbirlar{% endblocktrans %}</a>
+                    <a href="{% url "pageED3" %}" class="btn">{% blocktrans %}Ishchi guruh{% endblocktrans %}</a>
+                    <a href="{% url "pageED4" %}" class="btn">{% blocktrans %}Hisobotlar{% endblocktrans %}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

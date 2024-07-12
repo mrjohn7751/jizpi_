@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>Markazlar</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            <div class="card-box_left">
+                {% include "rektorat/markazlar/markaz-copy.html" %}
+            </div>
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            
+            {% comment %} #################################### {% endcomment %}
+        
+            <div class="__cards">  
+                
+                <a href="{% url "pageM1" %}" class="__card">
+                    <img src="{% static "Photos/logo.jpg" %}">
+                    <h4>Jamolov O’tkir Ilxamovich</h4>
+                    <h6 class="__h6">Raqamli ta’lim texnologiyalari markazi</h6>
+                </a>
+
+                <a href="{% url "pageM2" %}" class="__card">
+                    <img src="{% static "Photos/iconmen.png" %}">
+                    <h4>...</h4>
+                    <h6 class="__h6">Axborot-resurs markazi</h6>
+                </a>
+
+                {% comment %} <a href="{% url "pageM3" %}" class="__card">
+                    <img src="{% static "Photos/samandar.jpg" %}">
+                    <h4>Sadullayev Jasurbek Ulug'bek o'g'li</h4>
+                    <h6 class="__h6">Arxitektor-loyihachilar va quruvchilarni qayta tayyorlash va malakasini oshirish mintaqaviy markazi</h6>
+                </a>
+
+                <a href="{% url "pageM4" %}" class="__card">
+                    <img src="{% static "Photos/samandar.jpg" %}">
+                    <h4>Sadullayev Jasurbek Ulug'bek o'g'li</h4>
+                    <h6 class="__h6">O’zbekiston yoshlar ittifoqi</h6>
+                </a>
+
+                <a href="{% url "pageM5" %}" class="__card">
+                    <img src="{% static "Photos/samandar.jpg" %}">
+                    <h4>Sadullayev Jasurbek Ulug'bek o'g'li</h4>
+                    <h6 class="__h6">Texnologiyalar va innovatsiyalarni qo‘llab-quvvatlash markazi</h6>
+                </a>
+
+                <a href="{% url "pageM6" %}" class="__card">
+                    <img src="{% static "Photos/samandar.jpg" %}">
+                    <h4>Sadullayev Jasurbek Ulug'bek o'g'li</h4>
+                    <h6 class="__h6">Inkubatsiya markazi</h6>
+                </a> {% endcomment %}
+    
+    
+            </div>
+        
+            {% comment %} #################################### {% endcomment %}   
+                
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

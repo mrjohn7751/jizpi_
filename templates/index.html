@@ -1,0 +1,409 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+    <!-- Carusel bootstrap -->
+    <section class="main-img  " id="main-img">
+      
+        <div class="carousel" role="group" aria-label="infinite loop carousel demo" aria-roledescription="carousel">
+            <div class="carousel-slider" id="slides" aria-atomic="false" aria-live="off">
+                {% for photos in ekranImg %}
+                    <div class="carousel-slide" id="slide1" role="group" aria-label="1 of 6" aria-roledescription="slide"><img class="item-Main" src="{{ photos.img.url }}" alt="Carousel Image"></div>
+                {% endfor %}
+            </div>
+
+            <div class="card card-qabul" style="width: 15rem; position: absolute; top: 200px; left: 100px; background: linear-gradient(180deg, rgba(0,146,255,1) 0%, rgba(0,189,107,1) 100%); border:none;"> 
+                <img src="/static/Photos/icons/jizpi-logo.png" class="card-img-top" style='width:200px; margin:10px auto; border-radius:100%'> 
+                <div class="card-body"> 
+                  <h5 class="card-title text-center" style="color:#fff;">{% blocktrans %}Qabul-2024{% endblocktrans %}</h5> 
+                  <a href="{% url 'xorijiyTalabalar' %}" class="btn btn-primary d-block">{% blocktrans %}Kirish{% endblocktrans %}</a> 
+                </div> 
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Carusel bootstrap END -->
+{% endblock content %}
+
+  
+{% block news %}
+     <!-- Son'gi yangiliklar -->
+     <section class="block news container" id="news">
+        <div class="top-text">
+            <div>
+                <h3 class='news-h3'>{% blocktrans %}So'ngi Yangiliklar{% endblocktrans %}</h3>
+                <div class="line-b"></div>
+            </div>
+            <div class="line"></div>
+        </div>
+
+        <div class="nav-news mt-4">
+            <div class="elonlar_blocki">
+                {% for article in Article_news %}
+                {% if forloop.counter <= 4 %}
+                    <div class="card">
+                        <img src="{{ article.img.url }}" alt="">
+                        <h5>{{ article.title|truncatewords:6 }}</h5>
+                        <p>{{ article.body|truncatewords:14 }}</p>
+                        <a href="{{ article.get_absolute_url }}" class="btn">{% blocktrans %}Batafsil{% endblocktrans %}</a>
+                        {% comment %} <span>{{ article.created_at }}</span> {% endcomment %}
+                    </div>
+                {% endif %}
+            {% endfor %}              
+            </div>
+            <a href="{% url 'news' %}" class="elonlar_blocki_batafsil">{% blocktrans %}Batafsil{% endblocktrans %} ></a>
+        </div>
+    </section>
+    <!-- Son'gi yangiliklar END -->
+{% endblock news %}
+       
+{% block elon %}
+     <!-- Son'gi yangiliklar -->
+     <section class="block news container" id="news">
+        <div class="top-text">
+            <div>
+                <h3 class='news-h3'>{% blocktrans %}So'ngi Elonlar{% endblocktrans %}</h3>
+                <div class="line-b"></div>
+            </div>
+            <div class="line"></div>
+        </div>
+
+        <div class="nav-news mt-4">
+            <div class="elonlar_blocki">
+                {% for article in Article_elon %}
+                {% if forloop.counter <= 4 %}
+                    <div class="card">
+                        <img src="{{ article.img.url }}" alt="">
+                        <h5>{{ article.title|truncatewords:4 }}</h5>
+                        <p>{{ article.body|truncatewords:10 }}</p>
+                        <a href="{{ article.get_absolute_url }}" class="btn">{% blocktrans %}Batafsil{% endblocktrans %}</a>
+                        {% comment %} <span>{{ article.created_at }}</span> {% endcomment %}
+                    </div>
+                {% endif %}
+            {% endfor %}              
+            </div>
+            <a href="{% url 'elon' %}" class="elonlar_blocki_batafsil">{% blocktrans %}Batafsil{% endblocktrans %} ></a>
+        </div>
+    </section>
+    <!-- Son'gi yangiliklar END -->
+{% endblock elon %}
+ 
+
+{% block hiwi %}
+    <div class="container-fluid ">
+        <section class="block hiwi container" id="hiwi">
+            <div class="container">
+                <div class="top-text">
+                <div>
+                    <h3>{% blocktrans %}Bizning Tizimlar{% endblocktrans %}</h3>
+                    <div class="line-b"></div>
+                </div>
+                <div class="line"></div>
+                </div>
+                <div class="top-hiwi">
+
+
+                    <div class="owl-carousel owl-theme">
+                    
+                        <a  href="https://hemis.jizpi.uz" class="card item" >
+                            <div class="box"><img src="{% static "Photos/svg/hiwi.svg" %}"></div>
+                            <span class="box-line"></span>
+                            <span class="box-line-radius"></span>
+                            <h6>{% blocktrans %}Hemis o`qituvchi{% endblocktrans %}</h6>
+                        </a>
+                    
+                        <a  href="https://student.jizpi.uz/" class="card item" >
+                            <div class="box"><img src="{% static "Photos/svg/hiwi.svg" %}"></div>
+                            <span class="box-line"></span>
+                            <span class="box-line-radius"></span>
+                            <h6>{% blocktrans %}Hemis Talaba{% endblocktrans %}</h6>
+                        </a>
+                        
+                        <a  href="https://moodle.jizpi.uz/" class="card item" >
+                            <div class="box"><img src="{% static "Photos/icons/image-modle.png" %}"></div>
+                            <span class="box-line"></span>
+                            <span class="box-line-radius"></span>
+                            <h6>{% blocktrans %}Modle{% endblocktrans %}</h6>
+                        </a>
+                        
+                        <a  href="http://jurnal.jizpi.uz/" class="card item" >
+                            <div class="box"><img src="{% static "Photos/icons/image-ej.png" %}"></div>
+                            <span class="box-line"></span>
+                            <span class="box-line-radius"></span>
+                            <h6>{% blocktrans %}Online Jurnal{% endblocktrans %}</h6>
+                        </a>
+                        
+                        <a  href="https://lib.jizpi.uz" class="card item" >
+                            <div class="box"><img src="{% static "Photos/icons/image-lib.png" %}"></div>
+                            <span class="box-line"></span>
+                            <span class="box-line-radius"></span>
+                            <h6>{% blocktrans %}Kutubxona{% endblocktrans %}</h6>
+                        </a>
+                        
+                        <a  href="http://hnt.jizpi.uz:8080/" class="card item" >
+                            <div class="box"><img src="{% static "Photos/icons/image-dj.png" %}"></div>
+                            <span class="box-line"></span>
+                            <span class="box-line-radius"></span>
+                            <h6>{% blocktrans %}Jizpi Aborot Tizimi{% endblocktrans %}</h6>
+                        </a>
+                    
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+{% endblock hiwi %}
+
+
+{% block facultet %}
+     <!-- Fakultetlar -->
+     <section class="block fakultetlar container" id="fakultetlar">
+        <div class="top-text">
+            <div>
+                <h3>{% blocktrans %}Fakultetlar{% endblocktrans %}</h3>
+                <div class="line-b"></div>
+            </div>
+            <div class="line"></div>
+        </div>
+
+        <div class="owl-carousel owl-theme">
+            <div class="card_fakultet">
+                <a href="{% url "pageF4" %}" class="fakultet">
+                    <img src="{% static "Photos/energetika.png" %}" alt="">
+                    <div class="liner-gradient">
+                        <h6>{% blocktrans %}Energetika va Radioelektronika{% endblocktrans %}</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="card_fakultet">
+                <a href="{% url "pageF1" %}" class="fakultet">
+                    <img src="{% static "Photos/Avto.png" %}" alt="">
+                    <div class="liner-gradient">
+                        <h6>{% blocktrans %}Transport{% endblocktrans %}</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="card_fakultet">
+                <a href="{% url "pageF2" %}" class="fakultet">
+                    <img src="{% static "Photos/kimyo.png" %}" alt="">
+                    <div class="liner-gradient">
+                        <h6>{% blocktrans %}Sanoat texnalogiyalari{% endblocktrans %}</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="card_fakultet">
+                <a href="{% url "pageF3" %}" class="fakultet">
+                    <img src="{% static "Photos/qur.jpg" %}" alt="">
+                    <div class="liner-gradient">
+                        <h6>{% blocktrans %}Arxitektura va Qurilish{% endblocktrans %}</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="card_fakultet">
+                <a href="{% url "pageF5" %}" class="fakultet">
+                    <img src="{% static "Photos/servis.jpg" %}" alt="">
+                    <div class="liner-gradient">
+                        <h6>{% blocktrans %}Servis{% endblocktrans %}</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="card_fakultet">
+                <a href="{% url "pageF6" %}" class="fakultet">
+                    <img src="{% static "Photos/qmb.jpg" %}" alt="">
+                    <div class="liner-gradient">
+                        <h6>{% blocktrans %}Qurilish Materiallari va Kimyoviy Texnalogya{% endblocktrans %}</h6>
+                    </div>
+                </a>
+            </div>
+        
+        </div>
+        
+    </section>
+    <!-- Fakultetlar END -->
+{% endblock facultet %}
+
+
+{% block kursatgich %}
+    <!-- Korsatgichkar -->
+    <section class="block korsatgich mt-5" id="korsatgich">
+        <div class="container-fluid cls">
+            <div class="container">
+                <div class="kursatgich">
+                    <h1>{% blocktrans %}O'quv Faoliyat{% endblocktrans %}</h1>
+                    <ul class='ul-1'>
+                        <li><h1>550+</h1> <img src="{% static "Photos/icons/professor.png" %}">{% blocktrans %}O'qituvchilar{% endblocktrans %}</li>
+                        <li><h1>9700+</h1> <img src="{% static "Photos/icons/teacher1.png" %}">{% blocktrans %}Talabalar{% endblocktrans %}</li>
+                        <li><h1>245+</h1> <img src="{% static "Photos/icons/magistr.png" %}">{% blocktrans %}Hamkor OTMlar{% endblocktrans %}</li>
+                        <li><h1>260+</h1> <img src="{% static "Photos/icons/qoshma_talim.png" %}">{% blocktrans %}Qo‘shma ta’lim talabalari{% endblocktrans %}</li>
+                    </ul>
+                    <ul class='ul-2'>
+                        <li><h1>100+</h1> <img src="{% static "Photos/icons/teacher.png" %}">{% blocktrans %}Dotsent{% endblocktrans %}</li>
+                        <li><h1>6390+</h1> <img src="{% static "Photos/icons/talaba.png" %}">{% blocktrans %}Bakalavrlar{% endblocktrans %}</li>
+                        <li><h1>2880+</h1> <img src="{% static "Photos/icons/sirtqi.png" %}">{% blocktrans %}Sirqi talabalar{% endblocktrans %}</li>
+                        <li><h1>10+</h1> <img src="{% static "Photos/icons/talaba.png" %}">{% blocktrans %}Xorijiy talabalar{% endblocktrans %}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Korsatgichlar END -->
+{% endblock kursatgich %}
+       
+
+{% block fodaliXavola %}
+    
+        <!-- Foydali Xavola -->
+        <section class="block" id="xavola">
+            <div class="container">
+                <div class="top-text">
+                    <div>
+                        <h3>{% blocktrans %}Foydali Xavolalar{% endblocktrans %}</h3>
+                        <div class="line-b"></div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="container-fluid ">
+                <div class="container mt-5 mb-3">
+                    <div class="owl-carousel owl-theme">
+                        <a href="https://uzbmb.uz/" class=" elementlar">
+                            <img src="{% static "Photos/icons/gerp.png" %}">
+                            <h3>{% blocktrans %}Davlat Test Markazi{% endblocktrans %}</h3>
+                        </a>
+                        <a href="https://uzedu.uz/uz" class=" elementlar">
+                            <img src="{% static "Photos/icons/XTV.jpg" %}">
+                            <h3>{% blocktrans %}Xalq ta'limi Vazirligi{% endblocktrans %}</h3>
+                        </a>
+                        <a href="https://ziyonet.uz/" class=" elementlar">
+                            <img src="{% static "Photos/icons/ziyonet.jpg" %}">
+                            <h3>{% blocktrans %}ZiyoNet - Ta'lim Portali{% endblocktrans %}</h3>
+                        </a>
+                        <a href="https://hukumat.uz/" class=" elementlar">
+                            <img src="{% static "Photos/icons/gerp.png" %}">
+                            <h3>{% blocktrans %}Xukumat Portali{% endblocktrans %}</h3>
+                        </a>
+                        <a href="https://adliya.uz/" class=" elementlar">
+                            <img src="{% static "Photos/icons/Adliya_vazirligi-01.png" %}">
+                            <h3>{% blocktrans %}Adliya Vazirligi{% endblocktrans %}</h3>
+                        </a>
+                        
+                     
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Foydali Xavola END -->
+{% endblock fodaliXavola %}
+        
+
+{% block qabulxona %}
+    <section class="block" id="xavola">
+        <div class="container">
+            <div class="top-text">
+                <div>
+                    <h3>{% blocktrans %}Rektor Qabuli{% endblocktrans %}</h3>
+                    <div class="line-b"></div>
+                </div>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="container-fluid ">
+            <div class="container mt-3">
+                <div class="card_main m-1">
+                    <div class="cards_left">
+                        <h3 class="card_h3">{% blocktrans %}REKTOR ELEKTRON QABULXONASI{% endblocktrans %}</h3>
+                        <p class="card_p">{% blocktrans %}Jizzax Politexnika Instituti Rektori Elektron Online qabuli sayti{% endblocktrans %}</p>
+                        <a href="http://rektor.jizpi.uz/" class="btn card_a-link">{% blocktrans %}O'tish{% endblocktrans %}</a>
+                    </div>
+                    <div class="cards_right ">
+                        <img class="cards_right_img" src="{% static 'Photos/rektorat/Alisher_Usmonqulov_rektor.jpg'%}" alt="">
+                    </div>
+                </div>  
+                
+            </div>
+        </div>
+    </section>
+{% endblock qabulxona %}
+
+
+{% block prosta %}
+<section class="block mt-5" id="xavola">
+    <div class="container-fluid ">
+        <div class="container mt-3">
+            <div class="card_main-1 m-1">
+                
+               
+                
+
+                <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                            <h5 class="card_h3">{% blocktrans %}INSTITUTNING IJRO INTIZOM HOLATINI YAXSHILASH{% endblocktrans %}</h5>
+                            <a class="card_h3">0 (371) 226-45-47 &nbsp;&nbsp;&nbsp;&nbsp;    0 (371) 226-46-05</a>
+                        </div>
+                        <div class="carousel-item">
+                            <h5 class="card_h3">{% blocktrans %}Ishonch Telefon Raqamlar{% endblocktrans %}</h5>
+                            <a href= "#" class="card_h3">{% blocktrans %}yuklab olish{% endblocktrans %}</a>
+                            
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+
+
+
+            </div>  
+            
+        </div>
+    </div>
+</section>
+{% endblock prosta %}
+
+
+
+{% block welcome %}
+<section class="block mt-5" id="xavola">
+    <div class="container-fluid ">
+        <div class="container mt-3">
+            <div class="text-center">
+                <h3 class='elonlar_blocki_batafsil2'>{% blocktrans %}JIZZAX POLITEXNIKA INSTITUTIGA XUSH KELIBSIZ!{% endblocktrans %}</h3>
+                <h5 class='elonlar_blocki_batafsil2'>{% blocktrans %}TALABA BILAN AJOYIB MUVAFFAQIYAT{% endblocktrans %}</h5>
+            </div>
+            <div class="row mt-5 card-body ">
+                <div class="col col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <h5 class='elonlar_blocki_batafsil2'>{% blocktrans %}INSTITUT BINOLAR{% endblocktrans %}</h5>
+                    <p class="pt-3 elonlar_blocki_batafsil2">{% blocktrans %}Institut hududi 22 300 m2 maydonga ega bo’lib, unda 1500 o`rinli asosiy bino, 1000 o`rinli yangi o`quv –laboratoriya binosi, 1500 o`rinli 3-bino, 600 o`rinli yangi qurilgan ma'ruzalar zali, sport zali va 2 ta mini futbol maydoni, katta futbol maydoni, tennis, yengil atletika maydonlari joylashgan.{% endblocktrans %}</p>
+                </div>
+                <div class="col col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <h5 class='elonlar_blocki_batafsil2'>{% blocktrans %}BIZ HAQIMIZDA{% endblocktrans %}</h5>
+                    <p class="pt-3 elonlar_blocki_batafsil2">{% blocktrans %}Institutda 7 ta fakultet, 27 ta kafedra mavjud bo`lib ularda 33 ta ta’lim yo`nalishida bakalavrlar, 16 ta mutaxassislik bo`yicha magistrlar, 16 ta sirtqi ta’lim, 4 ta ixtisosliklar bo`yicha doktorantlar malakali professor-o`qituvchilar tomonidan dars mashg`ulotlari olib borilib yetuk mutaxasislar yetishib chiqarilmoqda.{% endblocktrans %}</p>
+                </div>
+                <div class="col col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <h5 class='elonlar_blocki_batafsil2'>{% blocktrans %}TALABALAR TURAR VA DAM OLISH JOYI{% endblocktrans %}</h5>
+                    <p class="pt-3 elonlar_blocki_batafsil2">{% blocktrans %}So`ngi yillarda yangi rekonstruksiya qilingan. 400 o`rinli talabalar turar joyi, texnopark, Axborot resurs markazi, IT-Park, oshxona, bufet va fitobarlar mavjud bo`lib, ular bugungi kunda 9,5 ming kishilik jamoa a’zolarining o’quv va ilmiy faoliyat olib borishlarida xizmat qilmoqda.{% endblocktrans %}</p>
+                </div>
+            </div>
+            
+
+         
+            
+        </div>
+    </div>
+</section>
+{% endblock welcome %}
+
+
+
+ 

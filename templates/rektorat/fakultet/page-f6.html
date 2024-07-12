@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>Fakultetlar</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            <div class="card-box_left">
+                {% include "rektorat/fakultet/fakultet-copy.html" %}
+            </div>
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="__user_cards mb-3">
+                <div class="left">
+                    <img src="{% static "Photos/qur dekan.jpg" %}">
+                </div>
+                <div class="right">
+                    <p>Qurilish materiallari va kimyoviy texnologiya fakulteti dеkani</p>
+                    <p>texnika fanlari nomzodi. PhD..<b> Mirzabekov Mirkomil Saidaxmadovich</b></p>
+                    <p><b>Qabul vaqti:</b> haftaning seshanba, payshanba va juma kunlari soat 14:00 dan 16:00 gacha.</p>
+                    <p><b>Telefon:</b> (93) 301-48-88</p>
+                    <p><a href=" mirkomil84@inbox.ru" class="poshta" ><b> E-mail: </b> mirkomil84@inbox.ru</a> </p>
+                </div>
+            </div>
+            <div class="__user_cards mb-3">
+                <div class="left">
+                    <img src="{% static "Photos/orifaka.jpg" %}">
+                </div>
+                <div class="right">
+                    <p>Qurilish materiallari muhandisligi fakulteti Yoshlar bilan ishlash bo‘yicha dekan muovuni</p>
+                    <p><b> Qosimov Orif Faxriddin o'g'li</b></p>
+                    <p><b>Qabul vaqti:</b> Seshanba, Shanba kunlari soat 08-30 dan 16-00 gacha</p>
+                    <p><b>Telefon:</b>+99899 572 00 91</p>
+                    <p><a href="qosimovo047@mail.com" class="poshta" ><b> E-mail: </b> qosimovo047@mail.com</a> </p>
+                </div>
+            </div>
+            <p>
+                <br><b>&nbsp;&nbsp;Qurilish materiallari va kimyoviy texnologiya fakulteti tarixi</b><br>
+                Mustaqillikdan keyin, 1992 yilda Toshkent politexnika institutining Jizzax filiali O‘zbekiston respublikasi Prezidentining farmoniga binoan, aloxida mustaqil Jizzax politexnika institutiga aylantirildi. 1977 yilda Toshkent politexnika institutining Jizzax «Umumtexnika» fakulteti tashkil etildi. 1980 yilda u Toshkent politexnika institutining Jizzax filiali sifatida faoliyat ko‘rsatib, bunda asosan «Sanoat va fuqaro qurilishi», «Qurilish buyumlarini ishlab chiqarish» mutaxassisliklari bo‘yicha bugungi kunga qadar respublikamiz va viloyatimiz xalq xo‘jaligiga ko‘plab mutaxassislar etkazib berdi.
+
+                Bu vaqtga kelib institut tarkibiga Toshkent avtomobil yo‘llari institutning Jizzaxdagi «Umumtexnika», Toshkent Kimyo texnologiya institutining Jizzax «Umumtexnika» fakultetlari ham birlashtirilib Jizzax politexnika instituti tarkibida 5 ta fakultet faoliyat ko‘rsata boshladi. Bular: «Qurilish muxandisligi», «Muxandislik iqtisodiyoti», «Avtomexanika», «Kimyo texnologiya», «Kechki-sirtqi» fakultetlari shular jumlasidandir.
+
+                Hozirgi «Arxitektura va qurilish» fakulteti 2014 yil 12 iyundagi «Vazirlar Maxkamasining Jizzax politexnika instituti faoliyatini takomillashtirish to‘g‘risida 2012 yil 29 iyundagi 187-son qaroriga o‘zgartirish kiritish haqida» 157-son qarori, shuningdek, Oliy va o‘rta maxsus ta’lim Vazirligining 2014 yil 14 iyundagi 229-sonli buyrug‘ini ta’minlash maqsadida, “Binolar va muhandislik inshoatlari injineringi” nomi bilan “Avtotransport” hamda institutning «Sanoat texnologiyasi va qurilish» fakulteti bazasida “Sanoat texnologiyasi” fakultetlari tashkil etildi.
+
+                Jizzax politexnika institutining 2020 yil 1 iyulda tuzilgan yangi strukturasiga asosan «Qurilish materiallari muhandisligi» fakulteti tashkil etildi.
+                <br><b>&nbsp;&nbsp;Kafedralar</b><br>
+                Kafedralar
+1. “Qurilish materiallari va konstruksiyalari”<br>
+2. “Umumtexnika fanlari”<br>
+3. “Muhandislik va kompyuter grafikasi”<br>
+4. “Kimyoviy texnologiya”<br>
+5. “Kimyo”<br>
+
+                <br><b>&nbsp;&nbsp;Magistratura mutaxassisligi</b><br>
+                1. 70730308 – Qurilish materiallari, texnologiyalari<br>
+
+2. 70730301 – Qurilish muhandisligi<br>
+
+3. 70710101 – Kimyoviy texnologiya<br>
+<br>
+
+ <br><b>&nbsp;&nbsp;Bakalavriat ta’lim yo’nalishlari</b><br>
+
+1-KURS<br>
+
+1. 60730300 – Qurilish muhandisligi<br>
+
+2. 60720300 – Materialshunoslik <br>
+
+3. 60710100-Kimyo muhandisligi.<br>
+
+4. 60711200-Metallurgiya muhandisligi.<br>
+
+ 2-KURS<br>
+
+1. 60730700 – Qurilish materiallari, buyumlari va konstruksiyalarini ishlab chiqarish<br>
+
+2. 60720600 – Materialshunoslik va yangi materiallar texnologiyasi (qurilish)<br>
+
+3. 60712100 -Metallurgiya<br>
+
+4. 60710100 – Kimyoviy texnologiya<br>
+
+ 3-KURS<br>
+
+1. 60730700 – Qurilish materiallari, buyumlari va konstruksiyalarini ishlab chiqarish<br>
+2. 60720600 – Materialshunoslik va yangi materiallar texnologiyasi (qurilish)<br>
+3. 60730600– Devorbop va pardozbop qurilish materiallari texnologiyasi<br>
+4. 60710100 – Kimyoviy texnologiya<br>
+5. 60721100- Neft va neft gazni qayta ishlash texnologiyasi<br>
+
+ 4-KURS<br>
+
+1. 60730700 – Qurilish materiallari, buyumlari va konstruksiyalarini ishlab chiqarish<br>
+2. 60720600 – Materialshunoslik va yangi materiallar texnologiyasi (qurilish)<br>
+3. 60730600 – Devorbop va pardozbop qurilish materiallari texnologiyasi<br>
+4. 60710100 – Kimyoviy texnologiya<br>
+5. 60721100 - Neft va neft gazni qayta ishlash texnologiyasi<br>
+            </p>
+         
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}
+
+
+
+

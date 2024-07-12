@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>Bo'limlar</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            <div class="card-box_left">
+                {% include "rektorat/bolimlar/bolim-copy.html" %}
+            </div>
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="__user_cards mb-3">
+                <div class="left">
+                    <img src="{% static "Photos/img_bolim/sharof.JPG" %}">
+                </div>
+                <div class="right">
+                    <p>Ilmiy-tadqiqotlar, innovatsiyalar va ilmiy-pedagogik kadrlar tayyorlash  bo’lim boshlig’i</p>
+                    <p><b>Musayev Sharof Mamarajabovich</b></p>
+                    <p><b>Qabul vaqti:</b> Seshanba 14:00 – 16:00</p>
+                    <p><b>Telefon:</b> +998971380709</p>
+                    <p><a href="sharofmusayev@mail.com" class="poshta" ><b> E-mail: </b>sharofmusayev@mail.com</a> </p>
+                </div>
+            </div>
+            <p>
+                <br><b>&nbsp;&nbsp;  Maqsadi </b>
+              Fan, ta’lim va ishlab chiqarishning samarali integratsiyalashuvini ta’minlash manfaatdor tashkilotlar bilan birgalikda fundamental, amaliy va innovatsion loyihalar bo‘yicha ilmiy tadqiqotlar olib borish va ularning natijalarini amaliyotga joriy etishdan, amaliy va innovatsion tadqiqotlar olib borishda universitetning mavjud salohiyatidan samarali foydalanishni tashkil etishdan iborat. ilmiy-texnikaviy muammolarni hal qilishda, ilmiy-tadqiqot institutlari bilan birgalikda. Bundan tashqari, kafedra moddiy-texnika bazasini mustahkamlash, ilmiy va ilmiy-pedagogik salohiyatni oshirish, yuqori malakali raqobatbardosh kadrlar tayyorlashda fan yutuqlaridan keng foydalanish ishlarini tashkil etishni o‘z ichiga oladi. Doktorlik dissertatsiyalari himoyasini o‘z vaqtida ta’minlash va himoya ko‘rsatkichlarini oshirish maqsadida doktorantlar va mustaqil talabgorlarga falsafa doktori (PhD) va fan doktori (DSC) ilmiy darajasini olish uchun ilmiy-tadqiqot ishlarini tashkil etish va olib borishda uslubiy va texnik yordam ko‘rsatish rejalashtirilgan. 
+              <br><b>&nbsp;&nbsp; Bo‘limning asosiy faoliyati  </b>
+               Fan, ta’lim va ishlab chiqarishning samarali integratsiyasini ta’minlash orqali manfaatdor tashkilotlar bilan hamkorlikda fundamental, amaliy va innovatsiya loyihalari bo‘yicha tadqiqotlar olib borish hamda ularning natijalarini amaliyotga joriy etish, ilmiy-tadqiqot institutlari bilan hamkorlikda ilmiy-texnik vazifalarni hal etishga yo‘naltirilgan amaliy va innovatsion izlanishlarni amalga oshirishda mavjud institut salohiyatidan samarali foydalanishni tashkil etishdan iborat. Bundan tashqari, bo’lim moddiy-texnika bazasini mustahkamlash, ilmiy va ilmiy-pedagogik salohiyatini oshirish, yuqori malakali raqobatbardosh kadrlar tayyorlashda ilm-fan yutuqlaridan keng foydalanish bo‘yicha tashkil etishni o‘z ichiga oladi.
+               <br><b>&nbsp;&nbsp;  Bo‘lim institutda ilmiy ishlarni tashkil etish va ilmiy-pedagogik kadrlar tayyorlash borasida quyidagi faoliyatni olib boradi: </b>
+               -o‘rta-maxsus, kasb-hunar ta’limi negizida ikki bosqichda oliy dasturdagi tadbirlarni bosqichma-bosqich amalga oshirish;
+-institutda professor-o‘qituvchilar tomonidan talabalar, magistrlar va doktorantlarni keng jalb qilingan holda ilmiy kengashning mavzuli rejasi, korxona va tashkilotlar buyurtmasi hamda davlat grantlari bo‘yicha ilmiy-uslubiy, ilmiy-tadqiqot ishlari olib borilishini tashkil etish;
+-institutda rejalashtirilgan ilmiy-tadqiqot ishlarining bajarilishi, amaliyotga tadbiq etilishi hamda monografiya va ilmiy maqolalarni nashrga tayyorlashni yo‘lga qo‘yish;
+-doktorlik dissertatsiyasini himoya qilishga ko‘maklashish, ixtiro va ratsionalizatorlik takliflari bo‘yicha hujjatlarni tayyorlash va rasmiylashtirish ishlarini olib borish;
+-institutning moddiy-texnika bazasi va axborotlar etkazib berish tizimlarini rivojlantirish;
+-o‘qituvchi va talabalarni O‘zbekiston Respublikasi Fan va texnologiyalar agentligi tomonidan e’lon qilingan amaliy va fundamental loyihalar tanlovida va har yili o‘tkaziladigan “Innovatsion g‘oyalar, loyihalar va texnologiyalar”  Respublika yarmarkasida hamda nomli stipendiyalarini tayinlashda ishtirokini tashkil etish;
+-ilmiy-tadqiqot ishlarida xalqaro aloqalarni o‘rnatish;
+-tayanch doktorant, stajyor tadqiqotch, mustaqil izlanuvchilarning murojaatlarini o‘z vaqtida batafsil ko‘rib chiqish, buzilgan ichki-tartib qoidalarining tiklanishini ta’minlash;
+-tegishli ixtisoslik va mutaxassislik bo‘yicha yuqori malakali tayanch doktorant stajyor tadqiqotch, mustaqil izlanuvchilar tayyorlash;
+-mehnat qonunlari va mehnatni muhofaza qilish qoidalariga qat’iy rioya qilish, tayanch doktorant, stajyor tadqiqotch, mustaqil izlanuvchilarning o‘qish va mehnat sharoitini yaxshilash hamda o‘quv laboratoriya xonalarini kerakli jihozlar bilan ta’minlash;
+– tayanch doktorant, stajyor tadqiqotch, mustaqil izlanuvchilarga “Mehnat haqidagi qonun” (M.K.143-moddasi)ga asosan mehnat va ijodiy ta’tillar berilishini ta’minlash.
+Shuningdek, 4 ta yo‘nalishda  05.08.06-G‘ildirakli va gusenitsali mashinalar va ularni ishlatish, 05.06.02-To‘qimachilik materiallari texnologiyasi va xom-ashyoga dastlabki ishlov berish, 13.00.05.-Kasb-hunar ta’limi nazariyasi va metodikasi, 05.09.05- Qurilish materiallari va buyumlari, tayanch doktorantura faoliyat yuritmoqda.
+Institutda 460 nafar asosiy shtatda  (o‘rindoshlar 65 ta) professor-o‘qituvchilar faoliyat yuritadi.  SHulardan 16 ta fan doktori, 201 ta fan nomzodi va dotsentlardir.
+Olib borilgan ilmiy-tadqiqot ishlari natijalari bo‘yicha joriy etilgan ishlanmalar hajmi 2.3 mln so‘mni tashkil qildi. Joriy yilda  25 ta patent, 10 ta ixtiro uchun mualliflik guvohnomasi olindi, 75 ta monografiya, 171 ta darslik, 130 ta o‘quv qo‘llanmalar nashr qilindi, xalqaro ilmiy jurnallarda 475 ortiq, O‘z.R.OAK ro‘yxatidagi ilmiy jurnallarda 375 tadan ortiq  maqolalar, xalqaro konferensiyalarda 658 tadan ortiq tezislar e’lon qilindi. Xozirgi kunda ilmiy saloxiyatimiz 37.4 % tashkil etadi.
+            </p>
+            <a href="../../../static/upload/Ilmiybn.pdf" class="a-link">lmiy bo'lim nizomi</a>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}
+
+
+
+

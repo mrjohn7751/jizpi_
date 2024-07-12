@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>{% blocktrans %}Institut Nizomi{% endblocktrans %}</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            {% include "institut/__card-box_left.html" %}
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <h3>{% blocktrans %}Institut Nizomi{% endblocktrans %}</h3>
+            <p><b>1.Jizzax politexnika instituti (keyingi o‘rinlarda matnda JizPI deb yuritiladi).</b>JizPI O‘zbekiston Respublikasi Prezidentining 1992 yil 28 fevraldagi Farmoni, shuningdek Vazirlar Mahkamasining 1992 yil 11 martdagi 125-raqamli qarori bilan Toshkent arxitektura va qurilish instituti Jizzax filiali, Toshkent kimyo-texnologiya instituti Jizzax filiali hamda Toshkent avtomobil yo‘llari institutining Jizzax filiallari negizida tashkil etilgan bo‘lib, O‘zbekiston Respublikasi Oliy va o‘rta maxsus ta’lim vazirligining tashkiliy tuzilmasiga kiradi.</p>
+            <p>2. JizPI davlat oliy ta’lim muassasasi hisoblanib, oliy ta’limning asosiy va qo‘shimcha (yoki faqat asosiy) ta’lim Dasturlarini bajarish bo‘yicha ta’lim faoliyati bilan shug‘ullanadi, shuningdek, O‘zbekiston Respublikasining qonun xujjatlariga muvofiq o‘quv-pedagogik va ilmiy-metodik, shuningdek boshqa faoliyatni amalga oshiradi hamda ta’lim xizmatlarini ko‘rsatadi</p>
+
+            <p>3. JizPI o‘z faoliyatida O‘zbekiston Respublikasining Konstitutsiyasi, “Ta’lim to‘g‘risida”gi Qonuni, Kadrlar tayyorlash milliy dasturi, Oliy Majlis palatalarining qarorlari, O‘zbekiston Respublikasi Prezidentining Farmonlari, qarorlari va farmoyishlari, Vazirlar Mahkamasining qarorlari va farmoyishlari, Oliy va o‘rta maxsus ta’lim vazirligining normativ-huquqiy hujjatlari va mazkur Ustavga amal qiladi.</p>
+
+            <p>4. JizPI yuridik shaxs hisoblanadi. Operativ boshqaruvda o‘ziga xos maxsus mol-mulkka ega va ushbu mol-mulk bo‘yicha o‘z majburiyatlariga muvofiq javob beradi, o‘z nomidan mol-mulk sotib olishi va mulkiy hamda nomulkiy huquqlarni amalga oshirishi, zimmasiga majburiyat olishi, sudda da’vogar va javobgar bo‘lishi mumkin.
+                Mustaqil balansga, bank muassasalarida hisob-kitob va boshqa, shu jumladan, valyuta bo‘yicha hisob raqamlariga, O‘zbekiston Respublikasi Davlat gerbi tasviri tushirilgan va o‘z nomi yozilgan muhrga, shtamplar va boshqa rekvizitlarga ega</p>
+
+            <b>JizPI joylashgan manzil:</b><br>
+            <b>130100. O‘zbekiston Respublikasi, Jizzax shahri, Islom Karimov shoh ko‘chasi, 4-uy.</b>
+            <p>
+                Hisob rakami: O‘zbekiston Respublikasi Moliya vazirligi Yagona G‘azna hisob varag‘i 
+                <b>h/r 23402000300100001010</b><br>
+                <b>INN: 201122919 </b><br>
+                <b>MFO: 00014 Markaziy bank BB-XKKM Toshkent shahar. Jizzax politexnika instituti INN: 201672757. SH/xv 400910860084017950100079001 (to‘lov shartnomalari uchun)</b>
+            </p>
+
+            <p>400110860084017950100079001 (rivojlantirish jamg‘armasi uchun)</p>
+            <p>100010860084017094100079001 (byudjet to‘lovlari uchun)</p>
+            <p>Jizzax politexnika institutining o‘zbek, rus va ingliz tillaridagi rasmiy to‘liq (qisqa) nomi:Jizzax politexnika instituti (JizPI)</p>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

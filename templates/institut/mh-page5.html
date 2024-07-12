@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>{% blocktrans %}Hukumat Qarorlari{% endblocktrans %}</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            <div class="card-box_left">
+                {% include "institut/__meyoriy-hujjat-copy.html" %}
+            </div>
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <h4>{% blocktrans %}Hukumat Qarorlari{% endblocktrans %}</h4>
+                <ol>
+                    <li class="card p-2 mb-2">
+                        <a href="http://www.lex.uz/ru/docs/2933330?otherlang=1">ЕТИМ ВА ОТА-ОНА ҚАРАМОҒИДАН МАҲРУМ БЎЛГАН, ТЎЛИҚ ДАВЛАТ ТАЪМИНОТИДА БЎЛМАГАН ЎРТА МАХСУС, КАСБ-ҲУНАР ТАЪЛИМИ МУАССАСАЛАРИ БИТИРУВЧИЛАРИНИ «МАҲАЛЛА» ХАЙРИЯ ЖАМОАТ ФОНДИ ТОМОНИДАН ТАНЛАБ ОЛИШ ҲАМДА УЛАРГА НАФАҚА ТЎЛАШ ТАРТИБИ ТЎҒРИСИДАГИ НИЗОМНИ ТАСДИҚЛАШ ҲАҚИДА</a>
+                    </li>
+                    <li class="card p-2 mb-2">
+                        <a href="http://www.lex.uz/docs/3120811">ОЛИЙ ТАЪЛИМ МУАССАСАЛАРИ БОШҚАРУВ, ТЕХНИК, ХИЗМАТ КЎРСАТУВЧИ ВА ЎҚУВ-ЁРДАМЧИ ХОДИМЛАРИНИНГ НАМУНАВИЙ ШТАТЛАРИНИ ТАСДИҚЛАШ ТЎҒРИСИДА</a>
+                    </li>
+               
+                </ol>
+
+        </div>
+    </div>
+</div>
+<video src="https://www.youtube.com/watch?v=EvbuyMu9rBw"></video>
+
+
+{% endblock content %}

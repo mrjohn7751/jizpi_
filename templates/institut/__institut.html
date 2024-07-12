@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>{% blocktrans %}INSTITUT{% endblocktrans %}</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            {% include "institut/__card-box_left.html" %}
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="card-box_right">
+                <a href="{% url "ins-nizomi" %}" class="btn">{% blocktrans %}Institut nizomi{% endblocktrans %}</a>
+                <a href="{% url "ins-tarixi" %}" class="btn">{% blocktrans %}Institut tarixi{% endblocktrans %}</a>
+                <a href="{% url "ins-strukturasi" %}" class="btn">{% blocktrans %}Institut strukturasi{% endblocktrans %}</a>
+                <a href="{% url "rektor-tabrigi" %}" class="btn">{% blocktrans %}Rektor Tabrigi{% endblocktrans %}</a>
+                <a href="{% url "rekivizitlar" %}" class="btn">{% blocktrans %}Rekivizitlar{% endblocktrans %}</a>
+                <a href="{% url "md-baza" %}" class="btn">{% blocktrans %}Moddiy-texnik Baza{% endblocktrans %}</a>
+                <a href="{% url "sp-inshoatlari" %}" class="btn">{% blocktrans %}Sport Inshoatlari{% endblocktrans %}</a>
+                <a href="http://rektor.jizpi.uz/" class="btn">{% blocktrans %}Rektor Virtual Qabulxonasi{% endblocktrans %}</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

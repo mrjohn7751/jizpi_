@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>Xalqaro Faoliyat</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            {% include "faoliyat/xalqaro-faoliyat/__xalqaro-copy.html" %}
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="card-box_right">
+                <a href="{% url "pageXF1" %}" class="btn">{% blocktrans %}Xalqaro hamkorlik aloqalari{% endblocktrans %}</a>
+                <a href="{% url "pageXF2" %}" class="btn">{% blocktrans %}Xorijiy malaka oshirish va ta’lim{% endblocktrans %}</a>
+                <a href="{% url "pageXF3" %}" class="btn">{% blocktrans %}Xalqaro konferensiyalar{% endblocktrans %}</a>
+                <a href="{% url "pageXF4" %}" class="btn">{% blocktrans %}Xalqaro loyihalar va grantlar{% endblocktrans %}</a>
+                <a href="{% url "pageXF5" %}" class="btn">{% blocktrans %}Chet ellik talabalar uchun{% endblocktrans %}</a>
+                <a href="{% url "pageXF6" %}" class="btn">{% blocktrans %}Kontaktlar{% endblocktrans %}</a>
+             
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

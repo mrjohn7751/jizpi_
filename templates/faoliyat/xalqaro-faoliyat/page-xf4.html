@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>{% blocktrans %}Xalqaro Faoliyat{% endblocktrans %}</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            {% include "faoliyat/xalqaro-faoliyat/__xalqaro-copy.html" %}
+        </div>
+
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="card-box_right">
+                <div class="col-md-9">
+                    <div class="entry-content">
+
+                        <table style="height: 250px;" width="1064">
+                            <tbody>
+                            <tr>
+                                <td><a href="https://jizpi.uz/faoliyat/xalqaro-faoliyat/xalqaro-loyihalar-va-grantlar/reliap/"><img class="card-img-top" src="https://jizpi.uz/wp-content/uploads/2022/06/reileap.png" alt="reileap" height="50"></a></td>
+                                <td><a href="https://jizpi.uz/faoliyat/xalqaro-faoliyat/xalqaro-loyihalar-va-grantlar/trigger/"><img class="card-img-top" src="https://jizpi.uz/wp-content/uploads/2022/06/trigger.png" alt="trigger" height="90"></a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+    
+{% endblock content %}
+
+
+
+        
+
+

@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>Bo'limlar</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            <div class="card-box_left">
+                {% include "rektorat/bolimlar/bolim-copy.html" %}
+            </div>
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="__user_cards mb-3">
+                <div class="left">
+                    <img src="{% static "Photos/iconmen.png" %}">
+                </div>
+                <div class="right">
+                    <p>Reja – Moliya bo’limi boshlig’i</p>
+                    <p><b>Pirmatov Raxmonqul Orziqulovich</b></p>
+                    <p><b>Qabul vaqti:</b> haftaning dushanba, chorshanba va payshanba kunlari soat 14:00 dan 16:00 gacha.</p>
+                    <p><b>Telefon:</b> 0 (372) 226-59-00</p>
+                    <p><a href="dgpi-info@edu.uz" class="poshta" ><b> E-mail: </b> dgpi-info@edu.uz</a> </p>
+                </div>
+            </div>
+            <p>
+                <br><b>&nbsp;&nbsp;Reja moliya bo’limining asosiy vazifalari:</b>
+                • Institut moliyaviy faoliyatini rejalashtirish va tashkil etilishini nazorat qilish<br>
+• Moliyaviy faoliyatning barcha turlari bo’ycha istiqbolli va yillik daromadlar va xarajatlar smetasini tuzish hamda ular ijrosini ta’minlash.<br>
+• Institut ish faoliyatini ta’minlash uchun ajratiladigan mehnat va pul resurslaridan hamda to’lov-shartnoma asosida ta’lim olayotgan talablar hisobiga kelib tushgan pul mablag’lari foydalanilishining to’g’riligini nazorat qilish.<br>
+• Institut ishchi-hodimlarini rag’batlantrishda ishtirok etish.<br>
+• Xo’jalik shartnomalari va maxsus mablag’lar smetasi ijrosini doimiy ravishda nazorat qilish va ular samaradorligni oshirish.<br>
+• Institut xodimlarini bazaviy lavozim maoshlarining tasdiqlangan razryad va tarif koeffitsinetlariga mosligini muntazam nazorat qilib borish.<br>
+• Xarajatlar va daromadlar smetasini tuzishda O’zbekiston Respublikasi Oliy va o’rta maxsus ta’lim vaziriligi va Moliya vazirliklari birgalikda tasdiqlangan namunaviy shtat jadvali asosida professor-o’qituvchilar, o’quv-o’rdamchi xodimlar, ma’muriy-boshqaruv hamda xizmat ko’rsatuvchi personallarning tarkibini tuzish.<br>
+• Oliy va o’rta maxsus ta’lim vaziriligiga o’z vaqitida buxgalteriya balansi hisoboti bilan bog’liq bo’lgan moliyaviy smetalar va chorak hisobatlarini topshirish.<br>
+            </p>
+            
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}
+
+
+
+

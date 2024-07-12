@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>Rektorat</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            <div class="card-box_left">
+                {% include "rektorat/rektorat-copy.html" %}
+            </div>
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <!-- <div class="__cards">  
+                <a href="#" class="__card">
+                    <img src="{% static "Photos/samandar.jpg" %}">
+                    <h4>Sadullayev Jasurbek Ulug'bek o'g'li</h4>
+                    <h6 class="__h6">Yoshlar masalalari va ma’naviy-ma’rifiy ishlar bo‘yicha birinchi prorektor</h6>
+                </a>
+            </div> -->
+        
+
+            <div class="container cards">
+                <a href="{% url "rektor" %}" class="user-card">
+                    <div class="left">
+                        <img src="{% static "Photos/rector.jpg" %}">
+                    </div>
+                    <div class="right">
+                        <h2 class="mt-3 mt3">JIZZAX POLITEXNIKA INSTITUTI REKTORI</h2>
+                        <p class="p"><b>Usmankulov Alisher Kadirkulovich</b></p>
+                    </div>
+                </a>
+
+                <div class="row">
+    
+                    <!-- Yoshlar masalalari va ma’naviy-ma’rifiy ishlar bo‘yicha birinchi prorektor -->
+                    
+                    <div class="col col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                        <a href="{% url "prYoshlar" %}" class="user-cards">
+                            <div class="left">
+                                <img src="{% static "Photos/san.jpg" %}">
+                                <p>Eshbekova Sanobar Omonliqovna</p>
+                            </div>
+                            <div class="right">
+                                <p><b>Eshbekova Sanobar Omonliqovna</b></p>
+                                <p>Lavozimi: <b>Yoshlar masalalari va ma’naviy-ma’rifiy ishlar bo’yicha prorektor</b></p>
+                                <p>Telefon: <b>+998 90 123 45 67</b></p>
+                            </div>
+                        </a>
+                    </div>
+                 
+                 
+                    <!-- O’quv ishlari bo’yicha prorektor -->
+
+                    <div class="col col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                        <a href="{% url "prOquv" %}" class="user-cards">
+                            <div class="left">
+                                <img src="./samandar.jpg">
+                                <p>Vakant</p>
+                                
+                            </div>
+                            <div class="right">
+                                {% comment %} <p><b>O'quv ishlari bo'yicha prorektor</b></p> {% endcomment %}
+                              <p>Lavozimi: <b>O’quv ishlari bo’yicha prorektor</b></p>
+                                {% comment %} <p>Telefon: <b>+998 90 123 45 67</b></p> {% endcomment %}
+                            </div>
+                        </a>
+                    </div>
+                 
+                    
+                    <!-- Ilmiy ishlar va innovatsiyalar bo’yicha prorektor -->
+
+                    <div class="col col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                        <a href="{% url "prIlmiy" %}" class="user-cards">
+                            <div class="left">
+                                <img src="{% static "Photos/jamshid.jpg" %}">
+                                <p>Jamshid Nurmuhamatovich Abdunazarov</p>
+                            </div>
+                            <div class="right">
+                                <p><b>Jamshid Nurmuhamatovich Abdunazarov</b></p>
+                                <p>Lavozimi: <b>Ilmiy ishlar va innovatsiyalar bo’yicha prorektor</b></p>
+                                <p>Telefon: <b>+998 90 123 45 67</b></p>
+                            </div>
+                        </a>
+                    </div>
+                 
+                 
+                    <!-- Moliyaviy-iqtisodiy ishlari bo’yicha prorektor -->
+
+                    <div class="col col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                        <a href="{% url "prMoliya" %}" class="user-cards">
+                            <div class="left">
+                                <img src="{% static "Photos/rektorat/misirov.JPG" %}">
+                                <p>v.b. MISIROV O‘TKIRJON BOTIROVICH</p>
+                            </div>
+                            <div class="right">
+                                <p><b>v.b. MISIROV O‘TKIRJON BOTIROVICH</b></p>
+                                <p>Lavozimi: <b>Moliyaviy-iqtisodiy ishlari bo’yicha prorektor</b></p>
+                                <p>Telefon: <b>+998 90 123 45 67</b></p>
+                            </div>
+                        </a>
+                    </div>
+                 
+                    
+
+ 
+                    <!-- Xalqaro hamkorlik bo‘yicha prorektor -->
+
+                    {% comment %} <div class="col col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                        <a href="{% url "prXalqaro" %}" class="user-cards">
+                            <div class="left">
+                                <img src="./samandar.jpg">
+                                <p>Jamshid Nurmuhamatovich Abdunazarov</p>
+                            </div>
+                            <div class="right">
+                                <p><b>Jamshid Nurmuhamatovich Abdunazarov</b></p>
+                                <p>Lavozimi: <b>Xalqaro hamkorlik bo‘yicha prorektor</b></p>
+                                <p>Telefon: <b>+998 90 123 45 67</b></p>
+                            </div>
+                        </a>
+                    </div> {% endcomment %}
+                 
+                 
+                 
+                 
+            
+                </div>
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

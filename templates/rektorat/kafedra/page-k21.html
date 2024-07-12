@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>Kafedra</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            <div class="card-box_left">
+                {% include "rektorat/kafedra/kafedra-copy.html" %}
+            </div>
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="__user_cards mb-3">
+                <div class="left">
+                    <img src="{% static "Photos/radioelek.jpg" %}">
+                </div>
+                <div class="right">
+                    <p>Radioelektronika kafedrasi mudiri</p>
+                    <p><b>Mustofoqulov Jabbor Axmatqulovich</b></p>
+                    <p><b>Qabul vaqti:</b>haftaning Juma kuni soat 14:00 dan 16:00 gacha.</p>
+                    <p><b>Telefon:</b>+998 90-224-55-39</p>
+                    <p><a href=" J.Mustofoqulov@inbox.ru" class="poshta" ><b> E-mail: </b> J.Mustofoqulov@inbox.ru</a> </p>
+                </div>
+            </div>
+            <p>
+                <br><b>&nbsp;&nbsp;Radioelektronika kafedrasi haqida ma’lumot</b><br>
+                Radioelektronika» kafedrasi 2017 yilda «Elektroenergetika» kafedrasi tarkibidan ajralib chiqdi. Jami 16 ta professor-o’qituvchi faoliyat olib boradi. Ulardan 4 ta dotsent, 3 ta katta o’qituvchi, 7 nafari assistent. Asosiy shtatda 13 ta. 1 ta laborant va 1 nafar kabinet mudiri faoliyat olib boradi.
+                <br><b>&nbsp;&nbsp;Bakalavriyat yunalishlari</b><br>
+                – 5250700- Radioelektron kurilmalar va tizimla<br>
+                – 5310800-Elektronika va asbobsozlik (elektronika sanoatida)
+                <br><b>&nbsp;&nbsp;Kafedrada olib borilayotgan ilmiy ishlar mavzulari:</b><br>
+                1. “Kristall materiallarning spektroskopik usullarda tadkik etish”(dots. Sattarov S.)<br>
+
+2. “Mukobil energiya manbalarining foydali ish koeffitsientini oshirish buyicha ilmiy izlanishlar olib borish( dots. Mustafakulov A.)<br>
+
+3. “Radioelektronikada ranglar sezuvchi datchiklar anikligini oshirish va ular ishini modellashtirish”( ass. Babanov D.)<br>
+
+4.“Robot ko’z analizatori tizimini yaratishning matematik dastiriy-texnik ta’minoti (kat. o’qituvchi F.Muldanov)<br>
+
+5.“Ta’limning innovatsion texnologiyalari asosida muqobil energiya manbaalari (Quyosh va shamol energetikasi) mutaxassislarini tayyorlashda o’qitish samaradorligini oshirish (ass. F. Yuldashev)<br>
+            </p>
+
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}
+
+
+
+

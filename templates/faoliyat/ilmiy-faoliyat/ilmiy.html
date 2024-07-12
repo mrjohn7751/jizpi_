@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>ilmiy-Faoliyat</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            {% include "faoliyat/ilmiy-faoliyat/__ilmiy-copy.html" %}
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="card-box_right">
+                <a href="{% url "pageIF1" %}" class="btn">{% blocktrans %}Ilm-fan-2024{% endblocktrans %}</a>
+                <a href="{% url "pageIF2" %}" class="btn">{% blocktrans %}Nomzodlik imtihonlari{% endblocktrans %}</a>
+                <a href="{% url "pageIF3" %}" class="btn">{% blocktrans %}Ilmiy tadbirlar{% endblocktrans %}</a>
+                <a href="{% url "pageIF4" %}" class="btn">{% blocktrans %}Ilmiy nashrlar{% endblocktrans %}</a>
+                <a href="{% url "pageIF5" %}" class="btn">{% blocktrans %}Yosh ekspertlar guruhi{% endblocktrans %}</a>
+                <a href="{% url "pageIF6" %}" class="btn">{% blocktrans %}Konferensiyalar{% endblocktrans %}</a>
+                <a href="{% url "pageIF7" %}" class="btn">{% blocktrans %}Istiqboldagi rejalar{% endblocktrans %}</a>
+                <a href="{% url "pageIF8" %}" class="btn">{% blocktrans %}Ilmiy tatqiqot faoliyati{% endblocktrans %}</a>
+                <a href="{% url "pageIF9" %}" class="btn">{% blocktrans %}Ilmiy tadqiqot yo’nalishlari{% endblocktrans %}</a>
+                <a href="{% url "pageIF11" %}" class="btn">{% blocktrans %}Xujjatlar to’plami{% endblocktrans %}</a>
+                <a href="{% url "pageIF12" %}" class="btn">{% blocktrans %}Ustoz-shogird maktabi{% endblocktrans %}</a>
+                <a href="{% url "pageIF13" %}" class="btn">{% blocktrans %}Innovatsion dastur{% endblocktrans %}</a>
+                <a href="{% url "pageIF14" %}" class="btn">{% blocktrans %}Innovatsion loyihalar{% endblocktrans %}</a>
+                <a href="{% url "pageIF15" %}" class="btn">{% blocktrans %}Bitiruvchilar klubi{% endblocktrans %}</a>
+                <a href="{% url "pageIF16" %}" class="btn">{% blocktrans %}Ilmiy e’lonlar{% endblocktrans %}</a>
+                <a href="{% url "pageIF17" %}" class="btn">{% blocktrans %}«Yoshlar ovozi» gazetasi{% endblocktrans %}</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>Kafedra</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            <div class="card-box_left">
+                {% include "rektorat/kafedra/kafedra-copy.html" %}
+            </div>
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="__user_cards mb-3">
+                <div class="left">
+                    <img src="{% static "Photos/xortil.jpg" %}">
+                </div>
+                <div class="right">
+                    <p>Xorijiy tillar kafedrasi mudiri </p>
+                    <p><b>Yakubov Fazliddin О‘taganovich</b></p>
+                    <p><b>Qabul vaqti:</b> haftaning Seshanba payshanba va juma kunlari soat 14:00 dan 16:00 gacha.</p>
+                    <p><b>Telefon:</b> (97) 325 87 40</p>
+                    <p><a href="fazliddin.yaqubov@mail.ru" class="poshta" ><b> E-mail: </b>fazliddin.yaqubov@mail.ru</a> </p>
+                </div>
+            </div>
+            <p>
+                <br><b>&nbsp;&nbsp; Xorijiy tillar kafedrasi tarixi</b><br>
+                1972 yil Toshkent politexnika institutining Jizzax filialida “Umumtexnika” fakultetida “Umumiy ta’lim fanlari” kafedrasi tashkil topdi. Kafedra «Marksizm-leninizm va tillar» nomi bilan ataldi.
+Mazkur kafedraga falsafa fanlari nomzodi A.S. Soatov rahbarlik qildi. Kafedra tarkibi 15 nafar o’qituvchidan iborat edi. 1980 yil kafedra “Обще образовательная дисциплина” nomi bilan atalib, kafedraga G.O. Bilchenko rahbarlik qilgan. O’sha davrda kafedrada nemis tili va rus tili fanlari o’qitilgan. 
+Fakultet Toshkent Politexnika institutining filiali bo’lib, qayta tashkil topgandan keyin ham kafedraning nomi o’zgarmasdan qoldi. Mazkur yillarda  kafedrada nemis tili, ingliz tili va rus tili fanlari o’qitilgan.
+Kafedra mudiri sifatida faoliyat olib brogan G.O. Bilchenko nafaqaga chiqqanidan keyin kafedrada ko’p yillar mehnat qilib kelgan dotsent K.T. Tagmatov boshqara boshladi. Mazkur yillarda kafedrada nemis tili, ingliz tili, rus tili va jismoniy tarbiya fanlaridan darslar o’tila boshlandi. 
+1993 yildan boshlab kafedra D.A.Soatova tomonidan boshqarildi. Kafedra nomi “O’zbek va rus tillari” kafedrasi deb qayta nomlandi. Bu davr mobaynida institut filialida o’qitiladigan barcha guruhlarida o’zbek tili va adabiyot fanlari o’qitila boshlandi. 
+1996 yildan boshlab “O’zbek va rus tillari” kafedrasi “Хorijiy tillar”  kafedrasiga qo’shildi. 1996 yildan 1998 yil mart oyiga qadar kafedrani dots. A. I. Isayev boshqara boshladi.  Kafedra “O’zbek va chet tillari”  deb atala boshlandi va kafedrada talabalarga ingliz, nemis, rus, o’zbek tili va yozuv fanlaridan darslar tashkil etildi. 
+1997 yil mart oyida kafedrada ko’p yillar faoliyat olib borgan nemis tili fani o’qituvchisi Em M. nomzodlik dissertatsiyasini himoya qildi. 1999 yil 2-martdan boshlab kafedraga f.f.n. Em Maya boshchilik qila boshladi. 
+1999 yil 2-martdan 2012 yilga qadar “O’zbek va chet tillari” kafedrasi f.f.n. dots. Em M. tomonidan boshqarildi. 
+2012 yildan iyun oyidan boshlab, kafedraning “O’zbek va chet tillari” nomi “Хorijiy tillar” kafedrasi deb o’zgartirildi. Mazkur davr mobaynida kafedra o’qituvchi A. Sanaqulov tomonidan boshqarildi. 
+2015 yil yanvar oyidan boshlab, 2019 yil fevral oyiga qadar “Xorijiy tillar” kafedrasiga katta o’qituvchi N.X.Baysariyev rahbarlik qildi.
+2019 yil 11 fevraldan boshlab “Xorijiy tillar” kafedrani katta o’qituvchi B.T.Bazarov boshqardi. 
+2019 yil 2 dekabrda O’zbekiston Respuplikasi Prezidentining farmoniga binoan “Xorijiy tillar” kafedrasi tarkibidan o’zbek tili va rus tillari fanlari ajratilib “O’zbek tili va adabiyoti” kafedrasi tashkil topdi.
+2023 yil mart oyidan boshlab “Xorijiy tillar” kafedrasiga katta o’qituvchi F.Yakubov rahbar etib tayinlandi. 
+Hozirgi kunda kafedrada dotsentlar B.Bazarov, H.Mustafoqulova, A.Rahimov, E. Soliyev va U.Elovalar faoliyat olob bormoqdalar.
+Shuningdek, kafedrada F.Yakubov, Z.Qo’ychiyeva, F.Xiloliddinova, M.Soliyeva, G.Sanayevalar  dots. v.b. sifatida faoliyat olib bormoqdalar. 
+Hozirgi kunda kafedrada katta o’quvchilar Murodova U., N.Dusboyeva, G.Madiyeva,  B.Tangatov, M.Shodiev, F.Mustafoqulova, R.Boqievalar, shuningdek, assistent  o’qituvchilar T.Baxtiyoriy, F.Atabekova, A.Dushaboyev, O.Abdullayeva, M.Xodjayeva, F.Bozorovalar faoliyat olib bormoqdalar. 
+Kafedra professor-oqituvchilari doimiy ravishda mintaqaviy malaka oshirish markazlarida o’z malakalarini oshirib kelmoqdalar va olgan bilim va ko’nikmalarini amaliy mashg’ulot darslarida qo’llashmoqdalar.
+Kafedra professor-oqituvchilari doimiy ravishda xalqaro ilmiy jurnallarda  (“Web of Science”, “Scopus” va boshqa xalqaro e’tirof etilgan bazalarga kiritilgan jurnallarda)  ko’plab ilmiy maqolalar  chop etib kelmoqdalar.
+<br><b>&nbsp;&nbsp; Kafedraning ilmiy va amaliy aloqalari:</b><br>
+Sambhram universiteti (Hindiston);
+- O‘zbekiston Milliy universiteti;
+- Samarqand Davlat universiteti;
+- Amerika Qo’shma shtatlarining O’zbekistondagi elchixonasi “Ta’lim va til o’rgatish” departamenti; 
+- Jizzax viloyati pedagoglarni yangi metodikalarga o‘rgatish milliy markazi;
+Shuningdek kafedra ishlab chiqarish korxonalari, akademik litseylar, professional ta’lim muassasalarir va umumta’lim maktablari bilan hamkorliklar aloqalari olib bormoqda.
+            </p>
+            <div class="container">
+                <div class="row">
+                  <div class="col  mt-3">
+                    <img src="{% static "Photos/img_kaf/xortil2.jpg" %}" class="kaf-img">
+                  </div>
+                  <div class="col  mt-3">
+                    <img src="{% static "Photos/img_kaf/xortil.jpg" %}" class="kaf-img">
+
+                  </div>
+                </div>
+           </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}
+
+
+
+

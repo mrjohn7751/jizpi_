@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>Bo'limlar</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            <div class="card-box_left">
+                {% include "rektorat/bolimlar/bolim-copy.html" %}
+            </div>
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            
+            {% comment %} #################################### {% endcomment %}
+        
+            <div class="__cards">  
+               {% comment %} <a href="{% url "pageB1" %}" class="__card">
+                    <img src="{% static "Photos/iconmen.png" %}">
+                    <h4>Sadullayev Jasurbek Ulug'bek o'g'li</h4>
+                    <h6 class="__h6">Yoshlar bilan ishlash, ma’naviyat va ma’rifat bo’limi</h6>
+                </a> {% endcomment %}
+            
+                <a href="{% url "pageB2" %}" class="__card">
+                    <img src="{% static "Photos/iqtalaba.jpg" %}">
+                    <h4>Mustafaqulov Asatulla Asrorovich</h4>
+                    <h6 class="__h6">Iqtidorli talabalar bilan ishlash bo’limi</h6>
+                </a>
+            
+                <a href="{% url "pageB3" %}" class="__card">
+                    <img src="{% static "Photos/img_bolim/sharof.JPG" %}">
+                    <h4>Musayev Sharof Mamarajabovich</h4>
+                    <h6 class="__h6">Ilmiy-tadqiqotlar, innovatsiyalar va ilmiy-pedagogik kadrlar tayyorlash</h6>
+                </a> 
+    
+                {% comment %} <a href="{% url "pageB4" %}" class="__card">
+                    <img src="{% static "Photos/iconmen.png" %}">
+                    <h4>Sadullayev Jasurbek Ulug'bek o'g'li</h4>
+                    <h6 class="__h6">Jismoniy va yuridik shaxslarning murojaatlari bilan ishlash, nazorat va monitoring</h6>
+                </a>  {% endcomment %}
+    
+                <a href="{% url "pageB5" %}" class="__card">
+                    <img src="{% static "Photos/ts2.JPG" %}">
+                    <h4>Qarshiboyev Sharof Egamnazarovich</h4>
+                    <h6 class="__h6">Ta’lim sifatini nazorat qilish bo’limi</h6>
+                </a>
+
+                {% comment %} <a href="{% url "pageB6" %}" class="__card">
+                    <img src="{% static "Photos/iconmen.png" %}">
+                    <h4>Sadullayev Jasurbek Ulug'bek o'g'li</h4>
+                    <h6 class="__h6">Devonxona va arxiv bo’limi</h6>
+                </a> {% endcomment %}
+
+                {% comment %} <a href="{% url "pageB7" %}" class="__card">
+                    <img src="{% static "Photos/iconmen.png" %}">
+                    <h4>Sadullayev Jasurbek Ulug'bek o'g'li</h4>
+                    <h6 class="__h6">Taxririy-nashryot bo’limi</h6>
+                </a> {% endcomment %}
+    
+                {% comment %} <a href="{% url "pageB8" %}" class="__card">
+                    <img src="{% static "Photos/iconmen.png" %}">
+                    <h4>Sadullayev Jasurbek Ulug'bek o'g'li</h4>
+                    <h6 class="__h6">Xalqaro aloqalar bo’lim</h6>
+                </a> {% endcomment %}
+
+                <a href="{% url "pageB9" %}" class="__card">
+                    <img src="{% static "Photos/img_bolim/jasur.jpg" %}">
+                    <h4>Nasriddinov Jasurjon Islomovich</h4>
+                    <h6 class="__h6">O’quv-uslubiy boshqarma</h6>
+                </a>
+
+                {% comment %} <a href="{% url "pageB10" %}" class="__card">
+                    <img src="{% static "Photos/iconmen.png" %}">
+                    <h4>Sadullayev Jasurbek Ulug'bek o'g'li</h4>
+                    <h6 class="__h6">Reja-moliya bo’limi</h6>
+                </a> {% endcomment %}
+    
+                <a href="{% url "pageB11" %}" class="__card">
+                    <img src="{% static "Photos/img_bolim/market.jpg" %}">
+                    <h4>Meliyev Ibragim Ibaydullayevich</h4>
+                    <h6 class="__h6">Marketing bo’limi</h6>
+                </a> 
+        
+                {% comment %} <a href="{% url "pageB12" %}" class="__card">
+                    <img src="{% static "Photos/iconmen.png" %}">
+                    <h4>Sadullayev Jasurbek Ulug'bek o'g'li</h4>
+                    <h6 class="__h6">Xodimlar bo’limi</h6>
+                </a> {% endcomment %}
+    
+                {% comment %} <a href="{% url "pageB13" %}" class="__card">
+                    <img src="{% static "Photos/iconmen.png" %}">
+                    <h4>Sadullayev Jasurbek Ulug'bek o'g'li</h4>
+                    <h6 class="__h6">Buxgalteriya</h6>
+                </a> {% endcomment %}
+
+                {% comment %} <a href="{% url "pageB14" %}" class="__card">
+                    <img src="{% static "Photos/iconmen.png" %}">
+                    <h4>Sadullayev Jasurbek Ulug'bek o'g'li</h4>
+                    <h6 class="__h6">Magistratura</h6>
+                </a>  {% endcomment %}
+            </div>
+        
+            {% comment %} #################################### {% endcomment %}   
+                
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

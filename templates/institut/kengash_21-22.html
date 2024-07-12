@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>{% blocktrans %}OTM Kengashi{% endblocktrans %}</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            <div class="card-box_left">
+                {% include "institut/__kengash-19-24.html" %}
+
+            </div>
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="card-box_right">
+               <h3 align="center">O'ZBEKISTON RESPUBLIKASI OLIY VA O'RTA MAXSUS TA'LIM VAZIRLIGI JIZZAX POLITEXNIKA INSTITUTI</h3>
+               <p class="p1920"> <b>"TASDIQLAYMAN"</b><br>Jizzax politexnika instituti rektori <br>_________ A.Q.Usmonkulov<br>2020 yil 30 avgust</p>
+               <p class="p1920_"><b>INSTITUT KENGASHINING</b><br>2020-2021 O‘QUV YILI UCHUN<br><b>ISH REJASI</b></p>
+               <p class="">Institut Kengashi yig'ilishi o'quv yili davomida har oynings'nggi yilida, soat 1330da institut anjumanlar (yoki kichik majlislar) zalida ko'rsatiladi. Institut Kengash yig‘ilishlarida “Monitoring va ichki nazorat” bo‘limi boshlig‘i O‘zbekiston Respublikasi Prezidenti va buyruqlari, farmoyishlari va xodimlari, Oliy va o‘rta maxsus ta’lim hayvonlari va sportlari va buyrug‘lari, institut Kengashi va ichki nazorati bo‘yicha axborot beradi. Hisobot (qo'g'oz va elektron variantda) kengash yig'ilishidan 3 kun oldin Ilmiy kotibga taqdim etishlari shart. Institut Kengash yig'ilishlarida Axborot-resurs markaziga kelib tushgan adabiyotlar haqida yangi markaz direktori axborot beradi.<br><br>Mazkur 2020-2021 o'quv yili uchun ish reja institut Kengashining 2020 yil 28 avgustdagi 1-sonli majlisida ko'rib chiqilib, tiklangan.</p>
+            </div>
+            {% comment %} <a href="#" class="btn btn-primary">Batafsil malumot</a> {% endcomment %}
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

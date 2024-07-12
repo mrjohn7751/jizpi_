@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>Rektorat</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            <div class="card-box_left">
+                {% include "rektorat/markazlar/markaz-copy.html" %}
+            </div>
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="__user_cards mb-3">
+                <div class="left">
+                    <img src="{% static "Photos/ustoz.jpg" %}">
+                </div>
+                <div class="right">
+                    <p>Raqamli ta’lim texnologiyalari markazi boshlig’i</p>
+                    <p><b>Jamolov O’tkir Ilxamovich</b></p>
+                    <p><b>Qabul vaqti:</b> Seshanba 14:00 – 16:00</p>
+                    <p><b>Telefon:</b> (+998 72) 226-56-20</p>
+                    <p><a href="jizdpi_atm@edu.uz;" class="poshta" ><b> E-mail: </b> jizdpi_atm@edu.uz;</a> </p>
+                </div>
+            </div>
+            <p>
+                &nbsp;&nbsp;Institut rektorining 2002 yil 3-may 33-x sonli buyrug’i bilan «Axborot texnologiyalari va masofaviy o’qitish markazi» tashkil etilgan. Markazga O’tkir Jamolov boshliq etib tayinlangan. Markazda 13 kishi faoliyat ko’rsatadi. Markaz o’z oldiga institutdagi barcha kompyuterlarni yangilash va takomillashtirishni maqsad qilib qo’ygan.
+
+                Markaz tashkil etilgan davrda institutda 82 ta kompyuterlar bor edi. Hozirgi paytda institut rektori va markaz tashabbusi bilan institutda 510 kompyuter, jumladan 19 ta kompyuter honasi mavjud. Institutda Internetdan foydalanish tezligi 100 Mbit/s ni tashkil qiladi.
+                
+                Institut professor – o’qituvchilariga, aspirantlariga va talabalariga Internet tarmog’idan foydalanish uchun etarli sharoit yaratilgan. Institut WEB saxifasini mavjud (www.jizpi.uz). WEB saxifani yangi informatsiyalar bilan to’ldirib, zamonaviy dizayn bilan boyitib borish maqsadida markazda aloxida guruh faoliyat ko’rsatmoqda. Bilim dargohida lokal tarmoq ishlab turibdi. U rektorat, institut bo’limlari, fakultet dekanatlari va «Axborot texnologiyalari va masofaviy o’qitish» markazini o’zaro bog’laydi. Ushbu tarmoqni markaz hodimlari institut rektori boshchiligida o’z kuchlari bilan yaratganlar. Tarmoqni nazorat qilish bevosita markaz tomonidan amalga oshiriladi. Hozirda tarmoq vazirlik tarmog’iga ulangan.
+                
+                Institut proffessor – o’qituvchilari tomonidan «Kompyuter tizimlari» va «EXMda amaliy dasturlar paketi bilan ishlash» va boshqa fanlardan elektron darsliklar yaratildi. Institut kutubxonasi elektronlashtirilishi uchun kompyuterlar va texnik vositalar bilan ta’minlash. Elektron kutubxona yaratish ishlari hal etilmoqda. Fanlardan tayorlangan ma’ruza matnlarining elektron versiyalari institut kutubxonasiga yig’ildi. Xozirgi kunda elektron kataloglar tayyorlash ishlari olib borilmoqda. Professor – o’qituvchilar, fakultet dekanlari va kafedra mudirlarini axborot kommunikatsiya texnologiyalari va kompyuter bilan ishlash bo’yicha savodxonligini oshirish uchun ular dastur asosida o’qitilmoqda. Markaz akademik litsey, kasb – xunar kollejlari va maktablar bilan yaqindan aloqa o’rnatgan. Akademik litsey va kollejlarga axborot texnologiyalari va masofaviy o’qitishni rivojlantirishga yordam ko’rsatilmoqda. Bulardan tashqari markaz qoshida «Multimediya» labaratoriyasi tashkil qilingan. Ushbu labaratoriya kerakli zamonaviy texnologiyalar bilan to’la jixozlangan bo’lib, unda elektron darsliklar va o’quv qo’llanmalari yaratilmoqda.
+            </p>
+            
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}
+
+
+
+

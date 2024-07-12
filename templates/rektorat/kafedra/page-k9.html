@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>Kafedra</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            <div class="card-box_left">
+                {% include "rektorat/kafedra/kafedra-copy.html" %}
+            </div>
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="__user_cards mb-3">
+                <div class="left">
+                    <img src="{% static "Photos/qmishlab.jpg" %}">
+                </div>
+                <div class="right">
+                    <p>Qurilish materiallari, buyumlari va konstruksiyalari texnologiyasi kafedrasi mudiri</p>
+                    <p>Texnika fanlari nomzodi, dotsent<b> Berdiev Obloqul Boboqulovich</b></p>
+                    <p><b>Qabul vaqti:</b> haftaning seshanba, payshanba va juma kunlari soat 14:00 dan 16:00 gacha.</p>
+                    <p><b>Telefon:</b> +99872-226-40-55, +99891-591-42-41</p>
+                   <p><a href="  jizpimalaka@mail.ru" class="poshta" ><b> E-mail: </b>   jizpimalaka@mail.ru </a> </p>
+
+                </div>
+            </div>
+            <p>
+                <br><b>&nbsp;&nbsp; QURILISH MATERIALLARI, BUYUMLAR VA KONSTRUKTSIYALARI TEXNOLOGIYASI kafedrasi tarixi:</b><br>
+                “Qurilish materiallari, buyumlari va konstruksiyalari texnologiyasi” kafedrasi 2017 yilning sentyabr oyida tashkil etilgan.
+                Kafedrada tayyorlanayotgan bakalavr yo‘nalishlari:
+                <br><b>&nbsp;&nbsp; Talim yo‘nalishlari nomi</b><br>
+                1. 5340500 -“Qurilish materiallari, buyumlari va konstruksiyalari ishlab chiqarish”<br>
+
+2. 5230100 -Materialshunoslik va yangi materiallar texnologiyasi (qurilishi)<br>
+
+3.5341800 -Devorbop va pardozbop qurilish materiallari texnologiyasi<br>
+
+4.5341900 -Yig‘ma temirbeton va beton konstruksiyalar va buyumlar ishlab chiqarish texnologiyasi<br>
+                <br><b>&nbsp;&nbsp;KAFEDRADA TAYYORLANAYOTGAN TAYANCH DOKTORANTURA IXTISOSLIK YO‘NALISHI:</b><br>
+                Talim ixtisosligi nomi:<br>
+
+1. 05.09.05 Qurilish materiallari va buyumlari<br>
+                <br><b>&nbsp;&nbsp; MUXANDISLIK KOMMUNIKATSIYALARI kafedrasi tarixi</b><br>
+            </p>
+            
+            <div class="container">
+                <div class="row">
+                  <div class="col  mt-3">
+                    <img src="{% static "Photos/img_kaf/qurmat.jpg" %}" class="kaf-img">
+                  </div>
+                  <div class="col  mt-3">
+                    <img src="{% static "Photos/img_kaf/qurmat2.jpg" %}" class="kaf-img">
+
+                  </div>
+                </div>
+           </div>
+            
+
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}
+
+
+
+

@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>CALL CENTER</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            {% include "qabul/qabul-copy.html" %}
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="card-box_right">
+          
+                <div class="col">
+                    <main id="content" class="content-style">
+                                                <article id="post-12041" class="post-12041 page type-page status-publish hentry">
+                                <div class="">
+                                    <h2 class="entry-title">XORIJIY FUQAROLAR</h2>                             </div>
+                                <div class="entry-content">
+                                                                    
+    <p><b>Xorijiy talaba yuklashi kerak bo‘lgan xujjatlar ro‘yxati:</b><br>
+    1)	11 yillik ta’limni tugatganligi to‘g‘risidagi shahodatnoma yoki diplom<br>
+    2)	Shahodatnoma yoki diplom ilovasi<br>
+    3)	3x4 rasm elektron shaklda<br>
+    4)	Rektor nomiga ariza (Shablon beriladi) <br>
+    5)	Shaxsni tasdiqlovchi xujjat (Xoriga chiqish passporti bo‘lishi shart) <br>
+    </p>
+     <hr>
+    <p><a class="a-link" href="https://lex.uz/docs/-1380636" target="_blank" rel="noopener">Xorijiy fuqarolarni O‘zbekiston Respublikasi ta’lim muassasalariga o‘qishga qabul qilish va o‘qitish tartibini takomillashtirish to‘g‘risida</a></p>
+    <p>04.08.2008 y. № 169</p>
+    <hr>
+                                    <div class="entry-links"></div>
+                                </div>
+                            </article>
+                                                                </main><!----content-style---->
+                </div>
+
+        
+                      <a href="{% url 'q2024' %}" class="btn btn-success a-link" style='color: green !important;'>{% blocktrans %}Hujjat topshirish{% endblocktrans %}</a> 
+                 
+                
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

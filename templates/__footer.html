@@ -1,0 +1,45 @@
+{% load static %}
+{% load i18n %}
+<!-- Footer -->
+<section class="footer" id="footer">
+    <div class="container-fluid cls2">
+        <div class="container mt-5 ">
+            <div class="row">
+                <div class="col col-xxl-4 col-xl-4 lg-col-6 md-col-12 col1 mt-3 respons_footer">
+                    <p>{% blocktrans %}JIZZAX POLITEXNIKA {% endblocktrans %}<br><span>{% blocktrans %}instituti{% endblocktrans %}</span></p>
+                    <img src="{% static "Photos/icons/jizpi-logo.png" %}">
+                    <div class="statik_box">
+                        {% comment %} <div class="statik_card"></div>
+                        <div class="statik_card"></div>
+                        <div class="statik_card"></div> {% endcomment %}
+                    </div>
+                </div>
+                <div class="col col-xxl-4 col-xl-4 lg-col-6 md-col-12 col1 mt-3 col2">
+                    <h3>{% blocktrans %}Manzil{% endblocktrans %}</h3>
+                    <p><span><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><rect width="25" height="25" fill="url(#pattern0)"/><defs><pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1"><use xlink:href="#image0_1_548" transform="scale(0.02)"/></pattern><image id="image0_1_548" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAC+ElEQVRoge2ZzUsVURjGnxOlfXhLKDDBRVQYiUb/QkGraieFm1b9D+0iFKIvalMUtY4gItoEFRlZ9EGQ6aIIkqJCS4oQ1IIr+Gsx59ZNrjPvmZl7p4U/GJA77/ue55lzzsw5R2mJ/wuXZzGgJGmfpF2SdkraJKnV356S9EHSqKQHkm4756bzbD8zQDtwEZjFzixwBdhatH4BzUA/MBNgYCFl4ATQXJSJDcBQBgMLeQpsbLSJbuBTjiYqfAS6G2WirU4mqs201dvESqIhUG+eUM85QzSxG8XxEG3m7wjQLumdpDWhDyAlZUnbnXPvLcHLAgofVToTc/4KpUnSkRR5iwO0ANMphsdDojdcJ3AnRf4M0JKnkb5AAeNA3yJ1xgNrHcjTyGVjo2XgDNGaq9KTp/3V4n8r+ZiysealPI28MDQ4BPRU5ewn+iZUmAAOAc7f7wTuGeo+y9PIt4TGDlcJ7AIGY2IHgS4f63xuHJMWjcuNXtYm3O9wzuH/HpG0IiZ2t49pcs4BdCTUXmcRaPqOAD8lrYoJ+eWcW+1jiYn727BzlR40147D+h35kXC/phC3gJDcKr4nqpPdyBdjXD34agmyGhnJICQrryxBViPDGYRkJVcjdzMIycr9XKsBb+Ne9hnqxvHaWidk9Xsjhc6s3LQGhuxHNksaC8nJCJI6nXNjlmBzj/gNzlBaVSl4ZDUhhQ0tSToVGJ+Fk3Wtjm0lnJVh/CLUSmiPSFLQoUBKBqoWoSaCJ65/UiOSdoTmGnkjqcc5Nx+SFNwj/kkNhOYFcCzURCaI3zyl5XHo3MjDSBf2fbeFOaBewzXRzNkcjZwrxIQ3UiL8eKcWk0Brcov1NdObg5GDhZqoAFzNYOJa0fr/ALQCn1OYmADWF63/H4A9wHygkb1F664JcD7AxIWi9S4K0X95XxpMjAJJx0DFAmwBpmJMTAPbitZpguiVXGu+zAO9ResLAhioYaS/aF3BEJ20X68ycQtIs/8pHqIlzHN/lYrWs0Qj+Q0bWcmDliE/uQAAAABJRU5ErkJggg=="/></defs></svg>
+                    </span> {% blocktrans %}130100 Jizzax shaxri{% endblocktrans %} <br> {% blocktrans %}Islom Karimov shox ko’chasi 4 uy{% endblocktrans %}</p>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12202.633693154998!2d67.8450441!3d40.127615049999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b29550494bd135%3A0x2ee31c3b0976955a!2sJizzax%20Politexnika%20Instituti%20A%20Binosi!5e0!3m2!1sru!2s!4v1711344128832!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col col-xxl-4 col-xl-4 lg-col-6 md-col-12 col2 mt-3 col3">
+                    <h3>{% blocktrans %}Bog'lanish{% endblocktrans %}</h3>
+                    <p> <img src="{% static "Photos/icons/phone.jpg" %}" width="25"> {% blocktrans %}Telefon{% endblocktrans %}: +998 72 226-46-05</p>
+                    <p> <img src="{% static "Photos/icons/phone.jpg" %}" width="25"> {% blocktrans %}Ishonch telefoni{% endblocktrans %}: +998 72 226-45-57</p>
+                    <p> <img src="{% static "Photos/icons/mail.jpg" %}" width="25"> {% blocktrans %}Email{% endblocktrans %}: dgpi_info@edu.uz</p>
+                    <div class="footer_hiwi">
+                        <h3>{% blocktrans %}Ijtimoiy sahifalar{% endblocktrans %}</h3>
+                        <ul>
+                            <li><a href="https://t.me/JizPI_online"><img src="{% static "/Photos/svg/telegram.svg" %}"></a></li>
+                            <li><a href="https://www.facebook.com/jizpiuz"><img style="width: 50px; margin-top: -2px;" src="{% static "Photos/svg/fasebook.svg" %}"></a></li>
+                            <li><a href="https://www.instagram.com/jizpi_solar_group/"><img style="width: 45px; margin-top: -3px;" src="{% static "Photos/svg/instagram.svg" %}"></a></li>
+                            <li><a href="https://www.youtube.com/jizpiuz"><img src="{% static "/Photos/svg/youtobe.svg" %}"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer END -->

@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>Prezident Farmonlari</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            <div class="card-box_left">
+                {% include "institut/__meyoriy-hujjat-copy.html" %}
+            </div>
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">{% blocktrans %}Nomi{% endblocktrans %}</th>
+                            <th scope="col">{% blocktrans %}To’liq tanishish{% endblocktrans %}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{% blocktrans %}Iqtisodiyotni rivojlantirish va kambag‘allikni qisqartirishga oid davlat siyosatini tubdan yangilash chora-tadbirlari to‘g‘risida{% endblocktrans %}</td>
+                            <td><a href="#">{% blocktrans %}№ PF-5975 26.03.2020{% endblocktrans %}</a></td>
+                        </tr>
+                     
+                    </tbody>
+                  </table>
+
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

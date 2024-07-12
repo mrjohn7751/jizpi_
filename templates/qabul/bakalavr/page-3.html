@@ -1,0 +1,504 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>{% blocktrans %}Bakalavr{% endblocktrans %}</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            {% include "qabul/bakalavr/bakalavr-copy.html" %}
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="card-box_right">
+                <h5 class="entry-title">Qabul kvotasi</h5>
+                    <div class="entry-content">
+                        <table  class="" width="100%">
+                        <tbody>
+                        <tr>
+                        <td colspan="10" width="779">
+                        <p style="text-align: center;"><strong>2024/2025 oʻquv  yilida
+                          Jizzax politexnika instituti
+                            bakalavriati kunduzgi ta'lim shakliga oʻqishga 
+                            qabul qilish parametrlarining ta'lim yoʻnalishlari va oʻqitish tillari boʻyicha taqsimlanishi</strong></p>
+                        <table style="height: 1874px;" width="1041">
+                        <tbody>
+                        <tr>
+                        <td rowspan="3" width="29">№*</td>
+                        <td rowspan="3" width="72">Shifr</td>
+                        <td rowspan="3" width="416">Ta'lim yoʻnalishlari</td>
+                        {% comment %} <td rowspan="3" width="49">Жами</td> {% endcomment %}
+                        {% comment %} <td colspan="3" width="146">Давлат грантлари асосида</td>
+                        <td colspan="3" width="144">Тўлов-контракт асосида</td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td rowspan="2" width="48">Jami</td>
+                        <td colspan="2" width="98">shu jumladan:</td>
+                        {% comment %} <td rowspan="2" width="48">Жами</td>
+                        <td colspan="2" width="96">шу жумладан:</td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="48">oʻzbek</td>
+                        <td width="50">rus</td>
+                        {% comment %} <td width="48">ўзбек</td>
+                        <td width="48">рус</td>  {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29"></td>
+                        <td width="72"></td> 
+                        <td width="416">Jizzax politexnika instituti shu jumladan, ta'lim yoʻnalishlari boʻyicha</td>
+                        <td width="49">1 950</td>
+                        <td width="48">1735</td>
+                        <td width="48">215</td>
+                        {% comment %} <td width="50">48</td> {% endcomment %}
+                        {% comment %} <td width="48">1 190</td>
+                        <td width="48">998</td>
+                        <td width="48">192</td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        {% comment %} <td width="29"></td>
+                        <td colspan="2" width="488"></td>
+                        <td width="49">25</td>
+                        <td width="48">25</td> {% endcomment %}
+                        {% comment %} <td width="48"></td> {% endcomment %}
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48"></td>
+                        <td width="48"></td>
+                        <td width="48"></td> {% endcomment %}
+                        {% comment %} </tr>
+                        <tr>
+                        <td width="29">1</td>
+                        <td width="72">60112400</td>
+                        <td width="416">Профессионал таълим (транспорт воситалари мухандислиги)</td>
+                        <td width="49">50</td>
+                        <td width="48">50</td>
+                        <td></td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">15</td>
+                        <td width="48">15</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr> {% endcomment %}
+                        <tr>
+                        <td width="29">1</td>
+                        <td width="72">60410100</td>
+                        <td width="416">Iqtisodiyot </td>
+                        <td width="49">25</td>
+                        <td width="48">25</td>
+                        <td></td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">15</td>
+                        <td width="48">15</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">2</td>
+                        <td width="72">60410100</td>
+                        <td width="416">Buxgalteriya hisobi</td>
+                        <td width="49">50</td>
+                        <td width="48">50</td>
+                        <td></td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">20</td>
+                        <td width="48">20</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">3</td>
+                        <td width="72">60411200</td>
+                        <td width="416">Menejment</td>
+                        <td width="49">50</td>
+                        <td width="48">30</td>
+                        <td>20</td>
+                        {% comment %} <td width="50">2</td> {% endcomment %}
+                        {% comment %} <td width="48">45</td>
+                        <td width="48">22</td>
+                        <td width="48">23</td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">4</td>
+                        <td width="72">60520200</td>
+                        <td width="416">Ekologiya va atrof-muhit muhofazasi</td>
+                        <td width="49">25</td>
+                        <td width="48">25</td>
+                        <td></td>
+                        {% comment %} <td width="50">3</td> {% endcomment %}
+                        {% comment %} <td width="48">40</td>
+                        <td width="48">23</td>
+                        <td width="48">17</td> {% endcomment %}
+                        </tr>
+                        <tr>
+                            <td width="29">5</td>
+                            <td width="72">60610300</td>
+                            <td width="416">Kompyuter injiniringi</td>
+                            <td width="49">50</td>
+                            <td width="48">50</td>
+                            <td></td>
+                            {% comment %} <td width="50">3</td> {% endcomment %}
+                            {% comment %} <td width="48">40</td>
+                            <td width="48">23</td>
+                            <td width="48">17</td> {% endcomment %}
+                            </tr>
+                        <tr>
+                        <td width="29">6</td>
+                        <td width="72">60610900</td>
+                        <td width="416">Radioelektron qurilmalar va tizimlar</td>
+                        <td width="49">50</td>
+                        <td width="48">30</td>
+                        <td>20</td>
+                        {% comment %} <td width="50">5</td> {% endcomment %}
+                        {% comment %} <td width="48">50</td>
+                        <td width="48">30</td>
+                        <td width="48">20</td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">7</td>
+                        <td width="72">60710100</td>
+                        <td width="416">Kimyo muhandisligi</td>
+                        <td width="49">75</td>
+                        <td width="48">50</td>
+                        <td>25</td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">15</td>
+                        <td width="48">15</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                            <td width="29">8</td>
+                            <td width="72">60710400</td>
+                            <td width="416">Energetika muhandisligi</td>
+                            <td width="49">75
+                            </td>
+                            <td width="48">75</td>
+                            <td></td>
+                            {% comment %} <td width="50"></td> {% endcomment %}
+                            {% comment %} <td width="48">15</td>
+                            <td width="48">15</td>
+                            <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">9</td>
+                        <td width="72">60710500</td>
+                        <td width="416">Elektr muhandisligi</td>
+                        <td width="49">100</td>
+                        <td width="48">75</td>
+                        <td>25</td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">30</td>
+                        <td width="48">30</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">10</td>
+                        <td width="72">60710700</td>
+                        <td width="416">Elektronika va asbobsozlik</td>
+                        <td width="49">50</td>
+                        <td width="48">50</td>
+                        <td></td>
+                        {% comment %} <td width="50">5</td> {% endcomment %}
+                        {% comment %} <td width="48">50</td>
+                        <td width="48">30</td>
+                        <td width="48">20</td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">11</td>
+                        <td width="72">60710800</td>
+                        <td width="416">Metrologiya va standartlashtirish</td>
+                        <td width="49">50</td>
+                        <td width="48">50</td>
+                        <td></td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">30</td>
+                        <td width="48">30</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">12</td>
+                        <td width="72">60711000</td>
+                        <td width="416">Mexatronika va robototexnika</td>
+                        <td width="49">25</td>
+                        <td width="48">25</td>
+                        <td></td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">20</td>
+                        <td width="48">20</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">13</td>
+                        <td width="72">60711200</td>
+                        <td width="416">Metallurgiya muhandisligi</td>
+                        <td width="49">50</td>
+                        <td width="48">50</td>
+                        <td></td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">30</td>
+                        <td width="48">30</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">14</td>
+                        <td width="72">60711400</td>
+                        <td width="416">Transport vositalari muhandisligi</td>
+                        <td width="49">175</td>
+                        <td width="48">150</td>
+                        <td>25</td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">30</td>
+                        <td width="48">30</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">15</td>
+                        <td width="72">60712100</td>
+                        <td width="416">Qayta tiklanuvchi energiya manbaalari</td>
+                        <td width="49">25</td>
+                        <td width="48">25</td>
+                        <td></td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">30</td>
+                        <td width="48">30</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">16</td>
+                        <td width="72">60712300</td>
+                        <td width="416">Mexanika muxandisligi</td>
+                        <td width="49">25</td>
+                        <td width="48">25</td>
+                        <td></td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">15</td>
+                        <td width="48">15</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">17</td>
+                        <td width="72">60720100</td>
+                        <td width="416">Oziq-ovqat texnologiyasi</td>
+                        <td width="49">50</td>
+                        <td width="48">50</td>
+                        <td></td>
+                        {% comment %} <td width="50">5</td> {% endcomment %}
+                        {% comment %} <td width="48">95</td>
+                        <td width="48">75</td>
+                        <td width="48">20</td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">18</td>
+                        <td width="72">60720300</td>
+                        <td width="416">Materialshunoslik</td>
+                        <td width="49">25</td>
+                        <td width="48">25</td>
+                        <td></td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">30</td>
+                        <td width="48">30</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">19</td>
+                        <td width="72">60720400</td>
+                        <td width="416">Texnologik mashinalar va jihozlar</td>
+                        <td width="49">25</td>
+                        <td width="48">25</td>
+                        <td></td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">15</td>
+                        <td width="48">15</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">20</td>
+                        <td width="72">60720700</td>
+                        <td width="416">Engil sanoat muhandisligi</td>
+                        <td width="49">175</td>
+                        <td width="48">150</td>
+                        <td>25</td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">15</td>
+                        <td width="48">15</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">21</td>
+                        <td width="72">60721700</td>
+                        <td width="416">Kadastr</td>
+                        <td width="49">25</td>
+                        <td width="48">25</td>
+                        <td></td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">15</td>
+                        <td width="48">15</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">22</td>
+                        <td width="72">60730100</td>
+                        <td width="416">Arxitektura</td>
+                        <td width="49">50</td>
+                        <td width="48">50</td>
+                        <td></td>
+                        {% comment %} <td width="50">5</td> {% endcomment %}
+                        {% comment %} <td width="48">85</td>
+                        <td width="48">65</td>
+                        <td width="48">20</td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">23</td>
+                        <td width="72">60730300</td>
+                        <td width="416">Qurilish muhandisligi</td>
+                        <td width="49">200</td>
+                        <td width="48">175</td>
+                        <td>25</td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">30</td>
+                        <td width="48">30</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">24</td>
+                        <td width="72">60730400</td>
+                        <td width="416">Muhandislik kommunikasiyalari qurilish va ekspluatasiyasi</td>
+                        <td width="49">100</td>
+                        <td width="48">100</td>
+                        <td></td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">30</td>
+                        <td width="48">30</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">25</td>
+                        <td width="72">60730500</td>
+                        <td width="416">Yoʻl muhandisligi</td>
+                        <td width="49">125</td>
+                        <td width="48">100</td>
+                        <td>25</td>
+                        {% comment %} <td width="50">10</td> {% endcomment %}
+                        {% comment %} <td width="48">75</td>
+                        <td width="48">60</td>
+                        <td width="48">15</td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">26</td>
+                        <td width="72">60730900</td>
+                        <td width="416">Shahar qurilishi va loyixalash</td>
+                        <td width="49">25</td>
+                        <td width="48">25</td>
+                        <td></td>
+                        {% comment %} <td width="50">5</td> {% endcomment %}
+                        {% comment %} <td width="48">70</td>
+                        <td width="48">50</td>
+                        <td width="48">20</td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">27</td>
+                        <td width="72">60810100</td>
+                        <td width="416">Qishloq xoʻjaligini mexanizasiyalashtirish</td>
+                        <td width="49">50</td>
+                        <td width="48">50</td>
+                        <td></td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">45</td>
+                        <td width="48">45</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">28</td>
+                        <td width="72">60810700</td>
+                        <td width="416">Qishloq xoʻjalik mahsulotlarini saqlash va qayta ishlash texnologiyasi</td>
+                        <td width="49">50</td>
+                        <td width="48">50</td>
+                        <td></td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">30</td>
+                        <td width="48">30</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">29</td>
+                        <td width="72">60811000</td>
+                        <td width="416">Meva-sabzavotchilik va uzumchilik</td>
+                        <td width="49">25</td>
+                        <td width="48">25</td>
+                        <td></td>
+                        {% comment %} <td width="50">5</td> {% endcomment %}
+                        {% comment %} <td width="48">95</td>
+                        <td width="48">75</td>
+                        <td width="48">20</td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">30</td>
+                        <td width="72">61010400</td>
+                        <td width="416">Logistika</td>
+                        <td width="49">75</td>
+                        <td width="48">50</td>
+                        <td>25</td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">35</td>
+                        <td width="48">35</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">31</td>
+                        <td width="72">61020200</td>
+                        <td width="416">Mehnat muhofazasi va texnika xavfsizligi</td>
+                        <td width="49">25</td>
+                        <td width="48">25</td>
+                        <td></td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">30</td>
+                        <td width="48">30</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        <tr>
+                        <td width="29">32</td>
+                        <td width="72">61040200</td>
+                        <td width="416">Yoʻl harakatini tashkil etish</td>
+                        <td width="49">25</td>
+                        <td width="48">25</td>
+                        <td></td>
+                        {% comment %} <td width="50"></td> {% endcomment %}
+                        {% comment %} <td width="48">20</td>
+                        <td width="48">20</td>
+                        <td width="48"></td> {% endcomment %}
+                        </tr>
+                        {% comment %} <tr>
+                        <td width="29">32</td>
+                        <td width="72">61040200</td>
+                        <td width="416">Йўл ҳаракатини ташкил этиш</td>
+                        <td width="49">25</td>
+                        <td width="48">25</td>
+                        <td></td>
+                        {% comment %} <td width="50">3</td> {% endcomment %}
+                        {% comment %} <td width="48">40</td>
+                        <td width="48">23</td>
+                        <td width="48">17</td> {% endcomment %}
+                        </tr> {% endcomment %}
+                        </tbody>
+                        </table>
+                        </td>
+                        </tr>
+                        </tbody>
+                        </table>
+                        <div class="entry-links">
+                            <a href="../../../static/upload/Qabul-2024 kvotasi.pdf" class="a-link">Qabul kuvotasini  yuklab olish</a>
+                            <a href="../../../static/upload/farmon.pdf" class="a-link">Prezident farmoni  yuklab olish</a>
+                            <a href="../../../static/upload/blanka.pdf" class="a-link">2024 Test uchun topshiriq blankasi  yuklab olish</a>
+                        </div>
+                        </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

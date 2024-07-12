@@ -1,0 +1,148 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+    <div class="container block news ">
+      
+        <form method="post" enctype="multipart/form-data"> {% csrf_token %}
+            <div class="mt-2">
+                <p>1) 11 yillik ta’limni tugatganligi to‘g‘risidagi  shahodatnoma yoki diplom</p>
+                <label class="input-file">
+                        <span class="input-file-btn">File yuklang</span>
+                        <span class="input-file-text" type="text"></span>
+                        {{ form.file1 }}
+       
+                </label>
+            </div>
+
+            <div class="mt-3">
+                <p>2) Shahodatnoma yoki diplom ilovasi</p>
+                <label class="input-file">
+                        <span class="input-file-text" type="text"></span>
+                        <span class="input-file-btn">File yuklang</span>
+                        {{ form.file2 }}
+       
+                </label>
+            </div>
+
+            <div class="mt-3">
+                <p>3) 3x4 rasm elektron shaklda</p>
+                <label class="input-file">
+                        <span class="input-file-text" type="text"></span>
+                        <span class="input-file-btn">File yuklang</span>
+                        {{ form.file3 }}
+        
+                </label>
+            </div>
+
+            <div class="mt-3">
+                <p>4) Rektor nomiga ariza (Shablon beriladi)</p>
+                <label class="input-file">
+                        <span class="input-file-text" type="text"></span>
+                        <span class="input-file-btn">File yuklang</span>
+                        {{ form.file4 }}
+       
+                </label>
+            </div>
+             
+            <div class="mt-3">
+                <p>5) Shaxsni tasdiqlovchi xujjat (Xoriga chiqish passporti bo‘lishi shart)</p>
+                <label class="input-file">
+                        <span class="input-file-text" type="text"></span>
+                        <span class="input-file-btn">File yuklang</span>
+                        {{ form.file5 }}
+        
+                </label>
+            </div>
+            
+            <button type="submit" class="btn btn-lg btn-success mt-4" style='width:350px'>Jo'natish</button>
+            
+        </form>
+        
+    
+        
+    </div>
+{% endblock content %}
+
+
+
+{% block style %}
+.input-file {
+	position: relative;
+	display: inline-block;
+}
+.input-file-text {
+	padding: 0 10px;
+	line-height: 40px;
+	text-align: left;
+	height: 40px;
+	display: block;
+	float: left;
+	box-sizing: border-box;
+    width: 576px !important;
+	border-radius: 6px 0px 0 6px;
+	border: 1px solid #ddd;
+}
+.input-file-btn {
+position: relative;
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	font-size: 14px;
+	vertical-align: middle;
+	color: rgb(255 255 255);
+	text-align: center;
+	border-radius: 0 4px 4px 0;
+	background-color: #419152;
+	line-height: 22px;
+	height: 40px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+	transition: background-color 0.2s;
+}
+.input-file input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+ 
+/* Focus */
+.input-file input[type=file]:focus + .input-file-btn {
+	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+ 
+/* Hover/active */
+.input-file:hover .input-file-btn {
+	background-color: #59be6e;
+}
+.input-file:active .input-file-btn {
+	background-color: #2E703A;
+}
+ 
+/* Disabled */
+.input-file input[type=file]:disabled + .input-file-btn {
+	background-color: #eee;
+}
+
+
+@media (max-width: 768px) { 
+    .input-file-text {
+        width: 376px !important;
+    }
+ }
+
+@media (max-width: 576px) { 
+    .input-file-text {
+        width: 176px !important;
+    }
+ }
+
+
+{% endblock style %}

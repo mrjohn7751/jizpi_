@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+     <!-- Son'gi yangiliklar -->
+     <section class="block news container" id="news">
+      <div class="top-text">
+          <div>
+              <h3 class='news-h3'>{% blocktrans %}So'ngi Elonlar{% endblocktrans %}</h3>
+              <div class="line-b"></div>
+          </div>
+          <div class="line"></div>
+      </div>
+
+      <div class="nav-news mt-4">
+       
+          <div class="elonlar_blocki">
+            {% for article in page_obj %}
+                <div class="card mb-3">
+                    <img src="{{ article.img.url }}">
+                    <h5>{{ article.title|truncatewords:4 }}</h5>
+                    <p>{{ article.body|truncatewords:10 }}</p>
+                    <a href="{{ article.get_absolute_url }}" class="btn">{% blocktrans %}Batafsil{% endblocktrans %}</a>
+                </div>
+            {% endfor %}
+                      
+          </div>
+      </div>
+  </section>
+
+
+  <section class="row pagination mt-5 mb-5">
+    <div class="col">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          {% if page_obj.has_previous %}
+            <li class="page-item"><a class="page-link" href="?page={{ page_obj.previous_page_number }}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+          {% endif %}
+          
+          {% for page in page_obj.paginator.page_range %}
+            <li class="page-item" {% if page_data.number == page %}active{% endif %}><a class="page-link" href="?page={{ page }}">{{ page }}</a></li>
+          {% endfor %}
+
+          {% if page_obj.has_next %}
+            <li class="page-item"><a class="page-link"href="?page={{ page_obj.next_page_number }}" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+          {% endif %}
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+{% endblock content %}
+
+

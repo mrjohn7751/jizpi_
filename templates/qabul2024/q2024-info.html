@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+    <div class="container block news ">
+      
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Shahodatnoma yoki diplom</th>
+                <th scope="col">11 yillik ta’lim Shahodatnoma</th>
+                <th scope="col">3x4 rasm</th>
+                <th scope="col">Rektor nomiga ariza</th>
+                <th scope="col">passport</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for q2024 in q2024 %}
+                <tr>
+                    <th scope="row">{{ q2024.id }}</th>
+                    <td><a href="{{ q2024.file1.url }}">{{ q2024.file1 }}</a></td>
+                    <td><a href="{{ q2024.file2.url }}">{{ q2024.file2 }}</a></td>
+                    <td><a href="{{ q2024.file3.url }}">{{ q2024.file3 }}</a></td>
+                    <td><a href="{{ q2024.file4.url }}">{{ q2024.file4 }}</a></td>
+                    {% if file5_url %}
+                        <td><a href="{{ file5_url }}">{{ file5_url }}</a></td>
+                    {% else %}
+                        <td>File 5: No file uploaded</td>
+                    {% endif %}
+                </tr>  
+              {% endfor %}
+            </tbody>
+          </table>
+        
+    
+        
+    </div>
+{% endblock content %}
+
+

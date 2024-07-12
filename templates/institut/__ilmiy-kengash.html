@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>{% blocktrans %}Xotin-Qizlar Kengashi{% endblocktrans %}</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            <div class="card-box_left">
+                {% include "institut/__vasiylik_copy.html" %}
+            </div>
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="card-box_right">
+                <h4 class="p1920_ mb-4">{% blocktrans %}Jizzax politexnika instituti mavjud Ilmiy kengashlar faoliyati.{% endblocktrans %}</h4>
+                <p>{% blocktrans %}1. Institut Ilmiy kengash yig’ilishi o’quv yili davomida har oyning so’nggi haftasi chorshanba kuni soat 13.30 da institut Majlislar zalida o’tkaziladi.
+                  <br>    
+                  2. Axborot (hisobot) beruvchi va mas’ullar kengash yig’ilishida ko’riladigan masala bo’yicha imzolangan ma’lumotlarni (qog’oz va elektron variantda) yig’ilishdan 3 kun oldin Ilmiy kengash kotibiga taqdim etishlari shart.
+                  <br>
+                  3. Ilmiy kengash yig’ilishlarida kelib tushgan yangi adabiyotlar haqida Axborot resurs markazi direktori axborot beradi.
+                  <br>
+                  4. Ilmiy kengash yig’ilishlarida fuqarolar murojaatlarida ko’tarilayotgan masalalar haqida “Ichki nazorat va monitoring” bo’limi boshlig’i axborot beradi.
+                  <br>
+                  5. Ilmiy kengash majlisi yig’ilishlarida Ilmiy kotib kengash qarorlari bajarilishi haqida axborot beradi.
+                  <br>
+                  Ilmiy kengash a’zolari 38 kishidan iborat. A’zolar tarkibiga rektor raisligida prorektorlar, dekanlar, kafedra mudirlari, bo’lim boshliqlari va ishlab chiqarishdan 3 nafar rahbarlar kiritilgan. Ilmiy kengashning 1 masalasida  O’zbekiston Respublikasi Prezidenti va Hukumati,  O’zbekiston Respublikasi Oliy va o’rta maxsus ta’lim vazirligi hay’ati farmon, buyruq hamda qarorlarini ko’rib chiqiladi.
+                  Yillik ish rejaga asosan o’quv yili davomida olib borilgan ma’naviy-axloqiy va tarbiyaviy, o’quv-uslubiy, ilmiy-tadqiqot,  moliya va xo’jalik ishlari hamda akademik litsey va kasb-hunar kollejlari bilan hamkorlik ishlarining borishi va kelgusi vazifalar muxokama etib boriladi.
+              {% endblocktrans %}</p>
+                
+                <h4 class="p1920_ ">{% blocktrans %}Jizzax politexnika instituti Ilmiy kengashi nizomi{% endblocktrans %}</h4>
+                <h4 class="p1920_ mb-4">{% blocktrans %}N i z o m{% endblocktrans %}</h4>
+                <p class="p1920 mb-2">{% blocktrans %}(O’zbekiston Respublika oliy va o’rta maxsus <br>ta’lim vazirligining 1998 yil 9 dekabr <br>№–345-sonli buyrug’i bilan tasdiqlangan ){% endblocktrans %}</p>
+                <p>{% blocktrans %}1. Oliy ta’lim to’g’risidagi Nizomga muvofiq, Jizzax politexnika instituti faoliyatiga tegishli asosiy masalalarni ko’rib chiqish uchun rektor raisligida ilmiy kengash tashkil etiladi.{% endblocktrans %}</p>
+                <p>{% blocktrans %}2. Ilmiy kengashning asosiy vazifasi-institut jamoasi sayi-harakatlarini quyidagi masalalarni bajarishga qaratilgan faoliyatni birlashtirish xisoblanadi: Kadrlar tayyorlash Milliy dasturini amalga oshirish, zamonaviy pedogogik texnologiyalar va kompСЊyuterlashtirish asosida yuqori sifatli bakalavr va magistrlar tayyorlashni ta’minlash, ilmiy tadqiqotlarni yanada rivojlantirish. Yoshlarni vatanparvarlik, fuqarolik, o’z Vatani bilan faxrlanish, ma’naviy-ma’rifiy  va madaniy xususiyatlarni shakllantirishdan iborat.{% endblocktrans %}</p>
+                <p>{% blocktrans %}3. Nizom bo’yicha Ilmiy kengash tarkibiga quyidagilar kiradi: rektor (rais), prorektorlar, fakulСЊtet dekanlari, institut tarkibiga kiruvchi mustaqil tashkilot va tarmoqlar direktorlari, mutaxasis chiqaruvchi kafedralar mudirlari, shuningdek, institut talabalari va kasaba uyushmalarining vakillari.Ilmiy kengashning boshqa a’zolari professor-o’qituvchilar tarkibidan rektor buyrug’i bilan belgilanadi. Ilmiy kengash tarkibiga institutning muayyan yo’nalish muammolari bo’yicha ishlovchi, yirik olim va mutaxassislar, shuningdek davlatlararo va bevosita aloqalari bo’lgan xorijiy o’quv yurtlarining vakillari kiritilishi mumkin. Vakolat muddati-5 yil.{% endblocktrans %}</p>
+                <p>{% blocktrans %}4. Ilmiy kengash tarkibi institut rektorining buyrug’i bilan tasdiqlanadi. Har o’quv yilining har xil sabablarga ko’ra Ilmiy kengash tarkibidan chiqqanlar o’rniga yangi a’zolar saylanadi yoki nizom bo’yicha kiritiladi.{% endblocktrans %}</p>
+                <p>{% blocktrans %}5.  Institutning kengashi{% endblocktrans %}:</p>
+                <p>
+                   {% blocktrans %} – Kadrlar tayyorlar milliy dasturiga muvofiq ta’lim standartlari, o’quv rejalar va dasturlarning qat’iy bajarilishi ko’rib chiqish;
+                   <br>
+                   – Xorijiy mamlakatlar institut bilan birlashgan Ilmiy kengashlarni tashkil etishning maqsadga muvofiqligini belgilaydi;
+                   <br>
+                   – FakulСЊtetlarning o’quv ilmiy-tadqiqot va ma’naviy-ma’rifiy ishlari to’g’risidagi hisobotlarni, shuningdek, litseylar xisobtlarini eshitib boradi, qabul natijalari to’g’risida qabul komissiyasining, halq xo’jaligining bitiruvchi mutaxassislarga bo’lgan ehtiyoji, buyurtalar bilan aloqalar to’g’risida marketing xizmatining hisobotlarini eshitadi;
+                   <br>
+                   – Talabalarning yirik malakaviy amaliyotiga yakun yasaydi va ularni yaxshilash bo’yicha tavsiyalar beradi;
+                   <br>
+                   – Ilmiy tadqiqot, ma’naviy-ma’rifiy ishlarning rejalarini va professor-o’qituvchilarning tarkibini malaka oshirish masalalarini muxokama etadi;
+                   <br>
+                   – Xorijiy malakatlarning oliy o’quv yurtlari bilan aloqalarni o’rnatish bo’yicha qarorlar qabul qilinadi;
+                   <br>
+                   – FakulСЊtet va kafedralarni ochish, bekitish, o’zgartirishga bog’liq bo’lgan masalalar bo’yicha qaror qabul qiladi;
+                   <br>
+                   – Marketing xizmati takliflarini xisobga olgan holda yangi ta’lim yo’nalishlarini (mutaxassisliklarni) ochish to’g’risida taklif kiritadi;
+                   <br>
+                   – Darslik, o’quv-qo’llanma va ilmiy o’quv-uslubiy adabiyotlarni tayyorlash va nashr etish masalalarini ko’rib chiqadi;
+                   <br>
+                   – «Oliy o’quv yurtlari pedogogik xodimlarini ishga qabul qilish tartibi to’g’risida»gi Nizomga muvofiq professor-o’qituvchilar lavozimlarini egallash uchun tanlovlar o’tkazadi;
+                   <br>
+                   – Professor, dotsent ilmiy unvonini olishga intilayotgan izlanuvchilarning xujjatlarini ko’rib chiqadi va belgilangan tartibda ilmiy unvonga tasdiqlashga taqdim etadi;
+                   <br>
+                   – Aspirantura va doktorantura va oliy o’quv yurti ta’limidan keyinga boshqa shakllarga nomzodni tavsiya etadi;
+                   <br>
+                   – A’lochi-talabalar safidan va professor-o’qituvchilar tarkibidan nomzodlarni «Ustoz», «Umid», «Iste’dod» jamg’armalari orqali xorijiy oliy o’quv yurtlariga stajirovkaga tavsiya etadi;
+                   <br>
+                   – Ta’lim xizmatlari bilan shug’ullanuvchi kichik korxonalar, firma va kurslar faoliyati haqida rahbarlarning hisobotlarini eshitadi;
+                   <br>
+                   – Jizzax politexnika instituti bitiruvchilari safidan nomzodlarni magistratura, aspirantura qabul qilishga tavsiya etadi,  shuningdek, tadqiqotchilar va aspirantlarning shaxsiy rejalarini va nomzodlik dissertatsiyasi mavzularini tasdiqlaydi;
+                   <br>
+                   –  Institutning a’lochi talabalari va aspirantlari safidan nomzodlarni nomli stipendiyalar olishga tavsiya etadi;
+                   <br>
+                   – FakulСЊtet dekanlarining fakulСЊtetni tamomlaganlar va aspiranturani bitirganlar bilan aloqalari to’g’risidagi hisobotlarini eshitadi, kadrlar tayyorlashni yanada yaxshilash bo’yicha tadbirlarni ishlab chiqadi.
+                   <br>
+                   – «Sog’lom avlod uchun» jamg’armasi bilan hamkorlikda talabalarning jismoniy tarbiyasi va ularning sog’liqlarini yanada yaxshilash bo’yicha tadbirlar ishlab chiqadi;
+                   <br>
+                   – Institut talabalari va xodimlarining texnika xavfsizligi va mexnat muxofazasini takomillashtirish bo’yicha tadbirlarni belgilaydi;
+                   <br>
+                   – Institut rivojlanishining joriy (yillik) istiqboliy rejalarini tasdiqlaydi va moliyaviy-xo’jalik faoliyati natijalarini eshitadi;
+                   <br>
+                   – Oliy ma’lumotli mutaxasislarning malaka oshirish  rejalarining loyihalarini muxokama etadi, institutning malaka oshirish tarmoqlari rahbarining hisobotini eshitadi;{% endblocktrans %}
+                </p>
+                <p>{% blocktrans %}6. Ilmiy kengash, o’z ishini har o’quv yili uchun ishlab chiqiladigan rejaga muvofiq amalga oshiradi. Ilmiy kengash rejasi ilmiy kengash tomonidan ko’rib chiqilgandan so’ng institut rektori tomonidan tasdiqlanadi.{% endblocktrans %}</p>
+                <p>{% blocktrans %}7. O’quv va ilmiy ishlarning barcha masalalari bo’yicha ilmiy kengashning qarorlari ochiq ovoz berish tartibida ko’pchilikning ovozi bilan qabul qilinadi. Professor-o’qituvchilar tarkibi lavozimlarini egallashga o’tkaziladigan tanlovlar professor va dotsent ilmiy unvonlarini berishga taqdimnomalar esa yopiq ovoz berish yo’li bilan belgilangan tartibda qabul qilinadi.{% endblocktrans %}</p>
+
+                <p>{% blocktrans %}8. Ilmiy kengash qarorlari, institut rektori tasdiqlaganidan so’ng kuchga kiradi.{% endblocktrans %}</p>
+                <p>{% blocktrans %}9. Ilmiy kengash majlisi bayonnoma bilan rasmiylashtiriladi. Bayonnomalar ilmiy kengash raisi va kotibi tomonidan imzolanadi.{% endblocktrans %}</p>
+                <p>{% blocktrans %}10. Ilmiy kengash raisi, muntazam ravishda, ilmiy kengash qarorlari bajarilishi bo’yicha tekshiruvlarni tashkil etadi va ilmiy kengash a’zolariga qabul qilingan qarorlarini bajarilishi haqida ma’lumot beradi.{% endblocktrans %}</p>
+
+                <h4 class="p1920_ mb-4">{% blocktrans %}ILMIY KENGASHLAR RO’YXATI{% endblocktrans %}</h4>
+            </div>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">{% blocktrans %}Yo’nalishlar{% endblocktrans %}</th>
+                    <th scope="col">{% blocktrans %}Ilmiy kengashlar elektron manzillari{% endblocktrans %}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>{% blocktrans %}Texnika fanlari{% endblocktrans %}</td>
+                    <td><a href="http://oak.uz/ochiqmalumotlar/460-2-fan-doktori-ilmiy-darazhasini-beruvchi-ilmiy-kengashlar-ryhati.html">	http://oak.uz/ochiqmalumotlar/460-2-fan-doktori-ilmiy-darazhasini-beruvchi-ilmiy-kengashlar-ryhati.html</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>{% blocktrans %}Fizika-matematika fanlari{% endblocktrans %}</td>
+                    <td><a href="http://oak.uz/ochiqmalumotlar/460-2-fan-doktori-ilmiy-darazhasini-beruvchi-ilmiy-kengashlar-ryhati.html ">	http://oak.uz/ochiqmalumotlar/460-2-fan-doktori-ilmiy-darazhasini-beruvchi-ilmiy-kengashlar-ryhati.html </a></td>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>{% blocktrans %}Ijtimoiy fanlar{% endblocktrans %}</td>
+                    <td><a href="http://oak.uz/ochiqmalumotlar/460-2-fan-doktori-ilmiy-darazhasini-beruvchi-ilmiy-kengashlar-ryhati.html">	http://oak.uz/ochiqmalumotlar/460-2-fan-doktori-ilmiy-darazhasini-beruvchi-ilmiy-kengashlar-ryhati.html</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>{% blocktrans %}Kimyo, biologiya va geologiya-minerologiya fanlari{% endblocktrans %}</td>
+                    <td><a href="http://oak.uz/ochiqmalumotlar/460-2-fan-doktori-ilmiy-darazhasini-beruvchi-ilmiy-kengashlar-ryhati.html">http://oak.uz/ochiqmalumotlar/460-2-fan-doktori-ilmiy-darazhasini-beruvchi-ilmiy-kengashlar-ryhati.html</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>{% blocktrans %}Qishloq xo’jaligi fanlari{% endblocktrans %}</td>
+                    <td><a href="	http://oak.uz/ochiqmalumotlar/460-2-fan-doktori-ilmiy-darazhasini-beruvchi-ilmiy-kengashlar-ryhati.html">	http://oak.uz/ochiqmalumotlar/460-2-fan-doktori-ilmiy-darazhasini-beruvchi-ilmiy-kengashlar-ryhati.html</a></td>
+                  </tr>
+                </tbody>
+              </table>
+                
+              
+           
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

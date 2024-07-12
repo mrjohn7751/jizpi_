@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>Ikkinchi mutaxassislik</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            {% include "qabul/im/__im-copy.html" %}
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="card-box_right">
+                <a href="{% url "pageIM1" %}" class="btn">CALL CENTER</a>
+                <a href="{% url "pageIM2" %}" class="btn">Abituriyentga eslatma</a>
+                <a href="{% url "pageIM3" %}" class="btn">Qabul nizomlari</a>
+                <a href="{% url "pageIM4" %}" class="btn">Qabul komissiyasi</a>
+                <a href="{% url "pageIM5" %}" class="btn">Qabul kvotasi</a>
+                <a href="{% url "pageIM6" %}" class="btn">Hujjatlar to’plami</a>
+                <a href="{% url "pageIM7" %}" class="btn">Suhbatdan o‘tish vaqti (jadval)</a>
+                <a href="{% url "pageIM8" %}" class="btn">Biz bilan bog’lanish</a>
+                <a href="{% url "pageIM9" %}" class="btn">Namunaviy savollar to’plami</a>
+                <a href="{% url "pageIM10" %}" class="btn">Imtixon natijalari</a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

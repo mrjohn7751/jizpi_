@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>{% blocktrans %}Moliyaviy Faoliyat{% endblocktrans %}</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            {% include "faoliyat/moliyaviy-faoliyat/__moliyaviy-copy.html" %}
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="card-box_right">
+                <a href="{% url "pageMF1" %}" class="btn">{% blocktrans %}Shartnoma to’lovlari{% endblocktrans %}</a>
+                <a href="{% url "pageMF2" %}" class="btn">{% blocktrans %}Bitiruvchilar monitoringi{% endblocktrans %}</a>
+                <a href="{% url "pageMF3" %}" class="btn">{% blocktrans %}Ijtimoiy muxofaza{% endblocktrans %}</a>
+                <a href="{% url "pageMF4" %}" class="btn">{% blocktrans %}Molyaviy xisobotlar{% endblocktrans %}</a>
+                <a href="{% url "pageMF5" %}" class="btn">{% blocktrans %}Molyaviy shartnomalar{% endblocktrans %}</a>
+                <a href="{% url "pageMF6" %}" class="btn">{% blocktrans %}Moliyaviy ko’rsatkichlar{% endblocktrans %}</a>
+                <a href="{% url "pageMF7" %}" class="btn">{% blocktrans %}Xizmat avtomototransport vositalari, xizmat uylari va boshqa ko’chmas mulk obyektlari{% endblocktrans %}</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

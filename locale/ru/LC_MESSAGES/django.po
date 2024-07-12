@@ -1,0 +1,2498 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-11 10:36+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\templates\__footer.html:9
+msgid "JIZZAX POLITEXNIKA "
+msgstr ""
+
+#: .\templates\__footer.html:9
+msgid "instituti"
+msgstr ""
+
+#: .\templates\__footer.html:19
+msgid "Manzil"
+msgstr ""
+
+#: .\templates\__footer.html:21
+msgid "130100 Jizzax shaxri"
+msgstr ""
+
+#: .\templates\__footer.html:21
+msgid "Islom Karimov shox ko’chasi 4 uy"
+msgstr ""
+
+#: .\templates\__footer.html:27
+msgid "Bog'lanish"
+msgstr ""
+
+#: .\templates\__footer.html:28
+msgid "Telefon"
+msgstr ""
+
+#: .\templates\__footer.html:29
+msgid "Ishonch telefoni"
+msgstr ""
+
+#: .\templates\__footer.html:30
+msgid "Email"
+msgstr ""
+
+#: .\templates\__footer.html:32
+msgid "Ijtimoiy sahifalar"
+msgstr ""
+
+#: .\templates\__navbar.html:15
+msgid "Tizimga kirish"
+msgstr ""
+
+#: .\templates\__navbar.html:57
+msgid "JIZZAX"
+msgstr ""
+
+#: .\templates\__navbar.html:58
+msgid "POLITEXNIKA"
+msgstr ""
+
+#: .\templates\__navbar.html:59
+msgid "INSTITUTI"
+msgstr ""
+
+#: .\templates\__navbar.html:68 .\templates\__navbar.html:70
+msgid "Yangiliklar"
+msgstr ""
+
+#: .\templates\__navbar.html:71
+msgid "Elonlar"
+msgstr ""
+
+#: .\templates\__navbar.html:76 .\templates\__navbar.html:78
+msgid "Institut"
+msgstr ""
+
+#: .\templates\__navbar.html:79
+msgid "Kengashlar"
+msgstr ""
+
+#: .\templates\__navbar.html:80
+msgid "Meyoriy Hujjatlar"
+msgstr ""
+
+#: .\templates\__navbar.html:85
+msgid "Tuzilma"
+msgstr ""
+
+#: .\templates\__navbar.html:87
+msgid "Rektorat"
+msgstr ""
+
+#: .\templates\__navbar.html:88
+msgid "Bo'limlar"
+msgstr ""
+
+#: .\templates\__navbar.html:89
+msgid "Markazlar"
+msgstr ""
+
+#: .\templates\__navbar.html:90 .\templates\index.html:168
+msgid "Fakultetlar"
+msgstr ""
+
+#: .\templates\__navbar.html:91
+msgid "Kafedralar"
+msgstr ""
+
+#: .\templates\__navbar.html:96
+msgid "Faoliyat"
+msgstr ""
+
+#: .\templates\__navbar.html:98
+msgid "Ilmiy Faoliyat"
+msgstr ""
+
+#: .\templates\__navbar.html:99 .\templates\index.html:237
+msgid "O'quv Faoliyat"
+msgstr ""
+
+#: .\templates\__navbar.html:100
+#: .\templates\faoliyat\xalqaro-faoliyat\page-xf1.html:9
+#: .\templates\faoliyat\xalqaro-faoliyat\page-xf2.html:10
+#: .\templates\faoliyat\xalqaro-faoliyat\page-xf3.html:10
+#: .\templates\faoliyat\xalqaro-faoliyat\page-xf4.html:9
+#: .\templates\faoliyat\xalqaro-faoliyat\page-xf5.html:10
+#: .\templates\faoliyat\xalqaro-faoliyat\page-xf6.html:10
+msgid "Xalqaro Faoliyat"
+msgstr ""
+
+#: .\templates\__navbar.html:101
+#: .\templates\faoliyat\moliyaviy-faoliyat\moliyaviy.html:10
+#: .\templates\faoliyat\moliyaviy-faoliyat\page-mf7.html:10
+msgid "Moliyaviy Faoliyat"
+msgstr ""
+
+#: .\templates\__navbar.html:116 .\templates\index.html:19
+msgid "Qabul-2024"
+msgstr ""
+
+#: .\templates\__navbar.html:118
+msgid "CALL-CENTER"
+msgstr ""
+
+#: .\templates\__navbar.html:119 .\templates\__navbar.html:133
+#: .\templates\qabul\bakalavr\bakalavr.html:9
+#: .\templates\qabul\bakalavr\page-3.html:9
+msgid "Bakalavr"
+msgstr ""
+
+#: .\templates\__navbar.html:120 .\templates\__navbar.html:134
+msgid "Magistratura"
+msgstr ""
+
+#: .\templates\__navbar.html:121 .\templates\__navbar.html:135
+msgid "Sirtqi Ta'lim"
+msgstr ""
+
+#: .\templates\__navbar.html:122
+msgid "Doktorantura"
+msgstr ""
+
+#: .\templates\__navbar.html:123 .\templates\__navbar.html:136
+msgid "Xorijiy Fuqarolar"
+msgstr ""
+
+#: .\templates\__navbar.html:124
+msgid "Qoshma Ta'lim dasturi"
+msgstr ""
+
+#: .\templates\__navbar.html:125
+msgid "2 - Mutaxassislik"
+msgstr ""
+
+#: .\templates\__navbar.html:126
+msgid "Texnikumlar"
+msgstr ""
+
+#: .\templates\__navbar.html:131 .\templates\index.html:240
+msgid "Talabalar"
+msgstr ""
+
+#: .\templates\__navbar.html:137
+msgid "O'qishni Ko'chirish va qayta tiklash"
+msgstr ""
+
+#: .\templates\__navbar.html:143
+msgid "Aloqa"
+msgstr ""
+
+#: .\templates\__navbar.html:147
+msgid "Interaktiv xizmatmatlar"
+msgstr ""
+
+#: .\templates\aloqa\aloqa.html:9
+msgid "Call-markazi"
+msgstr ""
+
+#: .\templates\aloqa\aloqa.html:17
+msgid ""
+"Kredit Modul tizimlari bilan bog'liq murojatlar bo'yicha "
+"mas'ul<br>NASRIDDINOV JASUR"
+msgstr ""
+
+#: .\templates\aloqa\aloqa.html:18
+msgid ""
+"Korrupsiyaga qarshi kurashish \"Komplayens-Nazorat\" tizimini boshqarish "
+"bo'limi"
+msgstr ""
+
+#: .\templates\aloqa\aloqa.html:19 .\templates\aloqa\aloqa.html:20
+msgid "Qabul Jarayonlari bilan bog'liq masalalar bo'yicha mas'ul"
+msgstr ""
+
+#: .\templates\aloqa\aloqa.html:21
+msgid "Talabalarni o'qishni tiklash va ko'chirish bo'yicha"
+msgstr ""
+
+#: .\templates\aloqa\aloqa.html:22
+msgid "To'lov masalalarini amalga oshirish masalalari bo'yicha masul"
+msgstr ""
+
+#: .\templates\aloqa\aloqa.html:29
+#: .\templates\qabul\bakalavr\bakalavr-copy.html:12
+#: .\templates\qabul\bakalavr\bakalavr.html:28
+msgid "Biz bilan bog’lanish"
+msgstr ""
+
+#: .\templates\aloqa\aloqa.html:30
+msgid "Manzil:"
+msgstr ""
+
+#: .\templates\aloqa\aloqa.html:31
+msgid "O’zbekiston Respublikasi"
+msgstr ""
+
+#: .\templates\aloqa\aloqa.html:32
+msgid "Jizzax viloyati Jizzax shaxri"
+msgstr ""
+
+#: .\templates\aloqa\aloqa.html:33
+msgid "Islom Karimov ko’chasi 4 uy. "
+msgstr ""
+
+#: .\templates\aloqa\aloqa.html:34
+msgid "Pochta Indeks: 130100"
+msgstr ""
+
+#: .\templates\aloqa\aloqa.html:37
+msgid "E-mail"
+msgstr ""
+
+#: .\templates\aloqa\aloqa.html:38
+msgid "Telefonlar"
+msgstr ""
+
+#: .\templates\aloqa\aloqa.html:39
+msgid "Ishonch telefon raqami: "
+msgstr ""
+
+#: .\templates\aloqa\bayroq.html:10
+msgid "Bayroq"
+msgstr ""
+
+#: .\templates\aloqa\bayroq.html:17
+msgid "O’zbekiston Respublikasi davlat bayrog'i"
+msgstr ""
+
+#: .\templates\aloqa\gerb.html:9
+msgid "Gerb"
+msgstr ""
+
+#: .\templates\aloqa\gerb.html:16
+msgid "O’zbekiston Respublikasi davlat gerbi"
+msgstr ""
+
+#: .\templates\base.html:40
+msgid ""
+"Jizzax Politexnika Instituti Yangi-Sayti hozircha test holatda ishlayabdi"
+msgstr ""
+
+#: .\templates\erasmus\debse\debse.html:10
+#: .\templates\erasmus\debse\page-d1.html:9
+#: .\templates\erasmus\debse\page-d2.html:9
+#: .\templates\erasmus\debse\page-d3.html:10
+#: .\templates\erasmus\debse\page-d4.html:10
+msgid "DebseUz"
+msgstr ""
+
+#: .\templates\erasmus\debse\debse.html:22
+msgid "DebseUz haqida"
+msgstr ""
+
+#: .\templates\erasmus\debse\debse.html:23
+#: .\templates\erasmus\trigger\triger.html:23
+msgid "Tadbirlar"
+msgstr ""
+
+#: .\templates\erasmus\debse\debse.html:24
+#: .\templates\erasmus\trigger\triger.html:22
+msgid "Ishchi guruh"
+msgstr ""
+
+#: .\templates\erasmus\debse\debse.html:25
+#: .\templates\erasmus\trigger\triger.html:24
+msgid "Hisobotlar"
+msgstr ""
+
+#: .\templates\erasmus\trigger\page-tr1.html:9
+#: .\templates\erasmus\trigger\page-tr2.html:9
+#: .\templates\erasmus\trigger\page-tr3.html:9
+#: .\templates\erasmus\trigger\page-tr4.html:9
+#: .\templates\erasmus\trigger\triger.html:9
+msgid "Trigger"
+msgstr ""
+
+#: .\templates\erasmus\trigger\triger.html:21
+msgid "Trigger haqida"
+msgstr ""
+
+#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:4
+#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:21
+msgid "Ilm-fan-2024"
+msgstr ""
+
+#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:5
+#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:22
+msgid "Nomzodlik imtihonlari"
+msgstr ""
+
+#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:6
+#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:23
+msgid "Ilmiy tadbirlar"
+msgstr ""
+
+#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:7
+#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:24
+msgid "Ilmiy nashrlar"
+msgstr ""
+
+#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:8
+#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:25
+msgid "Yosh ekspertlar guruhi"
+msgstr ""
+
+#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:9
+#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:26
+msgid "Konferensiyalar"
+msgstr ""
+
+#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:10
+#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:27
+msgid "Istiqboldagi rejalar"
+msgstr ""
+
+#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:11
+#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:28
+msgid "Ilmiy tatqiqot faoliyati"
+msgstr ""
+
+#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:12
+#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:29
+msgid "Ilmiy tadqiqot yo’nalishlari"
+msgstr ""
+
+#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:13
+#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:30
+msgid "Xujjatlar to’plami"
+msgstr ""
+
+#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:14
+#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:31
+msgid "Ustoz-shogird maktabi"
+msgstr ""
+
+#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:15
+#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:32
+msgid "Innovatsion dastur"
+msgstr ""
+
+#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:16
+#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:33
+msgid "Innovatsion loyihalar"
+msgstr ""
+
+#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:17
+#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:34
+msgid "Bitiruvchilar klubi"
+msgstr ""
+
+#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:18
+#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:35
+msgid "Ilmiy e’lonlar"
+msgstr ""
+
+#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:19
+#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:36
+msgid "«Yoshlar ovozi» gazetasi"
+msgstr ""
+
+#: .\templates\faoliyat\ilmiy-faoliyat\page-if1.html:10
+#: .\templates\faoliyat\ilmiy-faoliyat\page-if10.html:10
+#: .\templates\faoliyat\ilmiy-faoliyat\page-if12.html:10
+#: .\templates\faoliyat\ilmiy-faoliyat\page-if13.html:10
+#: .\templates\faoliyat\ilmiy-faoliyat\page-if14.html:10
+#: .\templates\faoliyat\ilmiy-faoliyat\page-if15.html:10
+#: .\templates\faoliyat\ilmiy-faoliyat\page-if16.html:10
+#: .\templates\faoliyat\ilmiy-faoliyat\page-if17.html:10
+#: .\templates\faoliyat\ilmiy-faoliyat\page-if2.html:10
+#: .\templates\faoliyat\ilmiy-faoliyat\page-if3.html:10
+#: .\templates\faoliyat\ilmiy-faoliyat\page-if4.html:10
+#: .\templates\faoliyat\ilmiy-faoliyat\page-if5.html:10
+#: .\templates\faoliyat\ilmiy-faoliyat\page-if6.html:10
+#: .\templates\faoliyat\ilmiy-faoliyat\page-if7.html:10
+#: .\templates\faoliyat\ilmiy-faoliyat\page-if8.html:10
+#: .\templates\faoliyat\ilmiy-faoliyat\page-if9.html:10
+msgid "ilmiy-Faoliyat"
+msgstr ""
+
+#: .\templates\faoliyat\moliyaviy-faoliyat\__moliyaviy-copy.html:4
+#: .\templates\faoliyat\moliyaviy-faoliyat\moliyaviy.html:21
+#: .\templates\faoliyat\moliyaviy-faoliyat\page-mf1.html:10
+msgid "Shartnoma to’lovlari"
+msgstr ""
+
+#: .\templates\faoliyat\moliyaviy-faoliyat\__moliyaviy-copy.html:5
+#: .\templates\faoliyat\moliyaviy-faoliyat\moliyaviy.html:22
+#: .\templates\faoliyat\moliyaviy-faoliyat\page-mf2.html:10
+msgid "Bitiruvchilar monitoringi"
+msgstr ""
+
+#: .\templates\faoliyat\moliyaviy-faoliyat\__moliyaviy-copy.html:6
+#: .\templates\faoliyat\moliyaviy-faoliyat\moliyaviy.html:23
+#: .\templates\faoliyat\moliyaviy-faoliyat\page-mf3.html:10
+msgid "Ijtimoiy muxofaza"
+msgstr ""
+
+#: .\templates\faoliyat\moliyaviy-faoliyat\__moliyaviy-copy.html:7
+#: .\templates\faoliyat\moliyaviy-faoliyat\moliyaviy.html:24
+#: .\templates\faoliyat\moliyaviy-faoliyat\page-mf4.html:10
+msgid "Molyaviy xisobotlar"
+msgstr ""
+
+#: .\templates\faoliyat\moliyaviy-faoliyat\__moliyaviy-copy.html:8
+#: .\templates\faoliyat\moliyaviy-faoliyat\moliyaviy.html:25
+#: .\templates\faoliyat\moliyaviy-faoliyat\page-mf5.html:10
+msgid "Molyaviy shartnomalar"
+msgstr ""
+
+#: .\templates\faoliyat\moliyaviy-faoliyat\__moliyaviy-copy.html:9
+#: .\templates\faoliyat\moliyaviy-faoliyat\moliyaviy.html:26
+#: .\templates\faoliyat\moliyaviy-faoliyat\page-mf6.html:10
+msgid "Moliyaviy ko’rsatkichlar"
+msgstr ""
+
+#: .\templates\faoliyat\moliyaviy-faoliyat\__moliyaviy-copy.html:10
+#: .\templates\faoliyat\moliyaviy-faoliyat\moliyaviy.html:27
+msgid ""
+"Xizmat avtomototransport vositalari, xizmat uylari va boshqa ko’chmas mulk "
+"obyektlari"
+msgstr ""
+
+#: .\templates\faoliyat\oquv-faoliyat\__oquv-copy.html:2
+#: .\templates\faoliyat\oquv-faoliyat\oquv.html:19
+msgid "O’quv grafigi"
+msgstr ""
+
+#: .\templates\faoliyat\oquv-faoliyat\__oquv-copy.html:3
+#: .\templates\faoliyat\oquv-faoliyat\oquv.html:20
+msgid "O’quv rejalari"
+msgstr ""
+
+#: .\templates\faoliyat\oquv-faoliyat\__oquv-copy.html:4
+#: .\templates\faoliyat\oquv-faoliyat\oquv.html:21
+msgid "O’quv qoidalari"
+msgstr ""
+
+#: .\templates\faoliyat\oquv-faoliyat\__oquv-copy.html:5
+#: .\templates\faoliyat\oquv-faoliyat\oquv.html:22
+msgid "Vakant lavozimlar"
+msgstr ""
+
+#: .\templates\faoliyat\oquv-faoliyat\__oquv-copy.html:6
+#: .\templates\faoliyat\oquv-faoliyat\oquv.html:23
+msgid "Malaka talablari"
+msgstr ""
+
+#: .\templates\faoliyat\oquv-faoliyat\page-of1.html:8
+#: .\templates\faoliyat\oquv-faoliyat\page-of2.html:8
+#: .\templates\faoliyat\oquv-faoliyat\page-of3.html:8
+#: .\templates\faoliyat\oquv-faoliyat\page-of4.html:8
+#: .\templates\faoliyat\oquv-faoliyat\page-of5.html:8
+msgid "o'quv-Faoliyat"
+msgstr ""
+
+#: .\templates\faoliyat\xalqaro-faoliyat\__xalqaro-copy.html:4
+#: .\templates\faoliyat\xalqaro-faoliyat\xalqaro.html:21
+msgid "Xalqaro hamkorlik aloqalari"
+msgstr ""
+
+#: .\templates\faoliyat\xalqaro-faoliyat\__xalqaro-copy.html:5
+#: .\templates\faoliyat\xalqaro-faoliyat\page-xf2.html:25
+#: .\templates\faoliyat\xalqaro-faoliyat\xalqaro.html:22
+msgid "Xorijiy malaka oshirish va ta’lim"
+msgstr ""
+
+#: .\templates\faoliyat\xalqaro-faoliyat\__xalqaro-copy.html:6
+#: .\templates\faoliyat\xalqaro-faoliyat\xalqaro.html:23
+msgid "Xalqaro konferensiyalar"
+msgstr ""
+
+#: .\templates\faoliyat\xalqaro-faoliyat\__xalqaro-copy.html:7
+#: .\templates\faoliyat\xalqaro-faoliyat\xalqaro.html:24
+msgid "Xalqaro loyihalar va grantlar"
+msgstr ""
+
+#: .\templates\faoliyat\xalqaro-faoliyat\__xalqaro-copy.html:8
+#: .\templates\faoliyat\xalqaro-faoliyat\xalqaro.html:25
+msgid "Chet ellik talabalar uchun"
+msgstr ""
+
+#: .\templates\faoliyat\xalqaro-faoliyat\__xalqaro-copy.html:9
+#: .\templates\faoliyat\xalqaro-faoliyat\xalqaro.html:26
+msgid "Kontaktlar"
+msgstr ""
+
+#: .\templates\index.html:20
+msgid "Kirish"
+msgstr ""
+
+#: .\templates\index.html:36 .\templates\news\news.html:10
+msgid "So'ngi Yangiliklar"
+msgstr ""
+
+#: .\templates\index.html:50 .\templates\index.html:57
+#: .\templates\index.html:82 .\templates\index.html:89
+#: .\templates\news\elon.html:23 .\templates\news\news.html:24
+msgid "Batafsil"
+msgstr ""
+
+#: .\templates\index.html:68 .\templates\news\elon.html:9
+msgid "So'ngi Elonlar"
+msgstr ""
+
+#: .\templates\index.html:102
+msgid "Bizning Tizimlar"
+msgstr ""
+
+#: .\templates\index.html:116
+msgid "Hemis o`qituvchi"
+msgstr ""
+
+#: .\templates\index.html:123
+msgid "Hemis Talaba"
+msgstr ""
+
+#: .\templates\index.html:130
+msgid "Modle"
+msgstr ""
+
+#: .\templates\index.html:137
+msgid "Online Jurnal"
+msgstr ""
+
+#: .\templates\index.html:144
+msgid "Kutubxona"
+msgstr ""
+
+#: .\templates\index.html:151
+msgid "Jizpi Aborot Tizimi"
+msgstr ""
+
+#: .\templates\index.html:179
+msgid "Energetika va Radioelektronika"
+msgstr ""
+
+#: .\templates\index.html:187
+msgid "Transport"
+msgstr ""
+
+#: .\templates\index.html:195
+msgid "Sanoat texnalogiyalari"
+msgstr ""
+
+#: .\templates\index.html:203
+msgid "Arxitektura va Qurilish"
+msgstr ""
+
+#: .\templates\index.html:211
+msgid "Servis"
+msgstr ""
+
+#: .\templates\index.html:219
+msgid "Qurilish Materiallari va Kimyoviy Texnalogya"
+msgstr ""
+
+#: .\templates\index.html:239
+msgid "O'qituvchilar"
+msgstr ""
+
+#: .\templates\index.html:241
+msgid "Hamkor OTMlar"
+msgstr ""
+
+#: .\templates\index.html:242
+msgid "Qo‘shma ta’lim talabalari"
+msgstr ""
+
+#: .\templates\index.html:245
+msgid "Dotsent"
+msgstr ""
+
+#: .\templates\index.html:246
+msgid "Bakalavrlar"
+msgstr ""
+
+#: .\templates\index.html:247
+msgid "Sirqi talabalar"
+msgstr ""
+
+#: .\templates\index.html:248
+msgid "Xorijiy talabalar"
+msgstr ""
+
+#: .\templates\index.html:265
+msgid "Foydali Xavolalar"
+msgstr ""
+
+#: .\templates\index.html:276
+msgid "Davlat Test Markazi"
+msgstr ""
+
+#: .\templates\index.html:280
+msgid "Xalq ta'limi Vazirligi"
+msgstr ""
+
+#: .\templates\index.html:284
+msgid "ZiyoNet - Ta'lim Portali"
+msgstr ""
+
+#: .\templates\index.html:288
+msgid "Xukumat Portali"
+msgstr ""
+
+#: .\templates\index.html:292
+msgid "Adliya Vazirligi"
+msgstr ""
+
+#: .\templates\index.html:310
+msgid "Rektor Qabuli"
+msgstr ""
+
+#: .\templates\index.html:320
+msgid "REKTOR ELEKTRON QABULXONASI"
+msgstr ""
+
+#: .\templates\index.html:321
+msgid "Jizzax Politexnika Instituti Rektori Elektron Online qabuli sayti"
+msgstr ""
+
+#: .\templates\index.html:322
+msgid "O'tish"
+msgstr ""
+
+#: .\templates\index.html:347
+msgid "INSTITUTNING IJRO INTIZOM HOLATINI YAXSHILASH"
+msgstr ""
+
+#: .\templates\index.html:351
+msgid "Ishonch Telefon Raqamlar"
+msgstr ""
+
+#: .\templates\index.html:352
+msgid "yuklab olish"
+msgstr ""
+
+#: .\templates\index.html:383
+msgid "JIZZAX POLITEXNIKA INSTITUTIGA XUSH KELIBSIZ!"
+msgstr ""
+
+#: .\templates\index.html:384
+msgid "TALABA BILAN AJOYIB MUVAFFAQIYAT"
+msgstr ""
+
+#: .\templates\index.html:388
+msgid "INSTITUT BINOLAR"
+msgstr ""
+
+#: .\templates\index.html:389
+msgid ""
+"Institut hududi 22 300 m2 maydonga ega bo’lib, unda 1500 o`rinli asosiy "
+"bino, 1000 o`rinli yangi o`quv –laboratoriya binosi, 1500 o`rinli 3-bino, "
+"600 o`rinli yangi qurilgan ma'ruzalar zali, sport zali va 2 ta mini futbol "
+"maydoni, katta futbol maydoni, tennis, yengil atletika maydonlari joylashgan."
+msgstr ""
+
+#: .\templates\index.html:392
+msgid "BIZ HAQIMIZDA"
+msgstr ""
+
+#: .\templates\index.html:393
+msgid ""
+"Institutda 7 ta fakultet, 27 ta kafedra mavjud bo`lib ularda 33 ta ta’lim "
+"yo`nalishida bakalavrlar, 16 ta mutaxassislik bo`yicha magistrlar, 16 ta "
+"sirtqi ta’lim, 4 ta ixtisosliklar bo`yicha doktorantlar malakali professor-"
+"o`qituvchilar tomonidan dars mashg`ulotlari olib borilib yetuk mutaxasislar "
+"yetishib chiqarilmoqda."
+msgstr ""
+
+#: .\templates\index.html:396
+msgid "TALABALAR TURAR VA DAM OLISH JOYI"
+msgstr ""
+
+#: .\templates\index.html:397
+msgid ""
+"So`ngi yillarda yangi rekonstruksiya qilingan. 400 o`rinli talabalar turar "
+"joyi, texnopark, Axborot resurs markazi, IT-Park, oshxona, bufet va "
+"fitobarlar mavjud bo`lib, ular bugungi kunda 9,5 ming kishilik jamoa "
+"a’zolarining o’quv va ilmiy faoliyat olib borishlarida xizmat qilmoqda."
+msgstr ""
+
+#: .\templates\institut\__card-box_left.html:3
+#: .\templates\institut\__institut.html:21
+msgid "Institut nizomi"
+msgstr ""
+
+#: .\templates\institut\__card-box_left.html:4
+#: .\templates\institut\__institut.html:22
+msgid "Institut tarixi"
+msgstr ""
+
+#: .\templates\institut\__card-box_left.html:5
+#: .\templates\institut\__institut.html:23
+#: .\templates\institut\instut-page3.html:20
+msgid "Institut strukturasi"
+msgstr ""
+
+#: .\templates\institut\__card-box_left.html:6
+#: .\templates\institut\__institut.html:24
+#: .\templates\institut\instut-page4.html:10
+#: .\templates\institut\instut-page4.html:20
+msgid "Rektor Tabrigi"
+msgstr ""
+
+#: .\templates\institut\__card-box_left.html:7
+#: .\templates\institut\__institut.html:28
+msgid "Rektor Virtual Qabulxonasi"
+msgstr ""
+
+#: .\templates\institut\__card-box_left.html:8
+#: .\templates\institut\__institut.html:25
+#: .\templates\institut\instut-page5.html:10
+msgid "Rekivizitlar"
+msgstr ""
+
+#: .\templates\institut\__card-box_left.html:9
+#: .\templates\institut\__institut.html:26
+msgid "Moddiy-texnik Baza"
+msgstr ""
+
+#: .\templates\institut\__card-box_left.html:10
+#: .\templates\institut\__institut.html:27
+#: .\templates\institut\instut-page7.html:10
+msgid "Sport Inshoatlari"
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:10
+#: .\templates\institut\__vasiylik_copy.html:6
+#: .\templates\institut\__xotin-qizlar.html:9
+msgid "Xotin-Qizlar Kengashi"
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:23
+msgid "Jizzax politexnika instituti mavjud Ilmiy kengashlar faoliyati."
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:24
+msgid ""
+"1. Institut Ilmiy kengash yig’ilishi o’quv yili davomida har oyning so’nggi "
+"haftasi chorshanba kuni soat 13.30 da institut Majlislar zalida "
+"o’tkaziladi.\n"
+"                  <br>    \n"
+"                  2. Axborot (hisobot) beruvchi va mas’ullar kengash "
+"yig’ilishida ko’riladigan masala bo’yicha imzolangan ma’lumotlarni (qog’oz "
+"va elektron variantda) yig’ilishdan 3 kun oldin Ilmiy kengash kotibiga "
+"taqdim etishlari shart.\n"
+"                  <br>\n"
+"                  3. Ilmiy kengash yig’ilishlarida kelib tushgan yangi "
+"adabiyotlar haqida Axborot resurs markazi direktori axborot beradi.\n"
+"                  <br>\n"
+"                  4. Ilmiy kengash yig’ilishlarida fuqarolar murojaatlarida "
+"ko’tarilayotgan masalalar haqida “Ichki nazorat va monitoring” bo’limi "
+"boshlig’i axborot beradi.\n"
+"                  <br>\n"
+"                  5. Ilmiy kengash majlisi yig’ilishlarida Ilmiy kotib "
+"kengash qarorlari bajarilishi haqida axborot beradi.\n"
+"                  <br>\n"
+"                  Ilmiy kengash a’zolari 38 kishidan iborat. A’zolar "
+"tarkibiga rektor raisligida prorektorlar, dekanlar, kafedra mudirlari, "
+"bo’lim boshliqlari va ishlab chiqarishdan 3 nafar rahbarlar kiritilgan. "
+"Ilmiy kengashning 1 masalasida  O’zbekiston Respublikasi Prezidenti va "
+"Hukumati,  O’zbekiston Respublikasi Oliy va o’rta maxsus ta’lim vazirligi "
+"hay’ati farmon, buyruq hamda qarorlarini ko’rib chiqiladi.\n"
+"                  Yillik ish rejaga asosan o’quv yili davomida olib borilgan "
+"ma’naviy-axloqiy va tarbiyaviy, o’quv-uslubiy, ilmiy-tadqiqot,  moliya va "
+"xo’jalik ishlari hamda akademik litsey va kasb-hunar kollejlari bilan "
+"hamkorlik ishlarining borishi va kelgusi vazifalar muxokama etib boriladi.\n"
+"              "
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:38
+msgid "Jizzax politexnika instituti Ilmiy kengashi nizomi"
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:39
+msgid "N i z o m"
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:40
+msgid ""
+"(O’zbekiston Respublika oliy va o’rta maxsus <br>ta’lim vazirligining 1998 "
+"yil 9 dekabr <br>№–345-sonli buyrug’i bilan tasdiqlangan )"
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:41
+msgid ""
+"1. Oliy ta’lim to’g’risidagi Nizomga muvofiq, Jizzax politexnika instituti "
+"faoliyatiga tegishli asosiy masalalarni ko’rib chiqish uchun rektor "
+"raisligida ilmiy kengash tashkil etiladi."
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:42
+msgid ""
+"2. Ilmiy kengashning asosiy vazifasi-institut jamoasi sayi-harakatlarini "
+"quyidagi masalalarni bajarishga qaratilgan faoliyatni birlashtirish "
+"xisoblanadi: Kadrlar tayyorlash Milliy dasturini amalga oshirish, zamonaviy "
+"pedogogik texnologiyalar va kompСЊyuterlashtirish asosida yuqori sifatli "
+"bakalavr va magistrlar tayyorlashni ta’minlash, ilmiy tadqiqotlarni yanada "
+"rivojlantirish. Yoshlarni vatanparvarlik, fuqarolik, o’z Vatani bilan "
+"faxrlanish, ma’naviy-ma’rifiy  va madaniy xususiyatlarni shakllantirishdan "
+"iborat."
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:43
+msgid ""
+"3. Nizom bo’yicha Ilmiy kengash tarkibiga quyidagilar kiradi: rektor (rais), "
+"prorektorlar, fakulСЊtet dekanlari, institut tarkibiga kiruvchi mustaqil "
+"tashkilot va tarmoqlar direktorlari, mutaxasis chiqaruvchi kafedralar "
+"mudirlari, shuningdek, institut talabalari va kasaba uyushmalarining "
+"vakillari.Ilmiy kengashning boshqa a’zolari professor-o’qituvchilar "
+"tarkibidan rektor buyrug’i bilan belgilanadi. Ilmiy kengash tarkibiga "
+"institutning muayyan yo’nalish muammolari bo’yicha ishlovchi, yirik olim va "
+"mutaxassislar, shuningdek davlatlararo va bevosita aloqalari bo’lgan xorijiy "
+"o’quv yurtlarining vakillari kiritilishi mumkin. Vakolat muddati-5 yil."
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:44
+msgid ""
+"4. Ilmiy kengash tarkibi institut rektorining buyrug’i bilan tasdiqlanadi. "
+"Har o’quv yilining har xil sabablarga ko’ra Ilmiy kengash tarkibidan "
+"chiqqanlar o’rniga yangi a’zolar saylanadi yoki nizom bo’yicha kiritiladi."
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:45
+msgid "5.  Institutning kengashi"
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:47
+msgid ""
+" – Kadrlar tayyorlar milliy dasturiga muvofiq ta’lim standartlari, o’quv "
+"rejalar va dasturlarning qat’iy bajarilishi ko’rib chiqish;\n"
+"                   <br>\n"
+"                   – Xorijiy mamlakatlar institut bilan birlashgan Ilmiy "
+"kengashlarni tashkil etishning maqsadga muvofiqligini belgilaydi;\n"
+"                   <br>\n"
+"                   – FakulСЊtetlarning o’quv ilmiy-tadqiqot va ma’naviy-"
+"ma’rifiy ishlari to’g’risidagi hisobotlarni, shuningdek, litseylar "
+"xisobtlarini eshitib boradi, qabul natijalari to’g’risida qabul "
+"komissiyasining, halq xo’jaligining bitiruvchi mutaxassislarga bo’lgan "
+"ehtiyoji, buyurtalar bilan aloqalar to’g’risida marketing xizmatining "
+"hisobotlarini eshitadi;\n"
+"                   <br>\n"
+"                   – Talabalarning yirik malakaviy amaliyotiga yakun yasaydi "
+"va ularni yaxshilash bo’yicha tavsiyalar beradi;\n"
+"                   <br>\n"
+"                   – Ilmiy tadqiqot, ma’naviy-ma’rifiy ishlarning rejalarini "
+"va professor-o’qituvchilarning tarkibini malaka oshirish masalalarini "
+"muxokama etadi;\n"
+"                   <br>\n"
+"                   – Xorijiy malakatlarning oliy o’quv yurtlari bilan "
+"aloqalarni o’rnatish bo’yicha qarorlar qabul qilinadi;\n"
+"                   <br>\n"
+"                   – FakulСЊtet va kafedralarni ochish, bekitish, "
+"o’zgartirishga bog’liq bo’lgan masalalar bo’yicha qaror qabul qiladi;\n"
+"                   <br>\n"
+"                   – Marketing xizmati takliflarini xisobga olgan holda "
+"yangi ta’lim yo’nalishlarini (mutaxassisliklarni) ochish to’g’risida taklif "
+"kiritadi;\n"
+"                   <br>\n"
+"                   – Darslik, o’quv-qo’llanma va ilmiy o’quv-uslubiy "
+"adabiyotlarni tayyorlash va nashr etish masalalarini ko’rib chiqadi;\n"
+"                   <br>\n"
+"                   – «Oliy o’quv yurtlari pedogogik xodimlarini ishga qabul "
+"qilish tartibi to’g’risida»gi Nizomga muvofiq professor-o’qituvchilar "
+"lavozimlarini egallash uchun tanlovlar o’tkazadi;\n"
+"                   <br>\n"
+"                   – Professor, dotsent ilmiy unvonini olishga intilayotgan "
+"izlanuvchilarning xujjatlarini ko’rib chiqadi va belgilangan tartibda ilmiy "
+"unvonga tasdiqlashga taqdim etadi;\n"
+"                   <br>\n"
+"                   – Aspirantura va doktorantura va oliy o’quv yurti "
+"ta’limidan keyinga boshqa shakllarga nomzodni tavsiya etadi;\n"
+"                   <br>\n"
+"                   – A’lochi-talabalar safidan va professor-o’qituvchilar "
+"tarkibidan nomzodlarni «Ustoz», «Umid», «Iste’dod» jamg’armalari orqali "
+"xorijiy oliy o’quv yurtlariga stajirovkaga tavsiya etadi;\n"
+"                   <br>\n"
+"                   – Ta’lim xizmatlari bilan shug’ullanuvchi kichik "
+"korxonalar, firma va kurslar faoliyati haqida rahbarlarning hisobotlarini "
+"eshitadi;\n"
+"                   <br>\n"
+"                   – Jizzax politexnika instituti bitiruvchilari safidan "
+"nomzodlarni magistratura, aspirantura qabul qilishga tavsiya etadi,  "
+"shuningdek, tadqiqotchilar va aspirantlarning shaxsiy rejalarini va "
+"nomzodlik dissertatsiyasi mavzularini tasdiqlaydi;\n"
+"                   <br>\n"
+"                   –  Institutning a’lochi talabalari va aspirantlari "
+"safidan nomzodlarni nomli stipendiyalar olishga tavsiya etadi;\n"
+"                   <br>\n"
+"                   – FakulСЊtet dekanlarining fakulСЊtetni tamomlaganlar va "
+"aspiranturani bitirganlar bilan aloqalari to’g’risidagi hisobotlarini "
+"eshitadi, kadrlar tayyorlashni yanada yaxshilash bo’yicha tadbirlarni ishlab "
+"chiqadi.\n"
+"                   <br>\n"
+"                   – «Sog’lom avlod uchun» jamg’armasi bilan hamkorlikda "
+"talabalarning jismoniy tarbiyasi va ularning sog’liqlarini yanada yaxshilash "
+"bo’yicha tadbirlar ishlab chiqadi;\n"
+"                   <br>\n"
+"                   – Institut talabalari va xodimlarining texnika "
+"xavfsizligi va mexnat muxofazasini takomillashtirish bo’yicha tadbirlarni "
+"belgilaydi;\n"
+"                   <br>\n"
+"                   – Institut rivojlanishining joriy (yillik) istiqboliy "
+"rejalarini tasdiqlaydi va moliyaviy-xo’jalik faoliyati natijalarini "
+"eshitadi;\n"
+"                   <br>\n"
+"                   – Oliy ma’lumotli mutaxasislarning malaka oshirish  "
+"rejalarining loyihalarini muxokama etadi, institutning malaka oshirish "
+"tarmoqlari rahbarining hisobotini eshitadi;"
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:89
+msgid ""
+"6. Ilmiy kengash, o’z ishini har o’quv yili uchun ishlab chiqiladigan rejaga "
+"muvofiq amalga oshiradi. Ilmiy kengash rejasi ilmiy kengash tomonidan ko’rib "
+"chiqilgandan so’ng institut rektori tomonidan tasdiqlanadi."
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:90
+msgid ""
+"7. O’quv va ilmiy ishlarning barcha masalalari bo’yicha ilmiy kengashning "
+"qarorlari ochiq ovoz berish tartibida ko’pchilikning ovozi bilan qabul "
+"qilinadi. Professor-o’qituvchilar tarkibi lavozimlarini egallashga "
+"o’tkaziladigan tanlovlar professor va dotsent ilmiy unvonlarini berishga "
+"taqdimnomalar esa yopiq ovoz berish yo’li bilan belgilangan tartibda qabul "
+"qilinadi."
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:92
+msgid ""
+"8. Ilmiy kengash qarorlari, institut rektori tasdiqlaganidan so’ng kuchga "
+"kiradi."
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:93
+msgid ""
+"9. Ilmiy kengash majlisi bayonnoma bilan rasmiylashtiriladi. Bayonnomalar "
+"ilmiy kengash raisi va kotibi tomonidan imzolanadi."
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:94
+msgid ""
+"10. Ilmiy kengash raisi, muntazam ravishda, ilmiy kengash qarorlari "
+"bajarilishi bo’yicha tekshiruvlarni tashkil etadi va ilmiy kengash "
+"a’zolariga qabul qilingan qarorlarini bajarilishi haqida ma’lumot beradi."
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:96
+msgid "ILMIY KENGASHLAR RO’YXATI"
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:102
+msgid "Yo’nalishlar"
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:103
+msgid "Ilmiy kengashlar elektron manzillari"
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:109
+msgid "Texnika fanlari"
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:114
+msgid "Fizika-matematika fanlari"
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:118
+msgid "Ijtimoiy fanlar"
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:123
+msgid "Kimyo, biologiya va geologiya-minerologiya fanlari"
+msgstr ""
+
+#: .\templates\institut\__ilmiy-kengash.html:128
+msgid "Qishloq xo’jaligi fanlari"
+msgstr ""
+
+#: .\templates\institut\__institut.html:10
+msgid "INSTITUT"
+msgstr ""
+
+#: .\templates\institut\__kengash-in.html:9
+#: .\templates\institut\__vasiylik_copy.html:3
+#: .\templates\institut\kengash_19-20.html:10
+#: .\templates\institut\kengash_20-21.html:10
+#: .\templates\institut\kengash_21-22.html:10
+#: .\templates\institut\kengash_22-23.html:10
+#: .\templates\institut\kengash_23-24.html:10
+msgid "OTM Kengashi"
+msgstr ""
+
+#: .\templates\institut\__kengash.html:9
+msgid "Kengash"
+msgstr ""
+
+#: .\templates\institut\__meyoriy-hujjat-copy.html:3
+#: .\templates\institut\mh-page1.html:10
+msgid "Prezident Qarorlari"
+msgstr ""
+
+#: .\templates\institut\__meyoriy-hujjat-copy.html:4
+#: .\templates\institut\mh-page4.html:9
+msgid "Prezident Farmonlari"
+msgstr ""
+
+#: .\templates\institut\__meyoriy-hujjat-copy.html:5
+#: .\templates\institut\mh-page3.html:10
+msgid "Vazirlik Buyruqlari"
+msgstr ""
+
+#: .\templates\institut\__meyoriy-hujjat-copy.html:6
+msgid "Adliya Qarorlari"
+msgstr ""
+
+#: .\templates\institut\__meyoriy-hujjat-copy.html:7
+#: .\templates\institut\mh-page5.html:10 .\templates\institut\mh-page5.html:22
+#: .\templates\institut\mh-page6.html:10
+msgid "Hukumat Qarorlari"
+msgstr ""
+
+#: .\templates\institut\__meyoriy-hujjat-copy.html:8
+#: .\templates\institut\mh-page6.html:22
+msgid "Hukumat Dasturlari"
+msgstr ""
+
+#: .\templates\institut\__meyoriy-hujjat-copy.html:9
+#: .\templates\institut\mh-page7.html:10 .\templates\institut\mh-page7.html:22
+#: .\templates\institut\mh-page8.html:10
+msgid "Institut Buyruqlari"
+msgstr ""
+
+#: .\templates\institut\__meyoriy-hujjat-copy.html:10
+msgid "Klassifikatorlar"
+msgstr ""
+
+#: .\templates\institut\__meyoriy-hujjat.html:9
+msgid "ME’YORIY-HUQUQIY HUJJATLAR"
+msgstr ""
+
+#: .\templates\institut\__vasiylik.html:9
+#: .\templates\institut\__vasiylik_copy.html:4
+#: .\templates\institut\vasiylik-page-1.html:10
+#: .\templates\institut\vasiylik-page-2.html:10
+msgid "Vasiylik Kengashi"
+msgstr ""
+
+#: .\templates\institut\__vasiylik.html:22
+msgid "Namunaviy Nizomi"
+msgstr ""
+
+#: .\templates\institut\__vasiylik.html:23
+msgid "Vasiylik kengashi Tarkibi"
+msgstr ""
+
+#: .\templates\institut\__vasiylik_copy.html:5
+#: .\templates\institut\__yosh-olimlar.html:9
+msgid "Yosh Olimlar Kengashi"
+msgstr ""
+
+#: .\templates\institut\__vasiylik_copy.html:7
+msgid "Ilmiy Kengash"
+msgstr ""
+
+#: .\templates\institut\instut-page1.html:9
+#: .\templates\institut\instut-page1.html:19
+msgid "Institut Nizomi"
+msgstr ""
+
+#: .\templates\institut\instut-page2.html:9
+msgid "INSTITUT Tarixi"
+msgstr ""
+
+#: .\templates\institut\instut-page2.html:19
+msgid "Institut Tarixi"
+msgstr ""
+
+#: .\templates\institut\instut-page3.html:10
+msgid "INSTITUT strukturasi"
+msgstr ""
+
+#: .\templates\institut\instut-page4.html:22
+msgid ""
+"Ҳурматли профессор-ўқитувчилар! Азиз талабалар!\n"
+"                Институтимиз жамоасининг ҳар бир аъзосини ислом оламининг "
+"энг улуғ байрами бўлмиш Рамазон ҳайити билан муборакбод этаётганимдан "
+"бениҳоя  мамнунман.  Ушбу қутлуғ ойда сабру қаноат, шукроналик, руҳий "
+"покланиш, савобли амаллар қилишдек олижаноб фазилатларга янада эътиборли "
+"бўламиз. Яратганнинг раҳматидан умидвор бўламиз. Бу йил юртимизда ушбу "
+"муқаддас ойга хос бўлган савобли амаллар ҳар қачонгидан ҳам яққол намоён "
+"бўлди, десам, янглишмайман.\n"
+"                Мард ва матонатли халқимиз коронавирус пандемияси, бошимизга "
+"тушган турли синовлар ва табиий офатлар шароитида “Оллоҳ сабр-тоқатли "
+"инсонлар билан биргадир”, деган илоҳий ўгитга амал қилиб, тушкунликка "
+"берилмасдан, янада аҳил ва бирдам бўлиб, инсонпарварлик, ҳамжиҳатликнинг "
+"юксак намунасини кўрсатди.\n"
+"                Институтимизнинг аҳил жамоаси ҳам “Саховат ва кўмак” "
+"умуммиллий ҳаракати доирасида кўплаб хайрли ишларга қўл урди. Фахрий "
+"ўқитувчилар, ижтимоий ҳимояга муҳтож инсонлар ҳолидан хабар олинди. Сардоба "
+"тошқинидан жабр кўрган одамларга  инсонпарварлик ёрдами кўрсатилди. Шу "
+"ўринда синовли кунларда бир тану жон бўлиб, биродарларига ёрдам кўрсатган "
+"жамоамиз аъзоларига миннатдорлик билдираман хамда Жиззах политехника "
+"институти илмпарвар ва замонавий технологияларга асосланган илм даргоҳи "
+"бўлиши билан бирга ҳамиша ёрдамга шай, гуманист жамоа бўлиб қолади деб "
+"ўйлайман.\n"
+"                Ҳозирги юксак технологиялар асрида мустаҳкам иймон-эътиқод "
+"билан бирга замонавий илм-фан, касб-ҳунарлар, хорижий тилларни пухта "
+"эгаллаш, инновациялар соҳасидаги ютуқларни чуқур ўзлаштириш, ёшларимизни "
+"миллий ва умуминсоний қадриятлар руҳида тарбиялаш барқарор тараққиётга "
+"эришишнинг энг муҳим шартидир. Бу бизнинг ҳар доим амал қиладиган шиоримиз "
+"бўлиб қолади.\n"
+"                Шу муборак кунларда Яратгандан ҳар бирингизнинг "
+"хонадонингизга тинчлик-хотиржамлик, фароғат, барака , оила аъзоларингизга "
+"соғлик-саломатлик, эзгу ишларингизга ривож тилайман. Бутун дунёда "
+"коронавирус хавфи тезроқ барҳам топиб, яна қайноқ илм ва ижод оламига "
+"қайтишимизга тилакдошман.\n"
+"                Ийд ал Фитр муборак!\n"
+"                ректор, т.ф.д., проф                 \n"
+"                <b>А.УСМАНКУЛОВ</b>\n"
+"                "
+msgstr ""
+
+#: .\templates\institut\instut-page5.html:21
+msgid "Jizzax politexnika instituti rekviziti"
+msgstr ""
+
+#: .\templates\institut\instut-page5.html:22
+msgid "Rekvizit (byudjet)"
+msgstr ""
+
+#: .\templates\institut\instut-page6.html:10
+msgid "Moddiy-texnik baza"
+msgstr ""
+
+#: .\templates\institut\instut-page7.html:20
+msgid "JIZZAX POLITEXNIKA INSTITUTINING ASOSIY BINOSINING SPORT INSHOATLARI."
+msgstr ""
+
+#: .\templates\institut\mh-page1.html:25 .\templates\institut\mh-page2.html:25
+msgid "Nomi"
+msgstr ""
+
+#: .\templates\institut\mh-page1.html:26 .\templates\institut\mh-page2.html:26
+msgid "To’liq tanishish"
+msgstr ""
+
+#: .\templates\institut\mh-page1.html:31
+msgid "Ўзбекистон Республикаси «Таълим тўғрисида»ги ҚОУНУ"
+msgstr ""
+
+#: .\templates\institut\mh-page1.html:32
+msgid "2020 йил 23 сентябрь, ЎРҚ-637-сон"
+msgstr ""
+
+#: .\templates\institut\mh-page2.html:31
+msgid ""
+"Iqtisodiyotni rivojlantirish va kambag‘allikni qisqartirishga oid davlat "
+"siyosatini tubdan yangilash chora-tadbirlari to‘g‘risida"
+msgstr ""
+
+#: .\templates\institut\mh-page2.html:32
+msgid "№ PF-5975 26.03.2020"
+msgstr ""
+
+#: .\templates\institut\mh-page4.html:21
+msgid "Me'yoriy-huquqiy hujatlar"
+msgstr ""
+
+#: .\templates\institut\mh-page8.html:22
+msgid "Klasifikatorlar"
+msgstr ""
+
+#: .\templates\qabul\bakalavr\bakalavr-copy.html:4
+#: .\templates\qabul\bakalavr\bakalavr.html:20
+msgid "abiturientga eslatma"
+msgstr ""
+
+#: .\templates\qabul\bakalavr\bakalavr-copy.html:5
+#: .\templates\qabul\bakalavr\bakalavr.html:21
+msgid "Qabul nizomlari"
+msgstr ""
+
+#: .\templates\qabul\bakalavr\bakalavr-copy.html:6
+#: .\templates\qabul\bakalavr\bakalavr.html:22
+msgid "Qabul kvotasi"
+msgstr ""
+
+#: .\templates\qabul\bakalavr\bakalavr-copy.html:7
+#: .\templates\qabul\bakalavr\bakalavr.html:23
+msgid "Hujjatlar to’plami"
+msgstr ""
+
+#: .\templates\qabul\bakalavr\bakalavr-copy.html:8
+#: .\templates\qabul\bakalavr\bakalavr.html:24
+msgid "Fanlar ro’yxati"
+msgstr ""
+
+#: .\templates\qabul\bakalavr\bakalavr-copy.html:9
+#: .\templates\qabul\bakalavr\bakalavr.html:25
+msgid "Qabul komissiyasi"
+msgstr ""
+
+#: .\templates\qabul\xorijiy-talabalar.html:46
+msgid "Hujjat topshirish"
+msgstr ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#: .\venv\Lib\site-packages\django\contrib\messages\apps.py:16
+msgid "Messages"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\staticfiles\apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\syndication\apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: .\venv\Lib\site-packages\django\core\paginator.py:30
+msgid "…"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:32
+msgid "That page number is not an integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:33
+msgid "That page number is less than 1"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:34
+msgid "That page contains no results"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:104
+#: .\venv\Lib\site-packages\django\forms\fields.py:760
+msgid "Enter a valid URL."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:165
+msgid "Enter a valid integer."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:176
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: .\venv\Lib\site-packages\django\core\validators.py:259
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:267
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:279
+#: .\venv\Lib\site-packages\django\core\validators.py:306
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:286
+#: .\venv\Lib\site-packages\django\core\validators.py:307
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:298
+#: .\venv\Lib\site-packages\django\core\validators.py:305
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:341
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:347
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:382
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:391
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:400
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:407
+#, python-format
+msgid ""
+"Ensure this value is a multiple of step size %(limit_value)s, starting from "
+"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:439
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:457
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:480
+#: .\venv\Lib\site-packages\django\forms\fields.py:355
+#: .\venv\Lib\site-packages\django\forms\fields.py:394
+msgid "Enter a number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:482
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:487
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:492
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:563
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:624
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1477
+#: .\venv\Lib\site-packages\django\forms\models.py:906
+msgid "and"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1479
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\constraints.py:20
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:133
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:134
+msgid "This field cannot be null."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:135
+msgid "This field cannot be blank."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:136
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:140
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:179
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1155
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1156
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1158
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1208
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1210
+msgid "String (unlimited)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1314
+msgid "Comma-separated integers"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1415
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1419
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1554
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1423
+msgid "Date (without time)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1550
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1558
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1563
+msgid "Date (with time)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1690
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1692
+msgid "Decimal number"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1853
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1857
+msgid "Duration"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1909
+msgid "Email address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1934
+msgid "File path"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2012
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2014
+msgid "Floating point number"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2054
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2056
+msgid "Integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2152
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2169
+msgid "Small integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2177
+msgid "IPv4 address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2208
+msgid "IP address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2301
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2302
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2304
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2355
+msgid "Positive big integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2370
+msgid "Positive integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2385
+msgid "Positive small integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2401
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2437
+msgid "Text"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2512
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2516
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2520
+msgid "Time"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2628
+msgid "URL"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2652
+msgid "Raw binary data"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2717
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2719
+msgid "Universally unique identifier"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:232
+msgid "File"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:393
+msgid "Image"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\json.py:26
+msgid "A JSON object"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\json.py:28
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:939
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:941
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1235
+msgid "One-to-one relationship"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1292
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1294
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1342
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: .\venv\Lib\site-packages\django\forms\boundfield.py:185
+msgid ":?.!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:95
+msgid "This field is required."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:304
+msgid "Enter a whole number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:475
+#: .\venv\Lib\site-packages\django\forms\fields.py:1252
+msgid "Enter a valid date."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:498
+#: .\venv\Lib\site-packages\django\forms\fields.py:1253
+msgid "Enter a valid time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:525
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:559
+msgid "Enter a valid duration."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:560
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:629
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:630
+msgid "No file was submitted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:631
+msgid "The submitted file is empty."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:633
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:638
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:702
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:874
+#: .\venv\Lib\site-packages\django\forms\fields.py:960
+#: .\venv\Lib\site-packages\django\forms\models.py:1585
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:962
+#: .\venv\Lib\site-packages\django\forms\fields.py:1081
+#: .\venv\Lib\site-packages\django\forms\models.py:1583
+msgid "Enter a list of values."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1082
+msgid "Enter a complete value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1321
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1351
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: .\venv\Lib\site-packages\django\forms\forms.py:94
+msgid ":"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\forms.py:231
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:61
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:65
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:70
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:484
+#: .\venv\Lib\site-packages\django\forms\formsets.py:491
+msgid "Order"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:499
+msgid "Delete"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:899
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:904
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:911
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:920
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1357
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1448
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1587
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\utils.py:227
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:461
+msgid "Clear"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:462
+msgid "Currently"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:463
+msgid "Change"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:800
+msgid "Unknown"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:801
+msgid "Yes"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:802
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:876
+msgid "yes,no,maybe"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:906
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:923
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:925
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:927
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:929
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:931
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:933
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:74
+msgid "p.m."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:75
+msgid "a.m."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:80
+msgid "PM"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:81
+msgid "AM"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:153
+msgid "midnight"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:155
+msgid "noon"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:7
+msgid "Monday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:8
+msgid "Tuesday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:9
+msgid "Wednesday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Thursday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:11
+msgid "Friday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:12
+msgid "Saturday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:13
+msgid "Sunday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:16
+msgid "Mon"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:25
+msgid "January"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:26
+msgid "February"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:27
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:28
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:29
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:30
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:31
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:32
+msgid "August"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:33
+msgid "September"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:34
+msgid "October"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:35
+msgid "November"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:36
+msgid "December"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:39
+msgid "jan"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:40
+msgid "feb"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:41
+msgid "mar"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:42
+msgid "apr"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:43
+msgid "may"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:44
+msgid "jun"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:45
+msgid "jul"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:46
+msgid "aug"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:47
+msgid "sep"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:48
+msgid "oct"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:49
+msgid "nov"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:50
+msgid "dec"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:123
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:323
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: .\venv\Lib\site-packages\django\utils\text.py:342
+#: .\venv\Lib\site-packages\django\utils\timesince.py:135
+msgid ", "
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:29
+msgid "Forbidden"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:30
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:34
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:40
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:45
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" …> for links to third-party sites."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:54
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:60
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:66
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:64
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:115
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:349
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:380
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:652
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:692
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:169
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:49
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:51
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:68
+#: .\venv\Lib\site-packages\django\views\templates\directory_index.html:8
+#: .\venv\Lib\site-packages\django\views\templates\directory_index.html:11
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:7
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:220
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:221
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:229
+msgid "Django Documentation"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:230
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:238
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:239
+msgid "Get started with Django"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:247
+msgid "Django Community"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:248
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: .\venv\Lib\site-packages\modeltranslation\widgets.py:32
+msgid "None"
+msgstr ""

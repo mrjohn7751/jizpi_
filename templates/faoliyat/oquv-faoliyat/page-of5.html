@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>{% blocktrans %}o'quv-Faoliyat{% endblocktrans %}</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3">
+            {% include "faoliyat/ilmiy-faoliyat/__ilmiy-copy.html" %}
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="card-box_right">
+                <h1>o'quv-Faoliyat</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum molestiae dolore incidunt fugit? Ratione, minima aperiam aspernatur doloremque sapiente repellat?</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

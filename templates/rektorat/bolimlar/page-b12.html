@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>Bo'limlar</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            <div class="card-box_left">
+                {% include "rektorat/bolimlar/bolim-copy.html" %}
+            </div>
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="__user_cards mb-3">
+                <div class="left">
+                    <img src="{% static "Photos/iconmen.png" %}">
+                </div>
+                <div class="right">
+                    <p>Xodimlar bo’lim boshlig’i</p>
+                    <p><b>G’aybullayev Bobur Jo’raboy o’gli</b></p>
+                    <p><b>Qabul vaqti:</b> haftaning seshanba, payshanba va juma kunlari soat 14:00 dan 16:00 gacha.</p>
+                    <p><b>Telefon:</b>0 (371) 226-45-47 <b>Faks:</b>  0 (371) 226-45-47</p>
+                    <p><a href=" dgpi-info@edu.uz" class="poshta" ><b> E-mail: </b> dgpi-info@edu.uz</a> </p>
+                </div>
+            </div>
+            <p>
+                Ma’lumki xar bir korxona, muassasa yoki tashkilotni ma’muriyatning asosiy bug’ini hisoblangan kadrlar bo’limisiz va bo’limning ishtirokisiz ish yuritishini tasavvur etib bo’lmaydi, shuning uchun xam institutda kadrlar bo’limi tomonidan nihoyatda ma’suliyatli vazifa ado etib boriladi.
+
+                Respublikamizdagi barcha Oliy o’quv yurtlaridagi kabi Jizzax politexnika institutida ham kadrlar bo’limi tomonidan Kadrlar tayyorlash milliy dasturini amalga oshirish yuzasidan qabul qilingan qonunlarni bajarish, ta’lim-tarbiya, mehnatga xamda ish yuritishga doir Hukumat qarorlari va qonunlarga amal qilgan xolda ish olib boriladi. Bulardan tashqari, kadrlar bo’limi institut rektorining kadrlar masalasiga oid buyruqlarini bajaradi xamda professor-o’qituvchilarning son-salmog’i, saloxiyati, mansablari, ilmiy daraja va unvonlari xaqida mutasaddi tashkilotlarga hisobotlar tayyorlaydi.
+                
+                Xizmatchilar xamda talabalar xaqida ham kerakli hisobotlar va ma’lumotlar tuziladi, to’planadi. Sanab o’tilgan asosiy burch va vazifalardan tashqari, institut kadrlar bo’limi juda ko’p ma’suliyatli joriy ishlarni bajaradi. Jumladan, professor-o’qituvchilar, xizmatchilar va talabalarning o’qish, ish va xizmat faoliyati to’g’risida ularga kerakli ma’lumotlarni beradi. Xuddi shunday ma’lumotlar turli tashkilotlarning so’roviga binoan ham tayyorlanadi. Shuningdek, xuquq tartibot organlarini qiziqtirgan shaxslar xaqida ham kerakli maxsus ma’lumotlar beriladi.
+                
+                Institut kadrlar bo’limi institutdagi kasaba uyushmasi, Texnik ekspluatatsiya va xo’jalik bo’limi va fakultetlar ma’muriyati bilan yaqin hamkorlik qiladi. Kasaba uyushmasi bilan hamkorlikda jamoa shartnomalarini tuzishda, Davlat va mehnat instizomini nazorat qilishda faol qatnashadi. Moliya-xo’jalik bo’limi bilan kelishilgan holda professor-o’qituvchilar, xizmatchilar va talabalarning Davlat tomonidan belgilangan miqdorini nazorat qiladi.
+                
+                Eng ma’suliyatli joriy ishlardan yana biri – bu nafaqaga chiqayotgan xodimlarning va uqishini boshqa oliy uquv yurtlariga ko’chirayotgan xamda uqishini kuchirib kelayotgan talabalarning kerakli xujjatlarini to’plash va ularni rasmiylashtirishdir. Bulardan tashqari, kadrlar bo’limining barcha xodimlari yillar davomida to’plangan barcha xujjatlar va ma’lumotlarni saqlash xamda taxlil qilish ma’suliyati va majburiyatini o’z zimmasiga olgan.
+                
+                Institut kadrlar bo’limiga bir necha yillar davomida E.Egamberdiyev, A.Alimovalar, O.B.Berdiyev, N.J.Porsayeva hamda J.Z.Sayidovlar raxbarlik qilishgan.
+                
+                Xozirgi kunda institut kadrlar bo’limi G’aybullayev Bobur Jo’raboy o’gli boshchiligida kadrlar ishini yanada yaxshilash uchun butun kuch va bilimlarini sarf etib mehnat qilmoqdalar.
+                
+            </p>
+            
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}
+
+
+
+

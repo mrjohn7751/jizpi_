@@ -1,0 +1,295 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>Bakalavr</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            {% include "qabul/bakalavr/bakalavr-copy.html" %}
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="card-box_right">
+                <div align="justify">
+                    <hr>
+                    <h4>Oliy va professional ta’lim muassasalariga qabul bilan bog‘liq eng muhim ma’lumotlar</h4>
+                    <p>✅ 2024-2025-o‘quv yilidan boshlab davlat oliy va professional ta’lim muassasalariga (kasb-hunar maktabi bundan mustasno) qabul qilish bo‘yicha imtihonlar “avval test, so‘ng tanlov” tamoyiliga muvofiq bir vaqtda o‘tkaziladi.
+                        📱 Oliy va professional ta’lim muassasalariga abituriyentlarni ro‘yxatga olish 2024-yil 5-iyundan 25-iyunga qadar (shu kunlari ham) my.uzbmb.uz sayti orqali onlayn tarzda amalga oshiriladi.
+                        ✅ Ro‘yxatdan o‘tishning 1-bosqichida abituriyentlar quyidagilarni tanlaydi:
+                        ➖ fanlar majmuasi (barcha uchun);
+                        ➖ taʼlim tili (barcha uchun);
+                        ➖ test topshirish alifbosi (ta’lim tili sifatida o‘zbek tili tanlansa);
+                        ➖ test topshirish hududi (barcha uchun).
+                        ➖ kasbiy (ijodiy) imtihonni topshiriladigan OTM (alohida iqtidor talab etiladigan yo‘nalish tanlansa).
+                        ❕ Bunda fanlar majmuasini aniqlash uchun tanlangan ta’lim yo‘nalishi abituriyent mazkur ta’lim yo‘nalishiga ro‘yxatdan o‘tganini anglatmaydi (ta’lim yo‘nalishi test sinovlaridan so‘ng tanlanadi). Bu fanlar majmuasini aniqlash uchun abituriyentlarga qulaylik yaratish maqsadida yo‘lga qo‘yilgan.
+                        🏀 Abituriyent alohida iqtidor talab etiladigan ta’lim yo‘nalishini tanlasa, kasbiy (ijodiy) imtihonni topshirish uchun o‘ziga qulay bo‘lgan OTMni tanlashi mumkin (test topshirish hududini tanlagani kabi). Bu abituriyent mazkur OTMga hujjat topshirganini anglatmaydi.
+                        📹 Ro‘yxatdan o‘tish bo‘yicha videoqo‘llanma: https://t.me/BaholashUz/6628
+                        ▶️ Video qo‘llanmani youtube orqali HD formatda ko‘rish: https://youtu.be/IU_udMVbWBo
+                        📆 Oliy va professional ta’lim muassasalariga kirish imtihonlari bir vaqtda iyul-avgust oylarida oʻtkaziladi (imtihonning aniq sanalari Davlat komissiyasi tomonidan belgilanadi).
+                        ✅ Ro‘yxatdan o‘tishning 2-bosqichi test sinovlari toʻliq yakunlanganidan soʻng 15 kun davom etadi va abituriyentlar tomonidan quyidagilar tanlanadi:
+                        ➖ oliy taʼlim muassasasi (test sinovi topshirgan fanlar majmuasiga mos ta’lim yo‘nalishi mavjud OTM);
+                        ➖ bakalavriat taʼlim yoʻnalishi (test sinovi topshirgan fanlar majmuasi va ta’lim tiliga mos yo‘nalish);
+                        ➖ taʼlim shakli (turli ta’lim shakllarini tanlash mumkin);
+                        ➖ tanlov ustuvorligi (“Davlat granti” yoki “Ta’lim yo‘nalishi” ustuvorliklaridan biri).
+                        👨🏻🎓 Abituriyentning test sinovida toʻplagan ballari imtihon oʻtkazilgan kunning ertasiga, mandat natijalari esa ta’lim yo‘nalishlarini tanlash to‘liq yakunlangandan so‘ng bir hafta muddatda my.uzbmb.uz saytida eʼlon qilinadi.
+                        ✅ Kollej va texnikumlarda oʻqish istagini bildirgan abituriyentlar OTMlar uchun mandat natijasi eʼlon qilinganidan soʻng 10 kun muddatda quyidagilarni tanlaydi:
+                        ➖ kollej va (yoki) texnikum;
+                        ➖ kasb va mutaxassislik;
+                        ➖ taʼlim shakli.
+                        📝 Kollej va texnikumlar uchun mandat natijalari bir hafta muddatda my.uzbmb.uz saytida eʼlon qilinadi.
+                        Abituriyentlarga umumta’lim fanlaridan milliy sertifikat bo‘yicha ball berish tartibi
+                        ✅ Vazirlar Mahkamasining “Umumta’lim fanlarini bilish darajasini baholashning milliy test tizimini joriy etish to‘g‘risida” 2020-yil 12-oktabrdagi 646-son qaroriga asosan abituriyentlarga berilgan sertifikatga muvofiq mutaxassislik fanidan maksimal yoki tabaqalashtirilgan (proporsional), majburiy fanlardan esa maksimal ball berilishi belgilangan. Bunda:
+                        ❗️2024-yil 1-martgacha berilgan sertifikatlarga (sertifikatning amal qilish muddati doirasida):
+                        ❇️ Sertifikat bali 86 va undan yuqori ball bo‘lganda abituriyentlarga oliy ta’lim muassasasi bakalavriatiga o‘qishga qabul qilish bo‘yicha test sinovlarida ushbu fandan belgilangan maksimal ball beriladi;
+                        ❇️ Sertifikat bali 60 balldan 86 ballgacha bo‘lganda abituriyentlarga mos ravishda sertifikatdagi umumiy ballga nisbatan foiz asosida oliy ta’lim muassasasi bakalavriatiga o‘qishga qabul qilish bo‘yicha test sinovlarida ushbu fandan belgilangan maksimal ballga nisbatan tabaqalashtirilgan (proporsional) ball beriladi.  
+                        💡Milliy sertifikatga ega bo‘lgan abituriyentga tegishli majburiy fanlar bo‘yicha belgilangan eng yuqori ball beriladi.
+                        ❗️2024-yil 1-martdan keyin berilgan sertifikatlarga (O‘zbekiston Respublikasi Vazirlar Mahkamasining 2024-yil 10-yanvardagi 17-son qaroriga asosan kiritilgan o‘zgartirish va qo‘shimchalarga muvofiq):
+                        ❇️ A+, A darajali sertifikat olgan abituriyentlarga oliy ta’lim muassasasi bakalavriatiga o‘qishga qabul qilish bo‘yicha test sinovlarida ushbu fandan belgilangan maksimal ball beriladi;
+                        ❇️ B+, B, C+, C darajali sertifikat olgan abituriyentlarga mos ravishda sertifikatdagi umumiy ballga nisbatan foiz asosida oliy ta’lim muassasasi bakalavriatiga o‘qishga qabul qilish bo‘yicha test sinovlarida ushbu fandan belgilangan maksimal ballga nisbatan tabaqalashtirilgan (proporsional) ball beriladi.
+                        
+                        Abituriyentlar my.uzbmb.uz sayti orqali onlayn ro'yxatdan o'tishlari mumkin.
+                        Muhim joylari:
+                        ➖ abituriyentlar 5-iyundan 25-iyunga qadar (25-iyun kuni ham) test sinovi topshirish uchun ro‘yxatdan o‘tadi. Bunda abituriyentlar faqat test sinovi topshiriladigan fanlar majmuasi, ta’lim tili va test topshirish hududini tanlaydi xolos;
+                        ➖ agar kirish imtihonlari tarkibida kasbiy (ijodiy) imtihon bo‘lsa, ushbu imtihonni topshiradigan davlat oliy ta’lim muassasasini tanlaydi. Bunda aynan o'zi kirmoqchi bo'lgan OTMda ijodiy imtihon topshirish shart emas. Masalan, kimdir O'zbekiston jurnalistika va ommaviy kommunikatsiya universitetiga kirmoqchi bo'lsa, unda ijodiy imtihonni istalgan hududda, aytaylik Buxoro yoki Andijonda topshirsa ham bo'ladi;
+                        ➖ Test topshirish hududi qismida So'x va Denov tumani ham bor. Ya'ni So'x tumanidagilar Farg'ona shahriga, Denov hamda uning atrofidagi tumanlar Termiz shahriga kelishi shart emas;
+                        ➖ Avvalgi yillarda bitirganlar testga kirish uchun 170 ming so'm miqdorida to'lov qilishi kerak bo'ladi. To'lovni 25-iyungacha bo'lib to'lash ham mumkin, undan kechiksa, testga kiritilmaydi;
+                        ➖ fikri o’zgarib qolgan abituriyent 25-iyungacha qayta ariza topshirsa bo’ladi. 25-iyundan keyin arizani o’zgartirishga ruxsat berilmaydi;
+                         
+                        
+                        Bu yilgi 2024/2025 oʻquv yilida o'qishni ko'chirish talabida bo'lganlar uchun o'qishni ko'chirish imtihonlarida baholash mezonlari quyidagicha bo'ladi
+                        
+                        👉 Barcha test topshiruvchilar uchun majburiy bo‘lgan 3 ta fan bo‘yicha:
+                        
+                        ➖ Ona tili (o‘zbek, rus yoki qoraqalpoq tili) - 10 ta savol.
+                        Har biri uchun 1,1 balldan.
+                        Maksimal ball – 11 ball.
+                        
+                        ➖ Matematika - 10 ta savol.
+                        Har biri uchun 1,1 balldan.
+                        Maksimal ball – 11 ball.
+                        
+                        ➖ O‘zbekiston tarixi - 10 ta savol.
+                        Har biri uchun 1,1 balldan.
+                        Maksimal ball – 11 ball.
+                        
+                        ✅ Jami to‘plash mumkin bo‘lgan ball – 33 ball.
+                        
+                        👉 Bakalavriat ta’lim yo‘nalishiga mos bo‘lgan 2 ta mutaxassislik fan bo‘yicha:
+                        
+                        ➖ 1-fan - 30 ta savol.
+                        Har biri uchun 3,1 balldan.
+                        Maksimal ball – 93 ball.
+                        
+                        ➖ 2-fan - 30 ta savol.
+                        Har biri uchun 2,1 balldan.
+                        Maksimal ball – 63 ball.
+                        
+                        ✅ (https://t.me/OTM_Minbari) Jami to‘plash mumkin bo‘lgan ball – 156 ball.
+                        
+                        📝 Umumiy holda, 2024/2025 oʻquv yilida o'qishni ko'chirish talabida bo'lganlar uchun 5 ta fan boʻyicha jami 90 ta test topshirigʻi beriladi. Bunda toʻplash mumkin boʻlgan maksimal ball – 189 ballni tashkil etadi.
+                        
+                        
+                        </p>
+                    <p>&nbsp;</p>
+                    <p><strong><span style="color: #0000ff;">Oliy ta’lim muassasalariga kirish uchun onlayn ro‘yxatdan o‘tish bo‘yicha videoqo‘llanma</span></strong></p>
+                    <p><a href="http://https://youtu.be/v1bzwnBPaxI" class="fancybox-youtube a-link">Youtube orqali ko‘rish</a></p>
+                    <p>Davlat test markazining rasmiy sahifalari:<br>
+                    <a href="https://t.me/dtmuzb" class="a-link">Telegram </a> <a href="https://www.facebook.com/dtmuzb/" class="a-link">Facebook</a>&nbsp; <a href="https://instagram.com/dtmuzb/" class="a-link">Instagram </a>  <a href="https://www.youtube.com/dtmuzb/" class="a-link">YouTube </a></p>
+                    <hr>
+                    <p><strong><span style="color: #0000ff;">Chet tilidan kasbiy (ijodiy) imtihonlarni o‘tkazish tartibi</span></strong></p>
+                    <p>Chet tilidan kasbiy (ijodiy) imtihonlarni o‘tkazish tartibi</p>
+                    <p><a href="https://youtu.be/HP4q5mW3AmY" class="fancybox-youtube a-link">Youtube orqali ko‘rish </a></p>
+                    <p>Davlat test markazining rasmiy sahifalari:<br>
+                    <a href="https://t.me/dtmuzb" class="a-link">Telegram </a>&nbsp;| <a href="https://www.facebook.com/dtmuzb/" class="a-link">Facebook </a>&nbsp;| <a href="https://instagram.com/dtmuzb/" class="a-link">Instagram </a>&nbsp;| <a href="https://www.youtube.com/dtmuzb/" class="a-link">YouTube </a></p>
+                    <hr>
+                    
+                    <p>Қабул_2024 | РасманАБИТУРИЕНТЛАР ДИҚҚАТИГА!!!</p>
+                    <p>2024/2025 ўқув йили учун қабул квоталари тасдиқланди</p>
+                    <p>Президентнинг «Давлат олий таълим муассасаларига ўқишга қабул қилиш жараёнларини ташкил этиш тўғрисида»ги қарорига мувофиқ “2024/2025 ўқув йилида Ўзбекистон Республикасининг олий таълим муассасаларига ўқишга қабул қилишнинг давлат буюртмаси параметрлари тўғрисида”ги Фармойиши қабул қилинди.</p>
+                    <p>Унга кўра ўқишга қабул қилишнинг давлат буюртмаси параметрлари умумий квотаси 121 395 нафар этиб белгиланди.</p>
+                    <p>👉БАКАЛАВРИАТ – 110 707 нафар:</p>
+                    <p>кундузги таълим шаклига – 77 477 нафар;</p>
+                    <p>сиртқи таълим шаклига – 26 095 нафар нафар;</p>
+                    <p>кечки таълим шаклига – 3 725 нафар;</p>
+                    <p>масофавий таълим шаклига – 3 410 нафар;</p>
+                    <p>👉МАГИСТРАТУРА – 10 688 нафар.</p>
+                    <p>✔️ Шунингдек, молиявий мустақиллик берилган 36 та давлат олий таълим муассасалари тўлов-контракт бўйича яна 50 мингдан ортиқ қабул параметрлари Кузатув кенгашлари қарори билан тасдиқланиши режалаштирилган. Натижада жорий ўқув йилида қабул параметрлари ўтган йилга нисбатан ошади.</p>
+                    <hr>
+                    <p>Қонунчилик_янгиликлари</p>
+                    <p>⚡️»Давлат олий таълим муассасаларига ўқишга қабул қилиш жараёнларини ташкил этиш тўғрисида»ги қарор қабул қилинди.</p>
+                    <p>➡️ Ҳужжатга кўра 2024/2025 ўқув йилидан бошлаб давлат олий таълим муассасаларида:</p>
+                    <p>➖ўқишга қабул қилишнинг давлат буюртмаси параметрлари Президент фармойишига кўра тасдиқланади;</p>
+                    <p>➖бакалавриат йўналишлари бўйича масофавий таълим шакли жорий этилади;</p>
+                    <p>➖магистратурага қабул абитуриентнинг бакалавриат диплом бали ўртача кўрсаткичи ҳамда хорижий тилни билиш даражаси бўйича тегишли миллий ёки халқаро сертификат асосида амалга оширилади, мутахассислик фанидан имтиҳон ўтказилмайди.</p>
+                    <p>Бунда магистратурага қабул бир йилда икки марта – август ва январь ойларида ташкил этилади.</p>
+                    <p>🔖 2023/2024 ўқув йилидан бошлаб давлат олий таълим муассасаларига ўқишга қабул қилишнинг давлат буюртмаси параметрлари фақат давлат гранти бўйича тасдиқланади.</p>
+                    <p>🔰 Талабалар ўқишини давлат олий таълим муассасаларига кўчириш бўйича қуйидаги тартиб жорий этилмоқда:</p>
+                    <p>➡️ Унга кўра, давлат олий таълим муассасалариаро талабалар ўқишини кўчиришга фақатгина қуйидаги ҳолатларда рухсат берилади:</p>
+                    <p>➖ талаба оила қуриши муносабати билан турмуш ўртоғи доимий яшайдиган ҳудуддаги олий таълим муассасасига ўқишини кўчириш учун мурожаат қилганда;</p>
+                    <p>➖ давлат органларининг ходимлари иш жойи ўзгарган тақдирда унинг турмуш ўртоғи ёки вояга етмаган фарзанди ўқишини кўчириш учун мурожаат қилганда, тегишли вазирлик (идора) раҳбарининг тавсияси асосида.</p>
+                    <p>Маълумот ўрнида, хорижий мамлакатлар ҳамда юртимизда фаолият юритаётган хорижий ОТМ филиаллари ва нодавлат олий таълим ташкилотларидан давлат олий таълим муассасаларига ўқишни кўчириш амалдаги тартибга мувофиқ ташкил этилади.</p>
+                    <p>Шунингдек, Олий ва ўрта махсус таълим вазирлигининг ваколатлари кенгаймоқда. Жумладан, ўрта махсус ва профессионал таълим муассасаларига ўқишга қабул қилишнинг давлат буюртмаси параметрлари тегишли вазирлик ва идоралар билан келишилган ҳолда вазирлик томонидан тасдиқланади.</p>
+                    <p>🔗 <a href="http://(https://t.me/eduuz)" class="a-link">Telegram</a>&nbsp; | <a href="http://(https://www.instagram.com/edu.uz/)" class="a-link">Instagram</a>&nbsp; | <a class="a-link" href="http://(https://www.facebook.com/eduuzrasmiy)">Facebook</a>&nbsp; | <a href="http://(http://youtube.com/c/eduuz)" class="a-link">YouTube</a></p>
+                    <hr>
+                    <p>Қабул_2024| #АБИТУРИЕНТЛАР_ДИҚҚАТИГА</p>
+                    <p>⚡️Энди олий таълим муассасаларига қабул 20 июндан бошланади</p>
+                    <p>✅ 2024/2025 ўқув йили учун республика олий таълим муассасаларига абитуриент сифатида рўйхатдан ўтиш жараёнлари 2024 йилнинг 20 июнидан 20 июлига қадар (жорий кун ҳам) бўлиб ўтади. Бунда онлайн рўйхатдан ўтиш:</p>
+                    <p>👉 Ягона интерактив давлат хизматлари портали орқали;</p>
+                    <p>👉 Давлат тест марказининг расмий веб-сайти орқали орқали амалга оширилади.</p>
+                    <p>➡️Чет тили фанидан касбий (ижодий) имтиҳон ўтказиладиган таълим йўналишларига онлайн рўйхатдан ўтиш 10 июлига қадар (10 июль куни ҳам) амалга оширилади.</p>
+                    <p>манбаа: 👉<a href="http://@eduuz" class="a-link">@eduuz</a></p>
+                    <p>⚡️Жорий йил ҳам 5 тагача таълим йўналишини танлаш мумкин</p>
+                    <p>Қарорга кўра абитуриентларга:</p>
+                    <p>➡️ тест синови топшириладиган фанлар мажмуаси ва кетма-кетлиги бир хил бўлган бештагача бакалавриат таълим йўналишларини ҳамда бир вақтнинг ўзида барча таълим шаклларини танлаш ҳуқуқи берилади;</p>
+                    <p>➡️ рўйхатдан ўтиш жараёнида танланган бакалавриат таълим йўналишлари устуворлигига қараб дастлаб давлат гранти, кейинчалик тўлов-контракт асосида танловда иштирок этиш имконияти берилади.</p>
+                    <p>манбаа: 👉<a href="http://@eduuz" class="a-link">@eduuz</a></p>
+                    <hr>
+                    <p>⚡️Энди магистратурага қабул икки марта бўлади</p>
+                    <p>Жорий ўқув йилидан бошлаб давлат олий таълим муассасаларида:</p>
+                    <p>➖магистратурага қабул абитуриентнинг бакалавриат диплом бали ўртача кўрсаткичи ҳамда хорижий тилни билиш даражаси бўйича тегишли миллий ёки халқаро сертификат асосида амалга оширилади, мутахассислик фанидан имтиҳон ўтказилмайди.</p>
+                    <p>Бунда магистратурага қабул бир йилда икки марта – август ва январь ойларида ташкил этилади.</p>
+                    <p>манбаа: 👉<a href="http://@eduuz" class="a-link">@eduuz</a></p>
+                    <p>Қўшимча тўлдириш</p>
+                    <p>Магистратурага қабул икки марта амалга оширилганда:</p>
+                    <p>🗓 август ойидаги қабул – навбатдаги ўқув йили учун тасдиқланган давлат гранти ва тўлов-контракт асосидаги квоталар учун;</p>
+                    <p>🗓 январь ойидаги қабул – ёзда тўлмай қолган ўринлар ҳамда Давлат қабул комиссияси тасдиқланган контракт асосидаги қўшимча квоталар учун бўлади.</p>
+                    <p>манбаа: 👉<a href="http://@eduuz" class="a-link">@eduuz</a></p>
+                    <hr>
+                    <p>Қабул_2024 | Расман</p>
+                    <p>АБИТУРИЕНТЛАР ДИҚҚАТИГА!!!</p>
+                    <p>2024/2025 ўқув йили учун қабул квоталари тасдиқланди</p>
+                    <p>Президентнинг «Давлат олий таълим муассасаларига ўқишга қабул қилиш жараёнларини ташкил этиш тўғрисида»ги қарорига мувофиқ “2024/2025 ўқув йилида Ўзбекистон Республикасининг олий таълим муассасаларига ўқишга қабул қилишнинг давлат буюртмаси параметрлари тўғрисида”ги Фармойиши қабул қилинди.</p>
+                    <p>Унга кўра ўқишга қабул қилишнинг давлат буюртмаси параметрлари умумий квотаси 121 395 нафар этиб белгиланди.</p>
+                    <p>👉БАКАЛАВРИАТ – 110 707 нафар:</p>
+                    <p>кундузги таълим шаклига – 77 477 нафар;</p>
+                    <p>сиртқи таълим шаклига – 26 095 нафар нафар;</p>
+                    <p>кечки таълим шаклига – 3 725 нафар;</p>
+                    <p>масофавий таълим шаклига – 3 410 нафар;</p>
+                    <p>👉МАГИСТРАТУРА – 10 688 нафар.</p>
+                    <p>✔️ Шунингдек, молиявий мустақиллик берилган 36 та давлат олий таълим муассасалари тўлов-контракт бўйича яна 50 мингдан ортиқ қабул параметрлари Кузатув кенгашлари қарори билан тасдиқланиши режалаштирилган. Натижада жорий ўқув йилида қабул параметрлари ўтган йилга нисбатан ошади.</p>
+                    <hr>
+                    <p>⚡️»Давлат олий таълим муассасаларига ўқишга қабул қилиш жараёнларини ташкил этиш тўғрисида»ги қарор қабул қилинди.</p>
+                    <p>➡️ Ҳужжатга кўра 2024/2025 ўқув йилидан бошлаб давлат олий таълим муассасаларида:</p>
+                    <p>➖ўқишга қабул қилишнинг давлат буюртмаси параметрлари Президент фармойишига кўра тасдиқланади;</p>
+                    <p>➖бакалавриат йўналишлари бўйича масофавий таълим шакли жорий этилади;</p>
+                    <p>➖магистратурага қабул абитуриентнинг бакалавриат диплом бали ўртача кўрсаткичи ҳамда хорижий тилни билиш даражаси бўйича тегишли миллий ёки халқаро сертификат асосида амалга оширилади, мутахассислик фанидан имтиҳон ўтказилмайди.</p>
+                    <p>Бунда магистратурага қабул бир йилда икки марта – август ва январь ойларида ташкил этилади.</p>
+                    <p>🔖 2023/2024 ўқув йилидан бошлаб давлат олий таълим муассасаларига ўқишга қабул қилишнинг давлат буюртмаси параметрлари фақат давлат гранти бўйича тасдиқланади.</p>
+                    <p>🔰 Талабалар ўқишини давлат олий таълим муассасаларига кўчириш бўйича қуйидаги тартиб жорий этилмоқда:</p>
+                    <p>➡️ Унга кўра, давлат олий таълим муассасалариаро талабалар ўқишини кўчиришга фақатгина қуйидаги ҳолатларда рухсат берилади:</p>
+                    <p>➖ талаба оила қуриши муносабати билан турмуш ўртоғи доимий яшайдиган ҳудуддаги олий таълим муассасасига ўқишини кўчириш учун мурожаат қилганда;</p>
+                    <p>➖ давлат органларининг ходимлари иш жойи ўзгарган тақдирда унинг турмуш ўртоғи ёки вояга етмаган фарзанди ўқишини кўчириш учун мурожаат қилганда, тегишли вазирлик (идора) раҳбарининг тавсияси асосида.</p>
+                    <p>Маълумот ўрнида, хорижий мамлакатлар ҳамда юртимизда фаолият юритаётган хорижий ОТМ филиаллари ва нодавлат олий таълим ташкилотларидан давлат олий таълим муассасаларига ўқишни кўчириш амалдаги тартибга мувофиқ ташкил этилади.</p>
+                    <p>Шунингдек, Олий ва ўрта махсус таълим вазирлигининг ваколатлари кенгаймоқда. Жумладан, ўрта махсус ва профессионал таълим муассасаларига ўқишга қабул қилишнинг давлат буюртмаси параметрлари тегишли вазирлик ва идоралар билан келишилган ҳолда вазирлик томонидан тасдиқланади.</p>
+                    <hr>
+                    <p>⚡️Энди олий таълим муассасаларига қабул 20 июндан бошланади</p>
+                    <p>✅ 2024/2025 ўқув йили учун республика олий таълим муассасаларига абитуриент сифатида рўйхатдан ўтиш жараёнлари 2024 йилнинг 20 июнидан 20 июлига қадар (жорий кун ҳам) бўлиб ўтади. Бунда онлайн рўйхатдан ўтиш:</p>
+                    <p>👉 Ягона интерактив давлат хизматлари портали орқали;</p>
+                    <p>👉 Давлат тест марказининг расмий веб-сайти орқали орқали амалга оширилади.</p>
+                    <p>➡️Чет тили фанидан касбий (ижодий) имтиҳон ўтказиладиган таълим йўналишларига онлайн рўйхатдан ўтиш 10 июлига қадар (10 июль куни ҳам) амалга оширилади.</p>
+                    <p>⚡️Жорий йил ҳам 5 тагача таълим йўналишини танлаш мумкин</p>
+                    <p>Қарорга кўра абитуриентларга:</p>
+                    <p>➡️ тест синови топшириладиган фанлар мажмуаси ва кетма-кетлиги бир хил бўлган бештагача бакалавриат таълим йўналишларини ҳамда бир вақтнинг ўзида барча таълим шаклларини танлаш ҳуқуқи берилади;</p>
+                    <p>➡️ рўйхатдан ўтиш жараёнида танланган бакалавриат таълим йўналишлари устуворлигига қараб дастлаб давлат гранти, кейинчалик тўлов-контракт асосида танловда иштирок этиш имконияти берилади.</p>
+                    <hr>
+                    <p>⚡️Энди магистратурага қабул икки марта бўлади</p>
+                    <p>Жорий ўқув йилидан бошлаб давлат олий таълим муассасаларида:</p>
+                    <p>➖магистратурага қабул абитуриентнинг бакалавриат диплом бали ўртача кўрсаткичи ҳамда хорижий тилни билиш даражаси бўйича тегишли миллий ёки халқаро сертификат асосида амалга оширилади, мутахассислик фанидан имтиҳон ўтказилмайди.</p>
+                    <p>Бунда магистратурага қабул бир йилда икки марта – август ва январь ойларида ташкил этилади.</p>
+                    <p>Қўшимча тўлдириш</p>
+                    <p>Магистратурага қабул икки марта амалга оширилганда:</p>
+                    <p>🗓 август ойидаги қабул – навбатдаги ўқув йили учун тасдиқланган давлат гранти ва тўлов-контракт асосидаги квоталар учун;</p>
+                    <p>🗓 январь ойидаги қабул – ёзда тўлмай қолган ўринлар ҳамда Давлат қабул комиссияси тасдиқланган контракт асосидаги қўшимча квоталар учун бўлади.</p>
+                    <p>манбаа: 👉<a href="http://@eduuz" class="a-link">@eduuz</a></p>
+                    <div class="box">
+                    <p>&nbsp;</p>
+                    <hr>
+                    <h3>Abituriyentlarga eslatma</h3>
+                    <p>Abituriyent qabul komissiyasiga tegishli hujjatlarni topshirishi, topshirgan hujjatlariga mos ma’lumotlar abiturientlar bazasiga to‘g‘ri kiritilganini tasdiqlashi lozim. Qabul jarayoni tugagandan so‘ng abiturientning murojaatlari (shikoyatlari) inobatga olinmaydi.</p>
+                    <p>Abituriyent ruxsatnomasida ko‘rsatilgan sana va vaqtda test sinovlarida ishtirok etadi. Test sinovlari jarayonida abiturient quyidagi huquqlarga ega:</p>
+                    <ul>
+                    <li style="list-style-type: none;">
+                    <ul class="notice-to-applicant">
+                    <li>savollar kitobchasidan qoralama sifatida foydalanish;</li>
+                    <li>test topshiriqlarini belgilangan muddatdan oldin bajarish, undan so‘ng test materiallarini tartib bilan guruh nazoratchisiga topshirish hamda test sinovlari o‘tkaziladigan hududdan chiqib ketish.</li>
+                    </ul>
+                    </li>
+                    </ul>
+                    <p>Abituriyent test sinovlari o‘tkaziladigan kuni binoga tegishli hududga soat 07:00 (ikkinchi smena soat 13:00) gacha, binoga soat 07:30 (ikkinchi smena soat 13:30) gacha faqat abiturient ruxsatnomasi va pasport bilan shaxsni identifikatsiyalash vositalari hamda videofiksatsiya qurilmalari orqali tartibli ravishda kirishi, test sinovlarini o‘tkazish qoidalariga qat’iy amal qilishi bilan birgalikda, birinchi smenada soat 07:30 dan 08:00 gacha, ikkinchi smenada soat 14:30 dan 15:00 gacha quyidagi ishlarni amalga oshirishga majbur:</p>
+                    <ul>
+                    <li style="list-style-type: none;">
+                    <ul class="notice-to-applicant">
+                    <li>test topshiriqlari kitobi va unga mos raqamli javoblar varaqasi raqamlari mosligini tekshirish;</li>
+                    <li>test materiallari nuqsonsizligini tekshirish va nuqson borligi aniqlansa, darhol guruh nazoratchisiga xabar berish;</li>
+                    <li>javoblar varaqasi to‘g‘ri to‘ldirilishini ta’minlash;</li>
+                    <li>test topshiriqlari kitobi muqovasida va javoblar varaqasida ko‘rsatilgan tegishli joyga familiyasi, ismi, otasining ismini yozib, imzo qo‘yish;</li>
+                    <li>javoblar varaqasi raqamini abiturient ruxsatnomasi va titul varaqasining tegishli joyiga to‘g‘ri ko‘chirib imzo qo‘yish;</li>
+                    <li>titul varaqasida ko‘rsatilgan maxsus kod va ta’lim muassasasi kodini javoblar varaqasida ko‘rsatilgan joyga to‘g‘ri ko‘chirib yozish va tegishli doirachalarni bo‘yash.</li>
+                    </ul>
+                    </li>
+                    </ul>
+                    <p>Abituriyent yuqorida ko‘rsatilgan majburiyatlaridan tashqari quyidagilarga shaxsan javobgar hisoblanadi:</p>
+                    <ul>
+                    <li style="list-style-type: none;">
+                    <ul class="notice-to-applicant">
+                    <li>javoblar varaqasini havo rang pastali sharikli ruchka bilan to‘ldirish;</li>
+                    <li>javoblar varaqasini bukmaslik, marker chizig‘iga yozmaslik, javoblar varaqasi raqami ostida joylashgan doirachalarni bo‘yamaslik;</li>
+                    <li>javoblar varaqasi bilim darajasini belgilovchi asosiy hujjat bo‘lganligi uchun uni to‘g‘ri to‘ldirish;</li>
+                    <li>belgilangan vaqt tugaguniga qadar test topshiriqlari kitobida mavjud test topshiriqlarini bajargan holda javoblar varaqasining mos tartib raqamidagi tegishli doirachalarini bo‘yab, test topshiriqlari kitobini va unga mos bo‘lgan javoblar varaqasini guruh nazoratchisiga topshirish.</li>
+                    </ul>
+                    </li>
+                    </ul>
+                    <p>Test topshiriqlari umumiy o‘rta va o‘rta maxsus, kasb-hunar ta’limining umumta’lim fanlari o‘quv dasturlariga muvofiq tuziladi.</p>
+                    <p>Abituriyentlar tanlagan ta’lim yo‘nalishiga qarab tegishli ravishda bir, ikki yoki uchta fan majmuasi bo‘yicha test sinovini topshiradi.</p>
+                    <p>Test topshiriqlari kitobidagi mavjud har bir fan 30 tadan test topshirig‘ini o‘z ichiga oladi.</p>
+                    <p>Test topshiriqlarini bajarish uchun (javoblar varaqasini to‘ldirish bilan birga) 30 ta test topshirig‘iga 1 soat, 60 ta test topshirig‘iga 2 soat, 90 ta test topshirig‘iga 3 soat vaqt belgilanadi.</p>
+                    <p>Har bir test topshirig‘iga 4 tadan («A», «V», «S», «D») muqobil javoblar beriladi.</p>
+                    <p>Abituriyent tomonidan har bir test topshirig‘iga faqat bitta javob belgilanishi shart bo‘lib, test topshiriqlari kitobida to‘g‘ri deb hisoblangan javoblarni javoblar varaqasidagi mos tartib raqamli doirachadan bittasini bo‘yaydi (javoblar varaqasida bo‘yalgan javoblarni o‘zgartirish mumkin emas). Agar javoblar varaqasidagi «belgilash uchun namuna» qoidasiga rioya etilmasa, jumladan bitta test topshirig‘iga javoblar varaqasida tegishli doiracha bo‘yalmasa yoki ikki va undan ortiq doiracha bo‘yalsa yoxud to‘liq bo‘yalmasa ushbu test topshirig‘iga ball berilmaydi.</p>
+                    <p>Abituriyentning test sinovlarini topshirish vaqtida guruhdan chiqishi taqiqlanadi, chiqqan abiturientlar qaytadan test sinovlariga qo‘yilmaydi. Sog‘lig‘iga salbiy ta’sir etuvchi holatlarda test materiallarisiz kuzatuv ostida guruhdan chiqish hollari bundan mustasno.</p>
+                    <p>Quyidagi hollarda abiturient test sinovlari jarayonidan chetlashtiriladi va natijalari chiqarilmasligiga asos bo‘ladi:</p>
+                    <ul>
+                    <li style="list-style-type: none;">
+                    <ul class="notice-to-applicant">
+                    <li>test sinovlari o‘tkaziladigan hududga yoki binoga kirishda mikrokalьkulyator, lug‘at, jadval, kitob, uyali telefon, kompьyuter, telekommunikatsiya qurilmalari va boshqa vositalar, shpargalkalar olib kirishga harakat qilsa, olib kirgan bo‘lsa yoki ulardan test sinovlari davomida foydalansa;</li>
+                    <li>test materiallarini boshqa abiturientga uzatsa yoki ularga yordam bersa;</li>
+                    <li>test materiallarini binodan tashqariga chiqarsa, test topshiriqlari kitobi varag‘ini yirtsa, test sinovlari uchun ajratilgan vaqt tugaganda test materiallarini topshirishdan bosh tortsa;</li>
+                    <li>test sinovlari jarayonida videokuzatuvlar orqali abiturientning tartib va qoidalarga amal qilmaganligi aniqlansa.</li>
+                    </ul>
+                    </li>
+                    </ul>
+                    <hr>
+                    <p style="text-align: center;"><span style="color: #0000ff;"><strong>Sinov topshiriqlarining namunalari va ularni hal qilish bo’yicha tavsiyalar</strong></span></p>
+                    <p>MTMning rasmiy sayti «Foydali ma’lumotlar» bo’limida barcha umumiy fanlar bo’yicha o’nta standartlashtirilgan test topshiriqlari va ularning ayrimlarini hal qilish bo’yicha tavsiyalar mavjud.</p>
+                    <hr>
+                    <p>&nbsp;</p>
+                    <p style="text-align: center;"><span style="color: #0000ff;"><strong>Abituriyentlar uchun darsliklar haqida</strong></span></p>
+                    <p>2019-2020 o’quv yilida foydalanish uchun tavsiya etilgan umumta’lim maktablari, akademik litseylar va kasb-hunar kollejlari uchun darsliklarning elektron shakli (2 yillik o’quv kursi bilan) Xalq ta’limi vazirligining <a href="http://eduportal.uz/Eduportal/Barchasi/33" class="a-link">axborot-ta’lim portalidan yuklab olinishi mumkin</a>. Mustaqil o’qish uchun taniqli asarlarni <a href="http://www.aim.uz" class="a-link">www.aim.uz</a> saytidan yuklab olish mumkin</p>
+                    <p>&nbsp;</p>
+                    <hr>
+                    <p style="text-align: center;"><span style="color: #0000ff;"><strong>Abituriyentlar uchun qo’shimcha yangiliklar</strong></span></p>
+                    <p>O’zbekiston Respublikasi Vazirlar Mahkamasining 2018 yil 10 yanvardagi 21-sonli «O’zbekiston Respublikasida o’lchov birliklarini qo’llash to’g’risida» gi qarori tasdiqlandi.</p>
+                    <p>Ushbu qoidaga muvofiq respublikamizda o’quv, uslubiy va qo’shimcha ma’lumotnomalarda Xalqaro birliklar tizimi (SI) bo’yicha o’lchov birliklarining nomlari va belgilaridan foydalanishga ruxsat beriladi.</p>
+                    <p>Ushbu qarorni bajarish maqsadida, joriy yilda oliy o’quv yurtlari bakalavriga qabul qilish uchun test topshiriqlari bazasini shakllantirish jarayonida biz qarorga binoan o’lchov birliklaridan foydalanish to’g’risida hisobot beramiz.</p>
+                    <p>Masalan: yangi talablarga muvofiq o’lchov birligi santimetr (sm) lotin harflarida sm sifatida belgilanadi.</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <hr>
+                    <p>&nbsp;</p>
+                    </div>
+                    </div>
+
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}
