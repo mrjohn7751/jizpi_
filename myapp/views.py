@@ -1,14 +1,27 @@
-from django.shortcuts import redirect, render,get_object_or_404
+from django.shortcuts import redirect, render, get_object_or_404
 from django.contrib.auth import authenticate, login, logout
-from django.core.paginator import Paginator
-import os
-from django.views import generic, View
-from urllib import request
-from .forms import ArticleElonForm, ArticleNewsForm, Qabul24Form
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.core.paginator import Paginator
+from django.views import View
+from .forms import ArticleElonForm, ArticleNewsForm, Qabul24Form
 from .models import *
+from django.conf import settings
+from django.utils import translation
 
 # Create your views here.
+
+
+def set_language(request):
+    user_language = request.GET.get('language', 'uz')
+    if user_language not in dict(settings.LANGUAGES):
+        user_language = 'uz'
+    translation.activate(user_language)
+    response = redirect('/')
+    response.set_cookie(settings.LANGUAGE_COOKIE_NAME, user_language)
+    return response
+
+
+
 
 
 def q2024(request):
@@ -40,11 +53,6 @@ def q2024Success(request, pk):
     file5_url = instance.file5.url if instance.file5 else None
     q2024 = ArticleQabul2024.objects.all()
     return render(request, 'qabul2024/q2024-success.html', {'q2024': q2024, 'instance': instance, 'file5_url': file5_url})
-
-
-
-# def q2024Success(request):
-#     return render(request, 'qabul2024/q2024-success.html')
 
 
 

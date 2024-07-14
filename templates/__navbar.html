@@ -18,7 +18,7 @@
             <div class="cont-inf-right">
                 
 
-                <form id="languageForm" method="post" action="{% url 'set_language' %}" style="margin-left: -150px; margin-top: 3px !important;">
+                {% comment %} <form id="languageForm" method="post" action="{% url 'set_language' %}" style="margin-left: -150px; margin-top: 3px !important;">
                     {% csrf_token %}
                     <input name="next" type="hidden" value="{{ request.path }}">
                     <ul class="language-list">
@@ -39,9 +39,13 @@
                         document.getElementById('languageInput').value = languageCode;
                         document.getElementById('languageForm').submit();
                     }
-                </script>
+                </script> {% endcomment %}
                 
-
+                <ul style="display:flex;list-style:none; ;cursor: pointer;{% if language.code == LANGUAGE_CODE %} font-weight: bold;{% endif %}">
+                    <li><a href="{% url 'set_language' %}?language=uz">Uz &nbsp;</a></li>
+                    <li><a href="{% url 'set_language' %}?language=ru">Рус &nbsp;</a></li>
+                    <li><a href="{% url 'set_language' %}?language=en">Eng &nbsp;</a></li>
+                </ul>
 
             </div>
         </div>

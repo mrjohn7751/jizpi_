@@ -1,9 +1,14 @@
-import os
+from django.utils.translation import gettext_lazy as _
 from pathlib import Path
+import os
+
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-9z*e5&no661t*(feivwdctbs89*bkjla--!)yl@f@=0-lq85%+'
+
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = 'django-insecure-zqg*j(ujh*7hloqm2k6u+!eeu-9)7vbmfs)jpwhu-*!#s9gpa2'
 
 DEBUG = True
 
@@ -13,27 +18,27 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'jazzmin',
     'django.contrib.admin',
+    'modeltranslation',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'modeltranslation',
-    'myapp.apps.MyappConfig',
+    'myapp',
 ]
-
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    "django.contrib.sessions.middleware.SessionMiddleware",
+    "django.middleware.locale.LocaleMiddleware",
+    "django.middleware.common.CommonMiddleware",
 ]
 
 ROOT_URLCONF = 'core.urls'
@@ -41,7 +46,7 @@ ROOT_URLCONF = 'core.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR.joinpath('templates')],
+        'DIRS': [os.path.join(BASE_DIR,'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -68,6 +73,9 @@ DATABASES = {
 }
 
 
+# Password validation
+# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
+
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
@@ -84,38 +92,37 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
+# Internationalization
+# https://docs.djangoproject.com/en/5.0/topics/i18n/
+
 
 LANGUAGE_CODE = 'uz'
-TIME_ZONE = 'Asia/Tashkent'
-
-
-from django.utils.translation import gettext_lazy as _
-
 MODELTRANSLATION_DEFAULT_LANGUAGE = 'uz'
+
+TIME_ZONE = 'Asia/Tashkent'
 
 USE_I18N = True
 USE_TZ = True
 
+
 LANGUAGES = [
-    ('uz', 'Oʻzbekcha'),
-    ('en', 'English'),
-    ('ru', 'Russian'),
-
+    ("uz", _("Uzbek")),
+    ("en", _("English")),
+    ("ru", _("Russian")),
 ]
 
-# Tarjima fayllarini qayerda saqlash kerakligini belgilang
+
 LOCALE_PATHS = [
-    os.path.join(BASE_DIR, 'locale'),
+    BASE_DIR / 'locale',
 ]
 
-STATIC_URL = 'static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATICFILES_DIRS = [BASE_DIR / 'static',]
 
 MEDIA_URL = 'media/'
-MEDIA_ROOT = BASE_DIR / 'media/'
-
-STATICFILES_DIRS = (os.path.join(BASE_DIR,'staticfiles')),
-
+MEDIA_ROOT = BASE_DIR / 'media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 

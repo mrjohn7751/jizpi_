@@ -3,6 +3,10 @@ from .views import *
 
 urlpatterns = [
     path('',index, name='index'),
+    
+    path('set_language/', set_language, name='set_language'),
+    
+    
     path('qabul-hujjat-topshirish',q2024, name='q2024'),
     path('qabul-hujjat-topshirish/natija/<int:pk>/',q2024info, name='q2024info'),
     path('qabul-hujjat-topshirish/<int:pk>/success/', q2024Success, name='q2024Success'),
