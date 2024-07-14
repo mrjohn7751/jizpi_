@@ -6,7 +6,7 @@ class ArticleElonForm(forms.ModelForm):
         model = ArticleElon
         fields = [
             'title', 'title_en', 'title_ru', 
-            'body', 'body_en', 'body_ru', 
+            'body', 'body_en', 'body_ru','created_at', 
             'img', 'img1', 'img2', 'img3'
         ]
         widgets = {
@@ -16,6 +16,7 @@ class ArticleElonForm(forms.ModelForm):
             'body': forms.Textarea(attrs={'class': 'form-control', 'rows': 4}),
             'body_en': forms.Textarea(attrs={'class': 'form-control', 'rows': 4}),
             'body_ru': forms.Textarea(attrs={'class': 'form-control', 'rows': 4}),
+            'created_at': forms.TextInput(attrs={'class': 'form-control'}),
             'img': forms.ClearableFileInput(attrs={'class': 'form-control'}),
             'img1': forms.ClearableFileInput(attrs={'class': 'form-control'}),
             'img2': forms.ClearableFileInput(attrs={'class': 'form-control'}),
@@ -27,7 +28,7 @@ class ArticleNewsForm(forms.ModelForm):
         model = ArticleNews
         fields = [
             'title', 'title_en', 'title_ru', 
-            'body', 'body_en', 'body_ru', 
+            'body', 'body_en', 'body_ru','created_at', 
             'img', 'img1', 'img2', 'img3'
         ]
         widgets = {
@@ -37,6 +38,7 @@ class ArticleNewsForm(forms.ModelForm):
             'body': forms.Textarea(attrs={'class': 'form-control', 'rows': 4}),
             'body_en': forms.Textarea(attrs={'class': 'form-control', 'rows': 4}),
             'body_ru': forms.Textarea(attrs={'class': 'form-control', 'rows': 4}),
+            'created_at': forms.TextInput(attrs={'class': 'form-control'}),
             'img': forms.ClearableFileInput(attrs={'class': 'form-control'}),
             'img1': forms.ClearableFileInput(attrs={'class': 'form-control'}),
             'img2': forms.ClearableFileInput(attrs={'class': 'form-control'}),

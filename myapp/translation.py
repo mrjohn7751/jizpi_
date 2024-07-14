@@ -1,13 +1,10 @@
 from modeltranslation.translator import register, TranslationOptions
-from .models import ArticleElon,ArticleNews
+from .models import ArticleElon, ArticleNews
 
 @register(ArticleNews)
-class newsTranslationOptions(TranslationOptions):
-    fields = ('title','body')
-    
-    
+class ArticleNewsTranslationOptions(TranslationOptions):
+    fields = ('title', 'body')
+
 @register(ArticleElon)
-class newsTranslationOptions(TranslationOptions):
-    fields = ('title','body')
-    
-    
+class ArticleElonTranslationOptions(TranslationOptions):
+    fields = ('title', 'body')
