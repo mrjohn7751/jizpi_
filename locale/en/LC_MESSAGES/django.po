@@ -9,14 +9,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-15 03:01+0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2024-07-21 00:41+0500\n"
+"Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
 
 #: .\core\settings.py:109
 msgid "Uzbek"
@@ -30,710 +31,720 @@ msgstr ""
 msgid "Russian"
 msgstr ""
 
-#: .\templates\__footer.html:9
+#: templates/__footer.html:9
 msgid "JIZZAX POLITEXNIKA "
-msgstr ""
+msgstr "Jizzakh Polytechnic Institute"
 
-#: .\templates\__footer.html:9
+#: templates/__footer.html:9
 msgid "instituti"
-msgstr ""
+msgstr "institute"
 
-#: .\templates\__footer.html:19
+#: templates/__footer.html:19
 msgid "Manzil"
-msgstr ""
+msgstr "Address"
 
-#: .\templates\__footer.html:21
+#: templates/__footer.html:21
 msgid "130100 Jizzax shaxri"
-msgstr ""
+msgstr "Jizzakh city, 130100"
 
-#: .\templates\__footer.html:21
+#: templates/__footer.html:21
 msgid "Islom Karimov shox ko’chasi 4 uy"
-msgstr ""
+msgstr "Islom Karimov Avenue, Building 4"
 
-#: .\templates\__footer.html:27
+#: templates/__footer.html:27
 msgid "Bog'lanish"
-msgstr ""
+msgstr "Contacts"
 
-#: .\templates\__footer.html:28
+#: templates/__footer.html:28
 msgid "Telefon"
-msgstr ""
+msgstr "Phone"
 
-#: .\templates\__footer.html:29
+#: templates/__footer.html:29
 msgid "Ishonch telefoni"
-msgstr ""
+msgstr "Hotline"
 
-#: .\templates\__footer.html:30
+#: templates/__footer.html:30
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
-#: .\templates\__footer.html:32
+#: templates/__footer.html:32
 msgid "Ijtimoiy sahifalar"
-msgstr ""
+msgstr "Social Networks"
 
-#: .\templates\__navbar.html:15
+#: templates/__navbar.html:15
 msgid "Tizimga kirish"
-msgstr ""
+msgstr "Login"
 
-#: .\templates\__navbar.html:62
+#: templates/__navbar.html:62
 msgid "JIZZAX"
-msgstr ""
+msgstr "JIZZAKH"
 
-#: .\templates\__navbar.html:63
+#: templates/__navbar.html:63
 msgid "POLITEXNIKA"
-msgstr ""
+msgstr "POLYTECHNIC"
 
-#: .\templates\__navbar.html:64
+#: templates/__navbar.html:64
 msgid "INSTITUTI"
-msgstr ""
+msgstr "INSTITUTE"
 
-#: .\templates\__navbar.html:73 .\templates\__navbar.html:75
+#: templates/__navbar.html:73 templates/__navbar.html:75
 msgid "Yangiliklar"
-msgstr ""
+msgstr "News"
 
-#: .\templates\__navbar.html:76
+#: templates/__navbar.html:76
 msgid "Elonlar"
-msgstr ""
+msgstr "Announcements"
 
-#: .\templates\__navbar.html:81 .\templates\__navbar.html:83
+#: templates/__navbar.html:81 templates/__navbar.html:83
 msgid "Institut"
-msgstr ""
+msgstr "Institute"
 
-#: .\templates\__navbar.html:84
+#: templates/__navbar.html:84
 msgid "Kengashlar"
-msgstr ""
+msgstr "Councils"
 
-#: .\templates\__navbar.html:85
+#: templates/__navbar.html:85
 msgid "Meyoriy Hujjatlar"
-msgstr ""
+msgstr "Legal Documents"
 
-#: .\templates\__navbar.html:90
+#: templates/__navbar.html:90
 msgid "Tuzilma"
-msgstr ""
+msgstr "Structure"
 
-#: .\templates\__navbar.html:92
+#: templates/__navbar.html:92
 msgid "Rektorat"
-msgstr ""
+msgstr "Rectorate"
 
-#: .\templates\__navbar.html:93
+#: templates/__navbar.html:93
 msgid "Bo'limlar"
-msgstr ""
+msgstr "Departments"
 
-#: .\templates\__navbar.html:94
+#: templates/__navbar.html:94
 msgid "Markazlar"
-msgstr ""
+msgstr "Centers"
 
-#: .\templates\__navbar.html:95 .\templates\index.html:168
+#: templates/__navbar.html:95 templates/index.html:168
 msgid "Fakultetlar"
-msgstr ""
+msgstr "Faculties"
 
-#: .\templates\__navbar.html:96
+#: templates/__navbar.html:96
 msgid "Kafedralar"
-msgstr ""
+msgstr "Departments"
 
-#: .\templates\__navbar.html:101
+#: templates/__navbar.html:101
 msgid "Faoliyat"
-msgstr ""
+msgstr "Activities"
 
-#: .\templates\__navbar.html:103
+#: templates/__navbar.html:103
 msgid "Ilmiy Faoliyat"
-msgstr ""
+msgstr "Scientific Activities"
 
-#: .\templates\__navbar.html:104 .\templates\index.html:237
+#: templates/__navbar.html:104 templates/index.html:237
 msgid "O'quv Faoliyat"
-msgstr ""
+msgstr "Educational Activities"
 
-#: .\templates\__navbar.html:105
-#: .\templates\faoliyat\xalqaro-faoliyat\page-xf1.html:9
-#: .\templates\faoliyat\xalqaro-faoliyat\page-xf2.html:10
-#: .\templates\faoliyat\xalqaro-faoliyat\page-xf3.html:10
-#: .\templates\faoliyat\xalqaro-faoliyat\page-xf4.html:9
-#: .\templates\faoliyat\xalqaro-faoliyat\page-xf5.html:10
-#: .\templates\faoliyat\xalqaro-faoliyat\page-xf6.html:10
+#: templates/__navbar.html:105
 msgid "Xalqaro Faoliyat"
-msgstr ""
+msgstr "International Activities"
 
-#: .\templates\__navbar.html:106
-#: .\templates\faoliyat\moliyaviy-faoliyat\moliyaviy.html:10
-#: .\templates\faoliyat\moliyaviy-faoliyat\page-mf7.html:10
+#: templates/__navbar.html:106
 msgid "Moliyaviy Faoliyat"
-msgstr ""
+msgstr "Financial Activities"
 
-#: .\templates\__navbar.html:121 .\templates\index.html:19
+#: templates/__navbar.html:121 templates/index.html:19
 msgid "Qabul-2024"
-msgstr ""
+msgstr "Admissions 2024"
 
-#: .\templates\__navbar.html:123
+#: templates/__navbar.html:123
 msgid "CALL-CENTER"
-msgstr ""
+msgstr "CALL-CENTER"
 
-#: .\templates\__navbar.html:124 .\templates\__navbar.html:138
-#: .\templates\qabul\bakalavr\bakalavr.html:9
-#: .\templates\qabul\bakalavr\page-3.html:9
+#: templates/__navbar.html:124 templates/__navbar.html:138
+#: templates/qabul/bakalavr/bakalavr.html:9
+#: templates/qabul/bakalavr/page-3.html:9
 msgid "Bakalavr"
-msgstr ""
+msgstr "Bachelor's"
 
-#: .\templates\__navbar.html:125 .\templates\__navbar.html:139
+#: templates/__navbar.html:125 templates/__navbar.html:139
 msgid "Magistratura"
-msgstr ""
+msgstr "Master's"
 
-#: .\templates\__navbar.html:126 .\templates\__navbar.html:140
+#: templates/__navbar.html:126 templates/__navbar.html:140
 msgid "Sirtqi Ta'lim"
-msgstr ""
+msgstr "Postgraduate Education"
 
-#: .\templates\__navbar.html:127
+#: templates/__navbar.html:127
 msgid "Doktorantura"
-msgstr ""
+msgstr "Doctorate"
 
-#: .\templates\__navbar.html:128 .\templates\__navbar.html:141
+#: templates/__navbar.html:128 templates/__navbar.html:141
 msgid "Xorijiy Fuqarolar"
-msgstr ""
+msgstr "Foreign Students"
 
-#: .\templates\__navbar.html:129
+#: templates/__navbar.html:129
 msgid "Qoshma Ta'lim dasturi"
-msgstr ""
+msgstr "Joint Educational Programs"
 
-#: .\templates\__navbar.html:130
+#: templates/__navbar.html:130
 msgid "2 - Mutaxassislik"
-msgstr ""
+msgstr "Second Specialization"
 
-#: .\templates\__navbar.html:131
+#: templates/__navbar.html:131
 msgid "Texnikumlar"
-msgstr ""
+msgstr "Colleges"
 
-#: .\templates\__navbar.html:136 .\templates\index.html:240
+#: templates/__navbar.html:136 templates/index.html:240
 msgid "Talabalar"
-msgstr ""
+msgstr "Students"
 
-#: .\templates\__navbar.html:142
+#: templates/__navbar.html:142
 msgid "O'qishni Ko'chirish va qayta tiklash"
-msgstr ""
+msgstr "Distance Learning and Retraining"
 
-#: .\templates\__navbar.html:148
+#: templates/__navbar.html:148
 msgid "Aloqa"
-msgstr ""
+msgstr "Contact"
 
-#: .\templates\__navbar.html:152
+#: templates/__navbar.html:152
 msgid "Interaktiv xizmatmatlar"
-msgstr ""
+msgstr "Interactive Services"
 
-#: .\templates\aloqa\aloqa.html:9
+#: templates/aloqa/aloqa.html:9
 msgid "Call-markazi"
-msgstr ""
+msgstr "Call Center"
 
-#: .\templates\aloqa\aloqa.html:17
+#: templates/aloqa/aloqa.html:17
 msgid ""
+"Responsible for inquiries related to Credit Module Systems<br>NASRIDDINOV "
+"JASUR"
+msgstr ""
 "Kredit Modul tizimlari bilan bog'liq murojatlar bo'yicha "
 "mas'ul<br>NASRIDDINOV JASUR"
-msgstr ""
 
-#: .\templates\aloqa\aloqa.html:18
-msgid ""
+#: templates/aloqa/aloqa.html:18
+msgid "Head of Compliance and Monitoring Department Fighting Corruption"
+msgstr ""
 "Korrupsiyaga qarshi kurashish \"Komplayens-Nazorat\" tizimini boshqarish "
 "bo'limi"
-msgstr ""
 
-#: .\templates\aloqa\aloqa.html:19 .\templates\aloqa\aloqa.html:20
-msgid "Qabul Jarayonlari bilan bog'liq masalalar bo'yicha mas'ul"
-msgstr ""
+#: templates/aloqa/aloqa.html:19
+msgid "Responsible for issues related to Admission Processes"
+msgstr "Qabul Jarayonlari bilan bog'liq masalalar bo'yicha mas'ul"
 
-#: .\templates\aloqa\aloqa.html:21
-msgid "Talabalarni o'qishni tiklash va ko'chirish bo'yicha"
-msgstr ""
+#: templates/aloqa/aloqa.html:20
+msgid "Responsible for admission issues"
+msgstr "Qabul Jarayonlari bilan bog'liq masalalar bo'yicha mas'ul"
 
-#: .\templates\aloqa\aloqa.html:22
-msgid "To'lov masalalarini amalga oshirish masalalari bo'yicha masul"
-msgstr ""
+#: templates/aloqa/aloqa.html:21
+msgid "Responsible for student enrollment and relocation"
+msgstr "Talabalarni o'qishni tiklash va ko'chirish bo'yicha mas'ul"
 
-#: .\templates\aloqa\aloqa.html:29
-#: .\templates\qabul\bakalavr\bakalavr-copy.html:12
-#: .\templates\qabul\bakalavr\bakalavr.html:28
+#: templates/aloqa/aloqa.html:22
+msgid "Responsible for payment matters"
+msgstr "To'lov masalalarini amalga oshirish masalalari bo'yicha mas'ul"
+
+#: templates/aloqa/aloqa.html:29 templates/qabul/bakalavr/bakalavr.html:28
 msgid "Biz bilan bog’lanish"
-msgstr ""
+msgstr "Contact Us"
 
-#: .\templates\aloqa\aloqa.html:30
+#: templates/aloqa/aloqa.html:30
 msgid "Manzil:"
-msgstr ""
+msgstr "Address:"
 
-#: .\templates\aloqa\aloqa.html:31
+#: templates/aloqa/aloqa.html:31
 msgid "O’zbekiston Respublikasi"
-msgstr ""
+msgstr "Republic of Uzbekistan"
 
-#: .\templates\aloqa\aloqa.html:32
+#: templates/aloqa/aloqa.html:32
 msgid "Jizzax viloyati Jizzax shaxri"
-msgstr ""
+msgstr "Jizzakh city, Jizzakh region"
 
-#: .\templates\aloqa\aloqa.html:33
-msgid "Islom Karimov ko’chasi 4 uy. "
-msgstr ""
+#: templates/aloqa/aloqa.html:33
+msgid "Islom Karimov ko’chasi 4 uy."
+msgstr "4 Islom Karimov Street"
 
-#: .\templates\aloqa\aloqa.html:34
+#: templates/aloqa/aloqa.html:34
 msgid "Pochta Indeks: 130100"
-msgstr ""
+msgstr "Postal Code: 130100"
 
-#: .\templates\aloqa\aloqa.html:37
+#: templates/aloqa/aloqa.html:37
 msgid "E-mail"
-msgstr ""
+msgstr "Email"
 
-#: .\templates\aloqa\aloqa.html:38
+#: templates/aloqa/aloqa.html:38
 msgid "Telefonlar"
-msgstr ""
+msgstr "Phones"
 
-#: .\templates\aloqa\aloqa.html:39
+#: templates/aloqa/aloqa.html:39
 msgid "Ishonch telefon raqami: "
-msgstr ""
+msgstr "Trust phone number:"
 
-#: .\templates\aloqa\bayroq.html:10
+#: templates/aloqa/bayroq.html:10
 msgid "Bayroq"
-msgstr ""
+msgstr "Flag"
 
-#: .\templates\aloqa\bayroq.html:17
+#: templates/aloqa/bayroq.html:17
 msgid "O’zbekiston Respublikasi davlat bayrog'i"
-msgstr ""
+msgstr "State flag of the Republic of Uzbekistan"
 
-#: .\templates\aloqa\gerb.html:9
+#: templates/aloqa/gerb.html:9
 msgid "Gerb"
-msgstr ""
+msgstr "Coat of Arms"
 
-#: .\templates\aloqa\gerb.html:16
+#: templates/aloqa/gerb.html:16
 msgid "O’zbekiston Respublikasi davlat gerbi"
-msgstr ""
+msgstr "State Emblem of the Republic of Uzbekistan"
 
-#: .\templates\base.html:40
+#: templates/base.html:40
 msgid ""
 "Jizzax Politexnika Instituti Yangi-Sayti hozircha test holatda ishlayabdi"
 msgstr ""
+"Jizzakh Polytechnic Institute New Website is currently in testing mode"
 
-#: .\templates\erasmus\debse\debse.html:10
-#: .\templates\erasmus\debse\page-d1.html:9
-#: .\templates\erasmus\debse\page-d2.html:9
-#: .\templates\erasmus\debse\page-d3.html:10
-#: .\templates\erasmus\debse\page-d4.html:10
+#: templates/erasmus/debse/debse.html:10
+#: templates/erasmus/debse/page-d1.html:9
+#: templates/erasmus/debse/page-d2.html:9
+#: templates/erasmus/debse/page-d3.html:10
+#: templates/erasmus/debse/page-d4.html:10
 msgid "DebseUz"
-msgstr ""
+msgstr "DebseUz"
 
-#: .\templates\erasmus\debse\debse.html:22
+#: templates/erasmus/debse/debse.html:22
 msgid "DebseUz haqida"
-msgstr ""
+msgstr "About DebseUz"
 
-#: .\templates\erasmus\debse\debse.html:23
-#: .\templates\erasmus\trigger\triger.html:23
+#: templates/erasmus/debse/debse.html:23
+#: templates/erasmus/trigger/triger.html:23
 msgid "Tadbirlar"
-msgstr ""
+msgstr "Events"
 
-#: .\templates\erasmus\debse\debse.html:24
-#: .\templates\erasmus\trigger\triger.html:22
+#: templates/erasmus/debse/debse.html:24
+#: templates/erasmus/trigger/triger.html:22
 msgid "Ishchi guruh"
-msgstr ""
+msgstr "Working Group"
 
-#: .\templates\erasmus\debse\debse.html:25
-#: .\templates\erasmus\trigger\triger.html:24
+#: templates/erasmus/debse/debse.html:25
+#: templates/erasmus/trigger/triger.html:24
 msgid "Hisobotlar"
-msgstr ""
+msgstr "Reports"
 
-#: .\templates\erasmus\trigger\page-tr1.html:9
-#: .\templates\erasmus\trigger\page-tr2.html:9
-#: .\templates\erasmus\trigger\page-tr3.html:9
-#: .\templates\erasmus\trigger\page-tr4.html:9
-#: .\templates\erasmus\trigger\triger.html:9
+#: templates/erasmus/trigger/page-tr1.html:9
+#: templates/erasmus/trigger/page-tr2.html:9
+#: templates/erasmus/trigger/page-tr3.html:9
+#: templates/erasmus/trigger/page-tr4.html:9
+#: templates/erasmus/trigger/triger.html:9
 msgid "Trigger"
-msgstr ""
+msgstr "Trigger"
 
-#: .\templates\erasmus\trigger\triger.html:21
+#: templates/erasmus/trigger/triger.html:21
 msgid "Trigger haqida"
-msgstr ""
+msgstr "About Trigger"
 
-#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:4
-#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:21
+#: templates/faoliyat/ilmiy-faoliyat/__ilmiy-copy.html:4
+#: templates/faoliyat/ilmiy-faoliyat/ilmiy.html:21
 msgid "Ilm-fan-2024"
-msgstr ""
+msgstr "Science-2024"
 
-#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:5
-#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:22
+#: templates/faoliyat/ilmiy-faoliyat/__ilmiy-copy.html:5
+#: templates/faoliyat/ilmiy-faoliyat/ilmiy.html:22
 msgid "Nomzodlik imtihonlari"
-msgstr ""
+msgstr "Competitive Exams"
 
-#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:6
-#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:23
+#: templates/faoliyat/ilmiy-faoliyat/__ilmiy-copy.html:6
+#: templates/faoliyat/ilmiy-faoliyat/ilmiy.html:23
 msgid "Ilmiy tadbirlar"
-msgstr ""
+msgstr "Scientific Events"
 
-#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:7
-#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:24
+#: templates/faoliyat/ilmiy-faoliyat/__ilmiy-copy.html:7
+#: templates/faoliyat/ilmiy-faoliyat/ilmiy.html:24
 msgid "Ilmiy nashrlar"
-msgstr ""
+msgstr "Scientific Publications"
 
-#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:8
-#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:25
+#: templates/faoliyat/ilmiy-faoliyat/__ilmiy-copy.html:8
+#: templates/faoliyat/ilmiy-faoliyat/ilmiy.html:25
 msgid "Yosh ekspertlar guruhi"
-msgstr ""
+msgstr "Young Experts Group"
 
-#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:9
-#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:26
+#: templates/faoliyat/ilmiy-faoliyat/__ilmiy-copy.html:9
+#: templates/faoliyat/ilmiy-faoliyat/ilmiy.html:26
 msgid "Konferensiyalar"
-msgstr ""
+msgstr "Conferences"
 
-#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:10
-#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:27
+#: templates/faoliyat/ilmiy-faoliyat/__ilmiy-copy.html:10
+#: templates/faoliyat/ilmiy-faoliyat/ilmiy.html:27
 msgid "Istiqboldagi rejalar"
-msgstr ""
+msgstr "Future Plans"
 
-#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:11
-#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:28
+#: templates/faoliyat/ilmiy-faoliyat/__ilmiy-copy.html:11
+#: templates/faoliyat/ilmiy-faoliyat/ilmiy.html:28
 msgid "Ilmiy tatqiqot faoliyati"
-msgstr ""
+msgstr "Scientific Research Activities"
 
-#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:12
-#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:29
+#: templates/faoliyat/ilmiy-faoliyat/__ilmiy-copy.html:12
+#: templates/faoliyat/ilmiy-faoliyat/ilmiy.html:29
 msgid "Ilmiy tadqiqot yo’nalishlari"
-msgstr ""
+msgstr "Scientific Research Directions"
 
-#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:13
-#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:30
+#: templates/faoliyat/ilmiy-faoliyat/__ilmiy-copy.html:13
+#: templates/faoliyat/ilmiy-faoliyat/ilmiy.html:30
 msgid "Xujjatlar to’plami"
-msgstr ""
+msgstr "Collection of Documents"
 
-#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:14
-#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:31
+#: templates/faoliyat/ilmiy-faoliyat/__ilmiy-copy.html:14
+#: templates/faoliyat/ilmiy-faoliyat/ilmiy.html:31
 msgid "Ustoz-shogird maktabi"
-msgstr ""
+msgstr "Teacher-Student School"
 
-#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:15
-#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:32
+#: templates/faoliyat/ilmiy-faoliyat/__ilmiy-copy.html:15
+#: templates/faoliyat/ilmiy-faoliyat/ilmiy.html:32
 msgid "Innovatsion dastur"
-msgstr ""
+msgstr "Innovation Program"
 
-#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:16
-#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:33
+#: templates/faoliyat/ilmiy-faoliyat/__ilmiy-copy.html:16
+#: templates/faoliyat/ilmiy-faoliyat/ilmiy.html:33
 msgid "Innovatsion loyihalar"
-msgstr ""
+msgstr "Innovative Projects"
 
-#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:17
-#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:34
+#: templates/faoliyat/ilmiy-faoliyat/__ilmiy-copy.html:17
+#: templates/faoliyat/ilmiy-faoliyat/ilmiy.html:34
 msgid "Bitiruvchilar klubi"
-msgstr ""
+msgstr "Graduates Club"
 
-#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:18
-#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:35
+#: templates/faoliyat/ilmiy-faoliyat/__ilmiy-copy.html:18
+#: templates/faoliyat/ilmiy-faoliyat/ilmiy.html:35
 msgid "Ilmiy e’lonlar"
-msgstr ""
+msgstr "Scientific Announcements"
 
-#: .\templates\faoliyat\ilmiy-faoliyat\__ilmiy-copy.html:19
-#: .\templates\faoliyat\ilmiy-faoliyat\ilmiy.html:36
+#: templates/faoliyat/ilmiy-faoliyat/__ilmiy-copy.html:19
+#: templates/faoliyat/ilmiy-faoliyat/ilmiy.html:36
 msgid "«Yoshlar ovozi» gazetasi"
-msgstr ""
+msgstr "Youth Voice Newspaper"
 
-#: .\templates\faoliyat\ilmiy-faoliyat\page-if1.html:10
-#: .\templates\faoliyat\ilmiy-faoliyat\page-if10.html:10
-#: .\templates\faoliyat\ilmiy-faoliyat\page-if12.html:10
-#: .\templates\faoliyat\ilmiy-faoliyat\page-if13.html:10
-#: .\templates\faoliyat\ilmiy-faoliyat\page-if14.html:10
-#: .\templates\faoliyat\ilmiy-faoliyat\page-if15.html:10
-#: .\templates\faoliyat\ilmiy-faoliyat\page-if16.html:10
-#: .\templates\faoliyat\ilmiy-faoliyat\page-if17.html:10
-#: .\templates\faoliyat\ilmiy-faoliyat\page-if2.html:10
-#: .\templates\faoliyat\ilmiy-faoliyat\page-if3.html:10
-#: .\templates\faoliyat\ilmiy-faoliyat\page-if4.html:10
-#: .\templates\faoliyat\ilmiy-faoliyat\page-if5.html:10
-#: .\templates\faoliyat\ilmiy-faoliyat\page-if6.html:10
-#: .\templates\faoliyat\ilmiy-faoliyat\page-if7.html:10
-#: .\templates\faoliyat\ilmiy-faoliyat\page-if8.html:10
-#: .\templates\faoliyat\ilmiy-faoliyat\page-if9.html:10
+#: templates/faoliyat/ilmiy-faoliyat/page-if1.html:10
+#: templates/faoliyat/ilmiy-faoliyat/page-if10.html:10
+#: templates/faoliyat/ilmiy-faoliyat/page-if12.html:10
+#: templates/faoliyat/ilmiy-faoliyat/page-if13.html:10
+#: templates/faoliyat/ilmiy-faoliyat/page-if14.html:10
+#: templates/faoliyat/ilmiy-faoliyat/page-if15.html:10
+#: templates/faoliyat/ilmiy-faoliyat/page-if16.html:10
+#: templates/faoliyat/ilmiy-faoliyat/page-if17.html:10
+#: templates/faoliyat/ilmiy-faoliyat/page-if2.html:10
+#: templates/faoliyat/ilmiy-faoliyat/page-if3.html:10
+#: templates/faoliyat/ilmiy-faoliyat/page-if4.html:10
+#: templates/faoliyat/ilmiy-faoliyat/page-if5.html:10
+#: templates/faoliyat/ilmiy-faoliyat/page-if6.html:10
+#: templates/faoliyat/ilmiy-faoliyat/page-if7.html:10
+#: templates/faoliyat/ilmiy-faoliyat/page-if8.html:10
+#: templates/faoliyat/ilmiy-faoliyat/page-if9.html:10
 msgid "ilmiy-Faoliyat"
-msgstr ""
+msgstr "Scientific Activity"
 
-#: .\templates\faoliyat\moliyaviy-faoliyat\__moliyaviy-copy.html:4
-#: .\templates\faoliyat\moliyaviy-faoliyat\moliyaviy.html:21
-#: .\templates\faoliyat\moliyaviy-faoliyat\page-mf1.html:10
+#: templates/faoliyat/moliyaviy-faoliyat/__moliyaviy-copy.html:4
+#: templates/faoliyat/moliyaviy-faoliyat/moliyaviy.html:21
+#: templates/faoliyat/moliyaviy-faoliyat/page-mf1.html:10
 msgid "Shartnoma to’lovlari"
-msgstr ""
+msgstr "Contract Payments"
 
-#: .\templates\faoliyat\moliyaviy-faoliyat\__moliyaviy-copy.html:5
-#: .\templates\faoliyat\moliyaviy-faoliyat\moliyaviy.html:22
-#: .\templates\faoliyat\moliyaviy-faoliyat\page-mf2.html:10
+#: templates/faoliyat/moliyaviy-faoliyat/__moliyaviy-copy.html:5
+#: templates/faoliyat/moliyaviy-faoliyat/moliyaviy.html:22
+#: templates/faoliyat/moliyaviy-faoliyat/page-mf2.html:10
 msgid "Bitiruvchilar monitoringi"
-msgstr ""
+msgstr "Graduates Monitoring"
 
-#: .\templates\faoliyat\moliyaviy-faoliyat\__moliyaviy-copy.html:6
-#: .\templates\faoliyat\moliyaviy-faoliyat\moliyaviy.html:23
-#: .\templates\faoliyat\moliyaviy-faoliyat\page-mf3.html:10
+#: templates/faoliyat/moliyaviy-faoliyat/__moliyaviy-copy.html:6
+#: templates/faoliyat/moliyaviy-faoliyat/moliyaviy.html:23
+#: templates/faoliyat/moliyaviy-faoliyat/page-mf3.html:10
 msgid "Ijtimoiy muxofaza"
-msgstr ""
+msgstr "Social Protection"
 
-#: .\templates\faoliyat\moliyaviy-faoliyat\__moliyaviy-copy.html:7
-#: .\templates\faoliyat\moliyaviy-faoliyat\moliyaviy.html:24
-#: .\templates\faoliyat\moliyaviy-faoliyat\page-mf4.html:10
+#: templates/faoliyat/moliyaviy-faoliyat/__moliyaviy-copy.html:7
+#: templates/faoliyat/moliyaviy-faoliyat/moliyaviy.html:24
+#: templates/faoliyat/moliyaviy-faoliyat/page-mf4.html:10
 msgid "Molyaviy xisobotlar"
-msgstr ""
+msgstr "Financial Reports"
 
-#: .\templates\faoliyat\moliyaviy-faoliyat\__moliyaviy-copy.html:8
-#: .\templates\faoliyat\moliyaviy-faoliyat\moliyaviy.html:25
-#: .\templates\faoliyat\moliyaviy-faoliyat\page-mf5.html:10
+#: templates/faoliyat/moliyaviy-faoliyat/__moliyaviy-copy.html:8
+#: templates/faoliyat/moliyaviy-faoliyat/moliyaviy.html:25
+#: templates/faoliyat/moliyaviy-faoliyat/page-mf5.html:10
 msgid "Molyaviy shartnomalar"
-msgstr ""
+msgstr "Financial Contracts"
 
-#: .\templates\faoliyat\moliyaviy-faoliyat\__moliyaviy-copy.html:9
-#: .\templates\faoliyat\moliyaviy-faoliyat\moliyaviy.html:26
-#: .\templates\faoliyat\moliyaviy-faoliyat\page-mf6.html:10
+#: templates/faoliyat/moliyaviy-faoliyat/__moliyaviy-copy.html:9
+#: templates/faoliyat/moliyaviy-faoliyat/moliyaviy.html:26
+#: templates/faoliyat/moliyaviy-faoliyat/page-mf6.html:10
 msgid "Moliyaviy ko’rsatkichlar"
-msgstr ""
+msgstr "Financial Indicators"
 
-#: .\templates\faoliyat\moliyaviy-faoliyat\__moliyaviy-copy.html:10
-#: .\templates\faoliyat\moliyaviy-faoliyat\moliyaviy.html:27
+#: templates/faoliyat/moliyaviy-faoliyat/__moliyaviy-copy.html:10
+#: templates/faoliyat/moliyaviy-faoliyat/moliyaviy.html:27
 msgid ""
 "Xizmat avtomototransport vositalari, xizmat uylari va boshqa ko’chmas mulk "
 "obyektlari"
 msgstr ""
+"Service motor transport vehicles, service buildings and other non-"
+"residential real estate objects"
 
-#: .\templates\faoliyat\oquv-faoliyat\__oquv-copy.html:2
-#: .\templates\faoliyat\oquv-faoliyat\oquv.html:19
+#: templates/faoliyat/oquv-faoliyat/__oquv-copy.html:2
+#: templates/faoliyat/oquv-faoliyat/oquv.html:19
 msgid "O’quv grafigi"
-msgstr ""
+msgstr "Study Schedule"
 
-#: .\templates\faoliyat\oquv-faoliyat\__oquv-copy.html:3
-#: .\templates\faoliyat\oquv-faoliyat\oquv.html:20
+#: templates/faoliyat/oquv-faoliyat/__oquv-copy.html:3
+#: templates/faoliyat/oquv-faoliyat/oquv.html:20
 msgid "O’quv rejalari"
-msgstr ""
+msgstr "Study Plans"
 
-#: .\templates\faoliyat\oquv-faoliyat\__oquv-copy.html:4
-#: .\templates\faoliyat\oquv-faoliyat\oquv.html:21
+#: templates/faoliyat/oquv-faoliyat/__oquv-copy.html:4
+#: templates/faoliyat/oquv-faoliyat/oquv.html:21
 msgid "O’quv qoidalari"
-msgstr ""
+msgstr "Study Rules"
 
-#: .\templates\faoliyat\oquv-faoliyat\__oquv-copy.html:5
-#: .\templates\faoliyat\oquv-faoliyat\oquv.html:22
+#: templates/faoliyat/oquv-faoliyat/__oquv-copy.html:5
+#: templates/faoliyat/oquv-faoliyat/oquv.html:22
 msgid "Vakant lavozimlar"
-msgstr ""
+msgstr "Vacant Positions"
 
-#: .\templates\faoliyat\oquv-faoliyat\__oquv-copy.html:6
-#: .\templates\faoliyat\oquv-faoliyat\oquv.html:23
+#: templates/faoliyat/oquv-faoliyat/__oquv-copy.html:6
+#: templates/faoliyat/oquv-faoliyat/oquv.html:23
 msgid "Malaka talablari"
-msgstr ""
+msgstr "Competency Requirements"
 
-#: .\templates\faoliyat\oquv-faoliyat\page-of1.html:8
-#: .\templates\faoliyat\oquv-faoliyat\page-of2.html:8
-#: .\templates\faoliyat\oquv-faoliyat\page-of3.html:8
-#: .\templates\faoliyat\oquv-faoliyat\page-of4.html:8
-#: .\templates\faoliyat\oquv-faoliyat\page-of5.html:8
+#: templates/faoliyat/oquv-faoliyat/page-of1.html:8
+#: templates/faoliyat/oquv-faoliyat/page-of2.html:8
+#: templates/faoliyat/oquv-faoliyat/page-of3.html:8
+#: templates/faoliyat/oquv-faoliyat/page-of4.html:8
+#: templates/faoliyat/oquv-faoliyat/page-of5.html:8
 msgid "o'quv-Faoliyat"
-msgstr ""
+msgstr "Educational Activity"
 
-#: .\templates\faoliyat\xalqaro-faoliyat\__xalqaro-copy.html:4
-#: .\templates\faoliyat\xalqaro-faoliyat\xalqaro.html:21
+#: templates/faoliyat/xalqaro-faoliyat/__xalqaro-copy.html:4
+#: templates/faoliyat/xalqaro-faoliyat/xalqaro.html:21
 msgid "Xalqaro hamkorlik aloqalari"
-msgstr ""
+msgstr "International Cooperation Relations"
 
-#: .\templates\faoliyat\xalqaro-faoliyat\__xalqaro-copy.html:5
-#: .\templates\faoliyat\xalqaro-faoliyat\page-xf2.html:25
-#: .\templates\faoliyat\xalqaro-faoliyat\xalqaro.html:22
+#: templates/faoliyat/xalqaro-faoliyat/__xalqaro-copy.html:5
+#: templates/faoliyat/xalqaro-faoliyat/page-xf2.html:25
+#: templates/faoliyat/xalqaro-faoliyat/xalqaro.html:22
 msgid "Xorijiy malaka oshirish va ta’lim"
-msgstr ""
+msgstr "Foreign Skills Development and Training"
 
-#: .\templates\faoliyat\xalqaro-faoliyat\__xalqaro-copy.html:6
-#: .\templates\faoliyat\xalqaro-faoliyat\xalqaro.html:23
+#: templates/faoliyat/xalqaro-faoliyat/__xalqaro-copy.html:6
+#: templates/faoliyat/xalqaro-faoliyat/xalqaro.html:23
 msgid "Xalqaro konferensiyalar"
-msgstr ""
+msgstr "International Conferences"
 
-#: .\templates\faoliyat\xalqaro-faoliyat\__xalqaro-copy.html:7
-#: .\templates\faoliyat\xalqaro-faoliyat\xalqaro.html:24
+#: templates/faoliyat/xalqaro-faoliyat/__xalqaro-copy.html:7
+#: templates/faoliyat/xalqaro-faoliyat/xalqaro.html:24
 msgid "Xalqaro loyihalar va grantlar"
-msgstr ""
+msgstr "International Projects and Grants"
 
-#: .\templates\faoliyat\xalqaro-faoliyat\__xalqaro-copy.html:8
-#: .\templates\faoliyat\xalqaro-faoliyat\xalqaro.html:25
+#: templates/faoliyat/xalqaro-faoliyat/__xalqaro-copy.html:8
+#: templates/faoliyat/xalqaro-faoliyat/xalqaro.html:25
 msgid "Chet ellik talabalar uchun"
-msgstr ""
+msgstr "For Foreign Students"
 
-#: .\templates\faoliyat\xalqaro-faoliyat\__xalqaro-copy.html:9
-#: .\templates\faoliyat\xalqaro-faoliyat\xalqaro.html:26
+#: templates/faoliyat/xalqaro-faoliyat/__xalqaro-copy.html:9
+#: templates/faoliyat/xalqaro-faoliyat/xalqaro.html:26
 msgid "Kontaktlar"
-msgstr ""
+msgstr "Contacts"
 
-#: .\templates\index.html:20
+#: templates/index.html:20
 msgid "Kirish"
-msgstr ""
+msgstr "Login"
 
-#: .\templates\index.html:36 .\templates\news\news.html:10
+#: templates/index.html:36 templates/news/news.html:10
 msgid "So'ngi Yangiliklar"
-msgstr ""
+msgstr "Latest News"
 
-#: .\templates\index.html:50 .\templates\index.html:57
-#: .\templates\index.html:82 .\templates\index.html:89
-#: .\templates\news\elon.html:23 .\templates\news\news.html:24
+#: templates/index.html:50 templates/index.html:57 templates/index.html:82
+#: templates/index.html:89 templates/news/elon.html:23
+#: templates/news/news.html:24
 msgid "Batafsil"
-msgstr ""
+msgstr "Details"
 
-#: .\templates\index.html:68 .\templates\news\elon.html:9
+#: templates/index.html:68 templates/news/elon.html:9
 msgid "So'ngi Elonlar"
-msgstr ""
+msgstr "Latest Announcements"
 
-#: .\templates\index.html:102
+#: templates/index.html:102
 msgid "Bizning Tizimlar"
-msgstr ""
+msgstr "Our Systems"
 
-#: .\templates\index.html:116
+#: templates/index.html:116
 msgid "Hemis o`qituvchi"
-msgstr ""
+msgstr "Hemis Teacher"
 
-#: .\templates\index.html:123
+#: templates/index.html:123
 msgid "Hemis Talaba"
-msgstr ""
+msgstr "Hemis Student"
 
-#: .\templates\index.html:130
+#: templates/index.html:130
 msgid "Modle"
-msgstr ""
+msgstr "Model"
 
-#: .\templates\index.html:137
+#: templates/index.html:137
 msgid "Online Jurnal"
-msgstr ""
+msgstr "Online Journal"
 
-#: .\templates\index.html:144
+#: templates/index.html:144
 msgid "Kutubxona"
-msgstr ""
+msgstr "Library"
 
-#: .\templates\index.html:151
+#: templates/index.html:151
 msgid "Jizpi Aborot Tizimi"
-msgstr ""
+msgstr "Jizpi Information System"
 
-#: .\templates\index.html:179
+#: templates/index.html:179
 msgid "Energetika va Radioelektronika"
-msgstr ""
+msgstr "Energy and Radioelectronics"
 
-#: .\templates\index.html:187
+#: templates/index.html:187
 msgid "Transport"
-msgstr ""
+msgstr "Transport"
 
-#: .\templates\index.html:195
-msgid "Sanoat texnalogiyalari"
-msgstr ""
+#: templates/index.html:195
+msgid "Sanoat texnologiyalari"
+msgstr "Industrial Technologies"
 
-#: .\templates\index.html:203
+#: templates/index.html:203
 msgid "Arxitektura va Qurilish"
-msgstr ""
+msgstr "Architecture and Construction"
 
-#: .\templates\index.html:211
+#: templates/index.html:211
 msgid "Servis"
-msgstr ""
+msgstr "Service"
 
-#: .\templates\index.html:219
-msgid "Qurilish Materiallari va Kimyoviy Texnalogya"
-msgstr ""
+#: templates/index.html:219
+msgid "Qurilish Materiallari va Kimyoviy Texnologiya"
+msgstr "Construction Materials and Chemical Technology"
 
-#: .\templates\index.html:239
+#: templates/index.html:239
 msgid "O'qituvchilar"
-msgstr ""
+msgstr "Teachers"
 
-#: .\templates\index.html:241
+#: templates/index.html:241
 msgid "Hamkor OTMlar"
-msgstr ""
+msgstr "Partner Educational Institutions"
 
-#: .\templates\index.html:242
+#: templates/index.html:242
 msgid "Qo‘shma ta’lim talabalari"
-msgstr ""
+msgstr "Joint Education Students"
 
-#: .\templates\index.html:245
+#: templates/index.html:245
 msgid "Dotsent"
-msgstr ""
+msgstr "Professor"
 
-#: .\templates\index.html:246
+#: templates/index.html:246
 msgid "Bakalavrlar"
-msgstr ""
+msgstr "Bachelor Students"
 
-#: .\templates\index.html:247
+#: templates/index.html:247
 msgid "Sirqi talabalar"
-msgstr ""
+msgstr "Master Students"
 
-#: .\templates\index.html:248
+#: templates/index.html:248
 msgid "Xorijiy talabalar"
-msgstr ""
+msgstr "International Students"
 
-#: .\templates\index.html:265
+#: templates/index.html:265
 msgid "Foydali Xavolalar"
-msgstr ""
+msgstr "Useful Links"
 
-#: .\templates\index.html:276
+#: templates/index.html:276
 msgid "Davlat Test Markazi"
-msgstr ""
+msgstr "State Testing Center"
 
 #: .\templates\index.html:280
 msgid "Xalq ta'limi Vazirligi"
-msgstr ""
+msgstr "Ministry of Public Education"
 
 #: .\templates\index.html:284
 msgid "ZiyoNet - Ta'lim Portali"
-msgstr ""
+msgstr "ZiyoNet - Education Portal"
 
 #: .\templates\index.html:288
 msgid "Xukumat Portali"
-msgstr ""
+msgstr "Government Portal"
 
 #: .\templates\index.html:292
 msgid "Adliya Vazirligi"
-msgstr ""
+msgstr "Ministry of Justice"
 
 #: .\templates\index.html:310
 msgid "Rektor Qabuli"
-msgstr ""
+msgstr "Rector's Reception"
 
 #: .\templates\index.html:320
 msgid "REKTOR ELEKTRON QABULXONASI"
-msgstr ""
+msgstr "RECTOR'S ELECTRONIC RECEPTION"
 
 #: .\templates\index.html:321
 msgid "Jizzax Politexnika Instituti Rektori Elektron Online qabuli sayti"
 msgstr ""
+"Jizzakh Polytechnic Institute Rector's Electronic Online Reception Site"
 
 #: .\templates\index.html:322
 msgid "O'tish"
-msgstr ""
+msgstr "Go"
 
 #: .\templates\index.html:347
 msgid "INSTITUTNING IJRO INTIZOM HOLATINI YAXSHILASH"
-msgstr ""
+msgstr "IMPROVING THE INSTITUTE'S EXECUTION DISCIPLINE STATUS"
 
 #: .\templates\index.html:351
 msgid "Ishonch Telefon Raqamlar"
-msgstr ""
+msgstr "Trust Phone Numbers"
 
 #: .\templates\index.html:352
 msgid "yuklab olish"
-msgstr ""
+msgstr "download"
 
 #: .\templates\index.html:383
 msgid "JIZZAX POLITEXNIKA INSTITUTIGA XUSH KELIBSIZ!"
-msgstr ""
+msgstr "WELCOME TO JIZZAKH POLYTECHNIC INSTITUTE!"
 
 #: .\templates\index.html:384
 msgid "TALABA BILAN AJOYIB MUVAFFAQIYAT"
-msgstr ""
+msgstr "GREAT SUCCESS WITH STUDENTS"
 
 #: .\templates\index.html:388
 msgid "INSTITUT BINOLAR"
-msgstr ""
+msgstr "INSTITUTE BUILDINGS"
 
 #: .\templates\index.html:389
 msgid ""
 "Institut hududi 22 300 m2 maydonga ega bo’lib, unda 1500 o`rinli asosiy "
 "bino, 1000 o`rinli yangi o`quv –laboratoriya binosi, 1500 o`rinli 3-bino, "
 "600 o`rinli yangi qurilgan ma'ruzalar zali, sport zali va 2 ta mini futbol "
-"maydoni, katta futbol maydoni, tennis, yengil atletika maydonlari joylashgan."
+"maydoni, katta futbol maydoni, tennis, yengil atletika maydonlari "
+"joylashgan."
 msgstr ""
+"The institute's campus covers an area of 22,300 m2, with a main building "
+"accommodating 1500 seats, a new educational-laboratory building with 1000 "
+"seats, a 3rd building with 1500 seats, a newly built lecture hall with 600 "
+"seats, a sports hall, 2 mini football fields, a large football field, tennis"
+" and athletics fields."
 
 #: .\templates\index.html:392
 msgid "BIZ HAQIMIZDA"
-msgstr ""
+msgstr "ABOUT US"
 
 #: .\templates\index.html:393
 msgid ""
 "Institutda 7 ta fakultet, 27 ta kafedra mavjud bo`lib ularda 33 ta ta’lim "
 "yo`nalishida bakalavrlar, 16 ta mutaxassislik bo`yicha magistrlar, 16 ta "
-"sirtqi ta’lim, 4 ta ixtisosliklar bo`yicha doktorantlar malakali professor-"
-"o`qituvchilar tomonidan dars mashg`ulotlari olib borilib yetuk mutaxasislar "
-"yetishib chiqarilmoqda."
+"sirtqi ta’lim, 4 ta ixtisosliklar bo`yicha doktorantlar malakali "
+"professor-o`qituvchilar tomonidan dars mashg`ulotlari olib borilib yetuk "
+"mutaxasislar yetishib chiqarilmoqda."
 msgstr ""
+"The institute has 7 faculties and 27 departments, offering undergraduate "
+"courses in 33 disciplines, master's courses in 16 specialties, part-time "
+"education in 16 specialties, and doctoral courses in 4 specialties, all "
+"taught by qualified professors and instructors."
 
 #: .\templates\index.html:396
 msgid "TALABALAR TURAR VA DAM OLISH JOYI"
-msgstr ""
+msgstr "STUDENT RESIDENCE AND RECREATION AREA"
 
 #: .\templates\index.html:397
 msgid ""
@@ -742,93 +753,82 @@ msgid ""
 "fitobarlar mavjud bo`lib, ular bugungi kunda 9,5 ming kishilik jamoa "
 "a’zolarining o’quv va ilmiy faoliyat olib borishlarida xizmat qilmoqda."
 msgstr ""
+"In recent years, it has been newly reconstructed. The student residence with"
+" 400 seats, technopark, Information Resource Center, IT-Park, dining room, "
+"buffet, and fitobars are available, serving the academic and scientific "
+"activities of a community of 9,500 people today."
 
 #: .\templates\institut\__card-box_left.html:3
-#: .\templates\institut\__institut.html:21
+#: templates\institut\__institut.html:21
 msgid "Institut nizomi"
-msgstr ""
+msgstr "Institute Charter"
 
 #: .\templates\institut\__card-box_left.html:4
-#: .\templates\institut\__institut.html:22
+#: templates\institut\__institut.html:22
 msgid "Institut tarixi"
-msgstr ""
+msgstr "Institute History"
 
 #: .\templates\institut\__card-box_left.html:5
-#: .\templates\institut\__institut.html:23
-#: .\templates\institut\instut-page3.html:20
+#: templates\institut\__institut.html:23
+#: templates\institut\instut-page3.html:20
 msgid "Institut strukturasi"
-msgstr ""
+msgstr "Institute Structure"
 
 #: .\templates\institut\__card-box_left.html:6
-#: .\templates\institut\__institut.html:24
-#: .\templates\institut\instut-page4.html:10
-#: .\templates\institut\instut-page4.html:20
+#: templates\institut\__institut.html:24
+#: templates\institut\instut-page4.html:10
+#: templates\institut\instut-page4.html:20
 msgid "Rektor Tabrigi"
-msgstr ""
+msgstr "Rector's Greeting"
 
 #: .\templates\institut\__card-box_left.html:7
-#: .\templates\institut\__institut.html:28
+#: templates\institut\__institut.html:28
 msgid "Rektor Virtual Qabulxonasi"
-msgstr ""
+msgstr "Rector's Virtual Reception"
 
 #: .\templates\institut\__card-box_left.html:8
-#: .\templates\institut\__institut.html:25
-#: .\templates\institut\instut-page5.html:10
+#: templates\institut\__institut.html:25
+#: templates\institut\instut-page5.html:10
 msgid "Rekivizitlar"
-msgstr ""
+msgstr "Requisites"
 
 #: .\templates\institut\__card-box_left.html:9
-#: .\templates\institut\__institut.html:26
+#: templates\institut\__institut.html:26
 msgid "Moddiy-texnik Baza"
-msgstr ""
+msgstr "Material and Technical Base"
 
 #: .\templates\institut\__card-box_left.html:10
-#: .\templates\institut\__institut.html:27
-#: .\templates\institut\instut-page7.html:10
+#: templates\institut\__institut.html:27
+#: templates\institut\instut-page7.html:10
 msgid "Sport Inshoatlari"
-msgstr ""
+msgstr "Sports Facilities"
 
 #: .\templates\institut\__ilmiy-kengash.html:10
-#: .\templates\institut\__vasiylik_copy.html:6
-#: .\templates\institut\__xotin-qizlar.html:9
+#: templates\institut\__vasiylik_copy.html:6
+#: templates\institut\__xotin-qizlar.html:9
 msgid "Xotin-Qizlar Kengashi"
-msgstr ""
+msgstr "Women's Council"
 
 #: .\templates\institut\__ilmiy-kengash.html:23
 msgid "Jizzax politexnika instituti mavjud Ilmiy kengashlar faoliyati."
 msgstr ""
+"Activities of the existing Scientific Councils of Jizzakh Polytechnic "
+"Institute."
 
 #: .\templates\institut\__ilmiy-kengash.html:24
 msgid ""
-"1. Institut Ilmiy kengash yig’ilishi o’quv yili davomida har oyning so’nggi "
-"haftasi chorshanba kuni soat 13.30 da institut Majlislar zalida "
-"o’tkaziladi.\n"
+"1. Institut Ilmiy kengash yig’ilishi o’quv yili davomida har oyning so’nggi haftasi chorshanba kuni soat 13.30 da institut Majlislar zalida o’tkaziladi.\n"
 "                  <br>    \n"
-"                  2. Axborot (hisobot) beruvchi va mas’ullar kengash "
-"yig’ilishida ko’riladigan masala bo’yicha imzolangan ma’lumotlarni (qog’oz "
-"va elektron variantda) yig’ilishdan 3 kun oldin Ilmiy kengash kotibiga "
-"taqdim etishlari shart.\n"
+"                  2. Axborot (hisobot) beruvchi va mas’ullar kengash yig’ilishida ko’riladigan masala bo’yicha imzolangan ma’lumotlarni (qog’oz va elektron variantda) yig’ilishdan 3 kun oldin Ilmiy kengash kotibiga taqdim etishlari shart.\n"
 "                  <br>\n"
-"                  3. Ilmiy kengash yig’ilishlarida kelib tushgan yangi "
-"adabiyotlar haqida Axborot resurs markazi direktori axborot beradi.\n"
+"                  3. Ilmiy kengash yig’ilishlarida kelib tushgan yangi adabiyotlar haqida Axborot resurs markazi direktori axborot beradi.\n"
 "                  <br>\n"
-"                  4. Ilmiy kengash yig’ilishlarida fuqarolar murojaatlarida "
-"ko’tarilayotgan masalalar haqida “Ichki nazorat va monitoring” bo’limi "
-"boshlig’i axborot beradi.\n"
+"                  4. Ilmiy kengash yig’ilishlarida fuqarolar murojaatlarida ko’tarilayotgan masalalar haqida “Ichki nazorat va monitoring” bo’limi boshlig’i axborot beradi.\n"
 "                  <br>\n"
-"                  5. Ilmiy kengash majlisi yig’ilishlarida Ilmiy kotib "
-"kengash qarorlari bajarilishi haqida axborot beradi.\n"
+"                  5. Ilmiy kengash majlisi yig’ilishlarida Ilmiy kotib kengash qarorlari bajarilishi haqida axborot beradi.\n"
 "                  <br>\n"
-"                  Ilmiy kengash a’zolari 38 kishidan iborat. A’zolar "
-"tarkibiga rektor raisligida prorektorlar, dekanlar, kafedra mudirlari, "
-"bo’lim boshliqlari va ishlab chiqarishdan 3 nafar rahbarlar kiritilgan. "
-"Ilmiy kengashning 1 masalasida  O’zbekiston Respublikasi Prezidenti va "
-"Hukumati,  O’zbekiston Respublikasi Oliy va o’rta maxsus ta’lim vazirligi "
-"hay’ati farmon, buyruq hamda qarorlarini ko’rib chiqiladi.\n"
-"                  Yillik ish rejaga asosan o’quv yili davomida olib borilgan "
-"ma’naviy-axloqiy va tarbiyaviy, o’quv-uslubiy, ilmiy-tadqiqot,  moliya va "
-"xo’jalik ishlari hamda akademik litsey va kasb-hunar kollejlari bilan "
-"hamkorlik ishlarining borishi va kelgusi vazifalar muxokama etib boriladi.\n"
+"                  Ilmiy kengash a’zolari 38 kishidan iborat. A’zolar tarkibiga rektor raisligida prorektorlar, dekanlar, kafedra mudirlari, bo’lim boshliqlari va ishlab chiqarishdan 3 nafar rahbarlar kiritilgan. Ilmiy kengashning 1 masalasida  O’zbekiston Respublikasi Prezidenti va Hukumati,  O’zbekiston Respublikasi Oliy va o’rta maxsus ta’lim vazirligi hay’ati farmon, buyruq hamda qarorlarini ko’rib chiqiladi.\n"
+"                  Yillik ish rejaga asosan o’quv yili davomida olib borilgan ma’naviy-axloqiy va tarbiyaviy, o’quv-uslubiy, ilmiy-tadqiqot,  moliya va xo’jalik ishlari hamda akademik litsey va kasb-hunar kollejlari bilan hamkorlik ishlarining borishi va kelgusi vazifalar muxokama etib boriladi.\n"
 "              "
 msgstr ""
 
@@ -867,15 +867,15 @@ msgstr ""
 
 #: .\templates\institut\__ilmiy-kengash.html:43
 msgid ""
-"3. Nizom bo’yicha Ilmiy kengash tarkibiga quyidagilar kiradi: rektor (rais), "
-"prorektorlar, fakulСЊtet dekanlari, institut tarkibiga kiruvchi mustaqil "
+"3. Nizom bo’yicha Ilmiy kengash tarkibiga quyidagilar kiradi: rektor (rais),"
+" prorektorlar, fakulСЊtet dekanlari, institut tarkibiga kiruvchi mustaqil "
 "tashkilot va tarmoqlar direktorlari, mutaxasis chiqaruvchi kafedralar "
 "mudirlari, shuningdek, institut talabalari va kasaba uyushmalarining "
 "vakillari.Ilmiy kengashning boshqa a’zolari professor-o’qituvchilar "
 "tarkibidan rektor buyrug’i bilan belgilanadi. Ilmiy kengash tarkibiga "
 "institutning muayyan yo’nalish muammolari bo’yicha ishlovchi, yirik olim va "
-"mutaxassislar, shuningdek davlatlararo va bevosita aloqalari bo’lgan xorijiy "
-"o’quv yurtlarining vakillari kiritilishi mumkin. Vakolat muddati-5 yil."
+"mutaxassislar, shuningdek davlatlararo va bevosita aloqalari bo’lgan xorijiy"
+" o’quv yurtlarining vakillari kiritilishi mumkin. Vakolat muddati-5 yil."
 msgstr ""
 
 #: .\templates\institut\__ilmiy-kengash.html:44
@@ -891,93 +891,54 @@ msgstr ""
 
 #: .\templates\institut\__ilmiy-kengash.html:47
 msgid ""
-" – Kadrlar tayyorlar milliy dasturiga muvofiq ta’lim standartlari, o’quv "
-"rejalar va dasturlarning qat’iy bajarilishi ko’rib chiqish;\n"
+" – Kadrlar tayyorlar milliy dasturiga muvofiq ta’lim standartlari, o’quv rejalar va dasturlarning qat’iy bajarilishi ko’rib chiqish;\n"
 "                   <br>\n"
-"                   – Xorijiy mamlakatlar institut bilan birlashgan Ilmiy "
-"kengashlarni tashkil etishning maqsadga muvofiqligini belgilaydi;\n"
+"                   – Xorijiy mamlakatlar institut bilan birlashgan Ilmiy kengashlarni tashkil etishning maqsadga muvofiqligini belgilaydi;\n"
 "                   <br>\n"
-"                   – FakulСЊtetlarning o’quv ilmiy-tadqiqot va ma’naviy-"
-"ma’rifiy ishlari to’g’risidagi hisobotlarni, shuningdek, litseylar "
-"xisobtlarini eshitib boradi, qabul natijalari to’g’risida qabul "
-"komissiyasining, halq xo’jaligining bitiruvchi mutaxassislarga bo’lgan "
-"ehtiyoji, buyurtalar bilan aloqalar to’g’risida marketing xizmatining "
-"hisobotlarini eshitadi;\n"
+"                   – FakulСЊtetlarning o’quv ilmiy-tadqiqot va ma’naviy-ma’rifiy ishlari to’g’risidagi hisobotlarni, shuningdek, litseylar xisobtlarini eshitib boradi, qabul natijalari to’g’risida qabul komissiyasining, halq xo’jaligining bitiruvchi mutaxassislarga bo’lgan ehtiyoji, buyurtalar bilan aloqalar to’g’risida marketing xizmatining hisobotlarini eshitadi;\n"
 "                   <br>\n"
-"                   – Talabalarning yirik malakaviy amaliyotiga yakun yasaydi "
-"va ularni yaxshilash bo’yicha tavsiyalar beradi;\n"
+"                   – Talabalarning yirik malakaviy amaliyotiga yakun yasaydi va ularni yaxshilash bo’yicha tavsiyalar beradi;\n"
 "                   <br>\n"
-"                   – Ilmiy tadqiqot, ma’naviy-ma’rifiy ishlarning rejalarini "
-"va professor-o’qituvchilarning tarkibini malaka oshirish masalalarini "
-"muxokama etadi;\n"
+"                   – Ilmiy tadqiqot, ma’naviy-ma’rifiy ishlarning rejalarini va professor-o’qituvchilarning tarkibini malaka oshirish masalalarini muxokama etadi;\n"
 "                   <br>\n"
-"                   – Xorijiy malakatlarning oliy o’quv yurtlari bilan "
-"aloqalarni o’rnatish bo’yicha qarorlar qabul qilinadi;\n"
+"                   – Xorijiy malakatlarning oliy o’quv yurtlari bilan aloqalarni o’rnatish bo’yicha qarorlar qabul qilinadi;\n"
 "                   <br>\n"
-"                   – FakulСЊtet va kafedralarni ochish, bekitish, "
-"o’zgartirishga bog’liq bo’lgan masalalar bo’yicha qaror qabul qiladi;\n"
+"                   – FakulСЊtet va kafedralarni ochish, bekitish, o’zgartirishga bog’liq bo’lgan masalalar bo’yicha qaror qabul qiladi;\n"
 "                   <br>\n"
-"                   – Marketing xizmati takliflarini xisobga olgan holda "
-"yangi ta’lim yo’nalishlarini (mutaxassisliklarni) ochish to’g’risida taklif "
-"kiritadi;\n"
+"                   – Marketing xizmati takliflarini xisobga olgan holda yangi ta’lim yo’nalishlarini (mutaxassisliklarni) ochish to’g’risida taklif kiritadi;\n"
 "                   <br>\n"
-"                   – Darslik, o’quv-qo’llanma va ilmiy o’quv-uslubiy "
-"adabiyotlarni tayyorlash va nashr etish masalalarini ko’rib chiqadi;\n"
+"                   – Darslik, o’quv-qo’llanma va ilmiy o’quv-uslubiy adabiyotlarni tayyorlash va nashr etish masalalarini ko’rib chiqadi;\n"
 "                   <br>\n"
-"                   – «Oliy o’quv yurtlari pedogogik xodimlarini ishga qabul "
-"qilish tartibi to’g’risida»gi Nizomga muvofiq professor-o’qituvchilar "
-"lavozimlarini egallash uchun tanlovlar o’tkazadi;\n"
+"                   – «Oliy o’quv yurtlari pedogogik xodimlarini ishga qabul qilish tartibi to’g’risida»gi Nizomga muvofiq professor-o’qituvchilar lavozimlarini egallash uchun tanlovlar o’tkazadi;\n"
 "                   <br>\n"
-"                   – Professor, dotsent ilmiy unvonini olishga intilayotgan "
-"izlanuvchilarning xujjatlarini ko’rib chiqadi va belgilangan tartibda ilmiy "
-"unvonga tasdiqlashga taqdim etadi;\n"
+"                   – Professor, dotsent ilmiy unvonini olishga intilayotgan izlanuvchilarning xujjatlarini ko’rib chiqadi va belgilangan tartibda ilmiy unvonga tasdiqlashga taqdim etadi;\n"
 "                   <br>\n"
-"                   – Aspirantura va doktorantura va oliy o’quv yurti "
-"ta’limidan keyinga boshqa shakllarga nomzodni tavsiya etadi;\n"
+"                   – Aspirantura va doktorantura va oliy o’quv yurti ta’limidan keyinga boshqa shakllarga nomzodni tavsiya etadi;\n"
 "                   <br>\n"
-"                   – A’lochi-talabalar safidan va professor-o’qituvchilar "
-"tarkibidan nomzodlarni «Ustoz», «Umid», «Iste’dod» jamg’armalari orqali "
-"xorijiy oliy o’quv yurtlariga stajirovkaga tavsiya etadi;\n"
+"                   – A’lochi-talabalar safidan va professor-o’qituvchilar tarkibidan nomzodlarni «Ustoz», «Umid», «Iste’dod» jamg’armalari orqali xorijiy oliy o’quv yurtlariga stajirovkaga tavsiya etadi;\n"
 "                   <br>\n"
-"                   – Ta’lim xizmatlari bilan shug’ullanuvchi kichik "
-"korxonalar, firma va kurslar faoliyati haqida rahbarlarning hisobotlarini "
-"eshitadi;\n"
+"                   – Ta’lim xizmatlari bilan shug’ullanuvchi kichik korxonalar, firma va kurslar faoliyati haqida rahbarlarning hisobotlarini eshitadi;\n"
 "                   <br>\n"
-"                   – Jizzax politexnika instituti bitiruvchilari safidan "
-"nomzodlarni magistratura, aspirantura qabul qilishga tavsiya etadi,  "
-"shuningdek, tadqiqotchilar va aspirantlarning shaxsiy rejalarini va "
-"nomzodlik dissertatsiyasi mavzularini tasdiqlaydi;\n"
+"                   – Jizzax politexnika instituti bitiruvchilari safidan nomzodlarni magistratura, aspirantura qabul qilishga tavsiya etadi,  shuningdek, tadqiqotchilar va aspirantlarning shaxsiy rejalarini va nomzodlik dissertatsiyasi mavzularini tasdiqlaydi;\n"
 "                   <br>\n"
-"                   –  Institutning a’lochi talabalari va aspirantlari "
-"safidan nomzodlarni nomli stipendiyalar olishga tavsiya etadi;\n"
+"                   –  Institutning a’lochi talabalari va aspirantlari safidan nomzodlarni nomli stipendiyalar olishga tavsiya etadi;\n"
 "                   <br>\n"
-"                   – FakulСЊtet dekanlarining fakulСЊtetni tamomlaganlar va "
-"aspiranturani bitirganlar bilan aloqalari to’g’risidagi hisobotlarini "
-"eshitadi, kadrlar tayyorlashni yanada yaxshilash bo’yicha tadbirlarni ishlab "
-"chiqadi.\n"
+"                   – FakulСЊtet dekanlarining fakulСЊtetni tamomlaganlar va aspiranturani bitirganlar bilan aloqalari to’g’risidagi hisobotlarini eshitadi, kadrlar tayyorlashni yanada yaxshilash bo’yicha tadbirlarni ishlab chiqadi.\n"
 "                   <br>\n"
-"                   – «Sog’lom avlod uchun» jamg’armasi bilan hamkorlikda "
-"talabalarning jismoniy tarbiyasi va ularning sog’liqlarini yanada yaxshilash "
-"bo’yicha tadbirlar ishlab chiqadi;\n"
+"                   – «Sog’lom avlod uchun» jamg’armasi bilan hamkorlikda talabalarning jismoniy tarbiyasi va ularning sog’liqlarini yanada yaxshilash bo’yicha tadbirlar ishlab chiqadi;\n"
 "                   <br>\n"
-"                   – Institut talabalari va xodimlarining texnika "
-"xavfsizligi va mexnat muxofazasini takomillashtirish bo’yicha tadbirlarni "
-"belgilaydi;\n"
+"                   – Institut talabalari va xodimlarining texnika xavfsizligi va mexnat muxofazasini takomillashtirish bo’yicha tadbirlarni belgilaydi;\n"
 "                   <br>\n"
-"                   – Institut rivojlanishining joriy (yillik) istiqboliy "
-"rejalarini tasdiqlaydi va moliyaviy-xo’jalik faoliyati natijalarini "
-"eshitadi;\n"
+"                   – Institut rivojlanishining joriy (yillik) istiqboliy rejalarini tasdiqlaydi va moliyaviy-xo’jalik faoliyati natijalarini eshitadi;\n"
 "                   <br>\n"
-"                   – Oliy ma’lumotli mutaxasislarning malaka oshirish  "
-"rejalarining loyihalarini muxokama etadi, institutning malaka oshirish "
-"tarmoqlari rahbarining hisobotini eshitadi;"
+"                   – Oliy ma’lumotli mutaxasislarning malaka oshirish  rejalarining loyihalarini muxokama etadi, institutning malaka oshirish tarmoqlari rahbarining hisobotini eshitadi;"
 msgstr ""
 
 #: .\templates\institut\__ilmiy-kengash.html:89
 msgid ""
-"6. Ilmiy kengash, o’z ishini har o’quv yili uchun ishlab chiqiladigan rejaga "
-"muvofiq amalga oshiradi. Ilmiy kengash rejasi ilmiy kengash tomonidan ko’rib "
-"chiqilgandan so’ng institut rektori tomonidan tasdiqlanadi."
+"6. Ilmiy kengash, o’z ishini har o’quv yili uchun ishlab chiqiladigan rejaga"
+" muvofiq amalga oshiradi. Ilmiy kengash rejasi ilmiy kengash tomonidan "
+"ko’rib chiqilgandan so’ng institut rektori tomonidan tasdiqlanadi."
 msgstr ""
 
 #: .\templates\institut\__ilmiy-kengash.html:90
@@ -1147,38 +1108,11 @@ msgstr ""
 #: .\templates\institut\instut-page4.html:22
 msgid ""
 "Ҳурматли профессор-ўқитувчилар! Азиз талабалар!\n"
-"                Институтимиз жамоасининг ҳар бир аъзосини ислом оламининг "
-"энг улуғ байрами бўлмиш Рамазон ҳайити билан муборакбод этаётганимдан "
-"бениҳоя  мамнунман.  Ушбу қутлуғ ойда сабру қаноат, шукроналик, руҳий "
-"покланиш, савобли амаллар қилишдек олижаноб фазилатларга янада эътиборли "
-"бўламиз. Яратганнинг раҳматидан умидвор бўламиз. Бу йил юртимизда ушбу "
-"муқаддас ойга хос бўлган савобли амаллар ҳар қачонгидан ҳам яққол намоён "
-"бўлди, десам, янглишмайман.\n"
-"                Мард ва матонатли халқимиз коронавирус пандемияси, бошимизга "
-"тушган турли синовлар ва табиий офатлар шароитида “Оллоҳ сабр-тоқатли "
-"инсонлар билан биргадир”, деган илоҳий ўгитга амал қилиб, тушкунликка "
-"берилмасдан, янада аҳил ва бирдам бўлиб, инсонпарварлик, ҳамжиҳатликнинг "
-"юксак намунасини кўрсатди.\n"
-"                Институтимизнинг аҳил жамоаси ҳам “Саховат ва кўмак” "
-"умуммиллий ҳаракати доирасида кўплаб хайрли ишларга қўл урди. Фахрий "
-"ўқитувчилар, ижтимоий ҳимояга муҳтож инсонлар ҳолидан хабар олинди. Сардоба "
-"тошқинидан жабр кўрган одамларга  инсонпарварлик ёрдами кўрсатилди. Шу "
-"ўринда синовли кунларда бир тану жон бўлиб, биродарларига ёрдам кўрсатган "
-"жамоамиз аъзоларига миннатдорлик билдираман хамда Жиззах политехника "
-"институти илмпарвар ва замонавий технологияларга асосланган илм даргоҳи "
-"бўлиши билан бирга ҳамиша ёрдамга шай, гуманист жамоа бўлиб қолади деб "
-"ўйлайман.\n"
-"                Ҳозирги юксак технологиялар асрида мустаҳкам иймон-эътиқод "
-"билан бирга замонавий илм-фан, касб-ҳунарлар, хорижий тилларни пухта "
-"эгаллаш, инновациялар соҳасидаги ютуқларни чуқур ўзлаштириш, ёшларимизни "
-"миллий ва умуминсоний қадриятлар руҳида тарбиялаш барқарор тараққиётга "
-"эришишнинг энг муҳим шартидир. Бу бизнинг ҳар доим амал қиладиган шиоримиз "
-"бўлиб қолади.\n"
-"                Шу муборак кунларда Яратгандан ҳар бирингизнинг "
-"хонадонингизга тинчлик-хотиржамлик, фароғат, барака , оила аъзоларингизга "
-"соғлик-саломатлик, эзгу ишларингизга ривож тилайман. Бутун дунёда "
-"коронавирус хавфи тезроқ барҳам топиб, яна қайноқ илм ва ижод оламига "
-"қайтишимизга тилакдошман.\n"
+"                Институтимиз жамоасининг ҳар бир аъзосини ислом оламининг энг улуғ байрами бўлмиш Рамазон ҳайити билан муборакбод этаётганимдан бениҳоя  мамнунман.  Ушбу қутлуғ ойда сабру қаноат, шукроналик, руҳий покланиш, савобли амаллар қилишдек олижаноб фазилатларга янада эътиборли бўламиз. Яратганнинг раҳматидан умидвор бўламиз. Бу йил юртимизда ушбу муқаддас ойга хос бўлган савобли амаллар ҳар қачонгидан ҳам яққол намоён бўлди, десам, янглишмайман.\n"
+"                Мард ва матонатли халқимиз коронавирус пандемияси, бошимизга тушган турли синовлар ва табиий офатлар шароитида “Оллоҳ сабр-тоқатли инсонлар билан биргадир”, деган илоҳий ўгитга амал қилиб, тушкунликка берилмасдан, янада аҳил ва бирдам бўлиб, инсонпарварлик, ҳамжиҳатликнинг юксак намунасини кўрсатди.\n"
+"                Институтимизнинг аҳил жамоаси ҳам “Саховат ва кўмак” умуммиллий ҳаракати доирасида кўплаб хайрли ишларга қўл урди. Фахрий ўқитувчилар, ижтимоий ҳимояга муҳтож инсонлар ҳолидан хабар олинди. Сардоба тошқинидан жабр кўрган одамларга  инсонпарварлик ёрдами кўрсатилди. Шу ўринда синовли кунларда бир тану жон бўлиб, биродарларига ёрдам кўрсатган жамоамиз аъзоларига миннатдорлик билдираман хамда Жиззах политехника институти илмпарвар ва замонавий технологияларга асосланган илм даргоҳи бўлиши билан бирга ҳамиша ёрдамга шай, гуманист жамоа бўлиб қолади деб ўйлайман.\n"
+"                Ҳозирги юксак технологиялар асрида мустаҳкам иймон-эътиқод билан бирга замонавий илм-фан, касб-ҳунарлар, хорижий тилларни пухта эгаллаш, инновациялар соҳасидаги ютуқларни чуқур ўзлаштириш, ёшларимизни миллий ва умуминсоний қадриятлар руҳида тарбиялаш барқарор тараққиётга эришишнинг энг муҳим шартидир. Бу бизнинг ҳар доим амал қиладиган шиоримиз бўлиб қолади.\n"
+"                Шу муборак кунларда Яратгандан ҳар бирингизнинг хонадонингизга тинчлик-хотиржамлик, фароғат, барака , оила аъзоларингизга соғлик-саломатлик, эзгу ишларингизга ривож тилайман. Бутун дунёда коронавирус хавфи тезроқ барҳам топиб, яна қайноқ илм ва ижод оламига қайтишимизга тилакдошман.\n"
 "                Ийд ал Фитр муборак!\n"
 "                ректор, т.ф.д., проф                 \n"
 "                <b>А.УСМАНКУЛОВ</b>\n"
@@ -1328,8 +1262,8 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\core\validators.py:267
 msgid ""
-"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
-"hyphens."
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or"
+" hyphens."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\core\validators.py:279
@@ -1535,15 +1469,15 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1550
 #, python-format
 msgid ""
-"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
-"uuuuuu]][TZ] format."
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ] format."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1558
 #, python-format
 msgid ""
-"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
-"[TZ]) but it is an invalid date/time."
+"“%(value)s” value has the correct format (YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ]) but it is an invalid date/time."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1563
@@ -1562,8 +1496,8 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1853
 #, python-format
 msgid ""
-"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
-"uuuuuu] format."
+"“%(value)s” value has an invalid format. It must be in [DD] "
+"[[HH:]MM:]ss[.uuuuuu] format."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1857
@@ -1722,7 +1656,8 @@ msgid "Many-to-many relationship"
 msgstr ""
 
 #. Translators: If found as last label character, these punctuation
-#. characters will prevent the default label_suffix to be appended to the label
+#. characters will prevent the default label_suffix to be appended to the
+#. label
 #: .\venv\Lib\site-packages\django\forms\boundfield.py:185
 msgid ":?.!"
 msgstr ""
@@ -1772,7 +1707,8 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:633
 #, python-format
-msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid ""
+"Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr[0] ""
@@ -1879,7 +1815,8 @@ msgid "The inline value did not match the parent instance."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\forms\models.py:1448
-msgid "Select a valid choice. That choice is not one of the available choices."
+msgid ""
+"Select a valid choice. That choice is not one of the available choices."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\forms\models.py:1587
@@ -2339,11 +2276,11 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:45
 msgid ""
-"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
-"including the “Referrer-Policy: no-referrer” header, please remove them. The "
-"CSRF protection requires the “Referer” header to do strict referer checking. "
-"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
-"\" …> for links to third-party sites."
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or"
+" including the “Referrer-Policy: no-referrer” header, please remove them. "
+"The CSRF protection requires the “Referer” header to do strict referer "
+"checking. If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:54
@@ -2394,8 +2331,8 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:652
 #, python-format
 msgid ""
-"Future %(verbose_name_plural)s not available because %(class_name)s."
-"allow_future is False."
+"Future %(verbose_name_plural)s not available because "
+"%(class_name)s.allow_future is False."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:692
@@ -2453,10 +2390,10 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:221
 #, python-format
 msgid ""
-"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
-"\">DEBUG=True</a> is in your settings file and you have not configured any "
-"URLs."
+"You are seeing this page because <a "
+"href=\"https://docs.djangoproject.com/en/%(version)s/ref/settings/#debug\" "
+"target=\"_blank\" rel=\"noopener\">DEBUG=True</a> is in your settings file "
+"and you have not configured any URLs."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:229
