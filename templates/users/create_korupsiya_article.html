@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap_5_3_2.css' %}">
+    <title>Admin</title>
+</head>
+<body>
+    <div class="container h-100 py-4">
+        
+      {% include "users/__admin-navbar.html" %}
+
+      <h2 class="mb-4">Korupsiya maqolasi qo'shish</h2>
+      
+      <form method="post" enctype="multipart/form-data" class="mb-4">
+          {% csrf_token %}
+          {{ form.as_p }}
+          <button type="submit" class="btn btn-primary">Yaratish</button>
+      </form>
+       
+    </div>
+
+    <!-- script my JS -->
+    <script src="{% static 'js/bootstrap5.3.js' %}"></script>
+</body>
+</html>

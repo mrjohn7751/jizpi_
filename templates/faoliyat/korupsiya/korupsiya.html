@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>Korupsiyaga qarshi kurashish faoliyat</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_right col col-xxl-12 col-xl-12 col-lg-12 ">
+            <div class="card-box_right">
+                <div class="elonlar_blocki">
+                    {% for item in korupsiya %}
+                        <div class="card mb-3"> 
+                            <img src="{{ item.img.url }}" alt="Rasm 1">
+                            <h5>{{ item.title }}</h5>
+                            <p>{{ item.body }}</p>
+                            <a href="{{ item.get_absolute_url }}" class="btn korupsion">{% blocktrans %}Batafsil{% endblocktrans %}</a>
+                        </div>
+                        
+                    
+                        {% comment %}                         
+                            <img src="{{ item.img1.url }}" alt="Rasm 2">
+                            <img src="{{ item.img2.url }}" alt="Rasm 3">
+                            <img src="{{ item.img3.url }}" alt="Rasm 4"> 
+                        {% endcomment %}
+                    
+                        {% comment %} {% if item.video %}
+                            <h3>Video:</h3>
+                            <iframe width="560" height="315" src="{{ item.video }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        {% endif %} {% endcomment %}
+                
+                    {% endfor %}
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

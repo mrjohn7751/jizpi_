@@ -73,6 +73,13 @@
                 <ul class="dropdown_ul">
                   <li class="dropdown_li"><a href="{% url "news" %}">{% blocktrans %}Yangiliklar{% endblocktrans %}</a></li>
                   <li class="dropdown_li"><a href="{% url "elon" %}">{% blocktrans %}Elonlar{% endblocktrans %}</a></li>
+                  
+                  <li class="dropdown_li"><a href="{% url "video" %}">{% blocktrans %}Live{% endblocktrans %}</a></li>
+
+                  <li class="dropdown_li"><a href="{% url "ax" %}">{% blocktrans %}Axborot xizmati{% endblocktrans %}</a></li>
+                  <li class="dropdown_li"><a href="{# url "ax" #}">{% blocktrans %}Matbuot anjumanlari{% endblocktrans %}</a></li>
+                  <li class="dropdown_li"><a href="{# url "ax" #}">{% blocktrans %}Rahbariyatning bayonotlari va nutqlar{% endblocktrans %}</a></li>
+                  
                 </ul>
             </div>
               
@@ -103,6 +110,7 @@
                     <li class="dropdown_li"><a href="{% url "oquvFaoliyat" %}">{% blocktrans %}O'quv Faoliyat{% endblocktrans %}</a></li>
                     <li class="dropdown_li"><a href="{% url "xalqaroFaoliyat" %}">{% blocktrans %}Xalqaro Faoliyat{% endblocktrans %}</a></li>
                     <li class="dropdown_li"><a href="{% url "moliyaviyFaoliyat" %}">{% blocktrans %}Moliyaviy Faoliyat{% endblocktrans %}</a></li>
+                    <li class="dropdown_li"><a href="{% url "korupsiyaFaoliyat" %}">{% blocktrans %}Korupsiyaga qarshi kurashish{% endblocktrans %}</a></li>
                     
                 </ul>
             </div>
@@ -148,7 +156,7 @@
             </div>
             
             <div class="dropdown">
-                <a href="http://hnt.jizpi.uz:8080/" class="navbar_nav_a">{% blocktrans %}Interaktiv xizmatmatlar{% endblocktrans %}</a>
+                <a href="http://hnt.jizpi.uz/" class="navbar_nav_a">{% blocktrans %}Interaktiv xizmatmatlar{% endblocktrans %}</a>
             </div>
               
       </div>

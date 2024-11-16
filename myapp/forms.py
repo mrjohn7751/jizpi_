@@ -1,5 +1,5 @@
 from django import forms
-from .models import ArticleElon, ArticleNews, ArticleQabul2024
+from .models import ArticleElon, ArticleNews, ArticleQabul2024, Korupsiya
 
 class ArticleElonForm(forms.ModelForm):
     class Meta:
@@ -7,7 +7,7 @@ class ArticleElonForm(forms.ModelForm):
         fields = [
             'title', 'title_en', 'title_ru', 
             'body', 'body_en', 'body_ru','created_at', 
-            'img', 'img1', 'img2', 'img3'
+            'img', 'img1', 'img2', 'img3', 
         ]
         widgets = {
             'title': forms.TextInput(attrs={'class': 'form-control'}),
@@ -21,6 +21,7 @@ class ArticleElonForm(forms.ModelForm):
             'img1': forms.ClearableFileInput(attrs={'class': 'form-control'}),
             'img2': forms.ClearableFileInput(attrs={'class': 'form-control'}),
             'img3': forms.ClearableFileInput(attrs={'class': 'form-control'}),
+            
         }
 
 class ArticleNewsForm(forms.ModelForm):
@@ -29,7 +30,7 @@ class ArticleNewsForm(forms.ModelForm):
         fields = [
             'title', 'title_en', 'title_ru', 
             'body', 'body_en', 'body_ru','created_at', 
-            'img', 'img1', 'img2', 'img3'
+            'img', 'img1', 'img2', 'img3', 
         ]
         widgets = {
             'title': forms.TextInput(attrs={'class': 'form-control'}),
@@ -43,6 +44,7 @@ class ArticleNewsForm(forms.ModelForm):
             'img1': forms.ClearableFileInput(attrs={'class': 'form-control'}),
             'img2': forms.ClearableFileInput(attrs={'class': 'form-control'}),
             'img3': forms.ClearableFileInput(attrs={'class': 'form-control'}),
+           
         }
 
 
@@ -56,4 +58,27 @@ class Qabul24Form(forms.ModelForm):
             'file3': forms.ClearableFileInput(attrs={'class': 'form-control'}),
             'file4': forms.ClearableFileInput(attrs={'class': 'form-control'}),
             'file5': forms.ClearableFileInput(attrs={'class': 'form-control'}),
+        }
+
+
+class KorupsiyaForm(forms.ModelForm):
+    class Meta:
+        model = Korupsiya
+        fields = [
+            'title', 'title_en', 'title_ru', 
+            'body', 'body_en', 'body_ru', 
+            'publish_time', 'img', 'img1', 'img2', 'img3'
+        ]
+        widgets = {
+            'title': forms.TextInput(attrs={'class': 'form-control'}),
+            'title_en': forms.TextInput(attrs={'class': 'form-control'}),
+            'title_ru': forms.TextInput(attrs={'class': 'form-control'}),
+            'body': forms.Textarea(attrs={'class': 'form-control', 'rows': 4}),
+            'body_en': forms.Textarea(attrs={'class': 'form-control', 'rows': 4}),
+            'body_ru': forms.Textarea(attrs={'class': 'form-control', 'rows': 4}),
+            'publish_time': forms.DateTimeInput(attrs={'class': 'form-control', 'type': 'datetime-local'}),
+            'img': forms.ClearableFileInput(attrs={'class': 'form-control'}),
+            'img1': forms.ClearableFileInput(attrs={'class': 'form-control'}),
+            'img2': forms.ClearableFileInput(attrs={'class': 'form-control'}),
+            'img3': forms.ClearableFileInput(attrs={'class': 'form-control'}),
         }

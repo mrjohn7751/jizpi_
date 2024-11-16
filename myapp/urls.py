@@ -35,6 +35,13 @@ urlpatterns = [
     path('elonlar/',elon,name='elon'),
     path('elon/<int:pk>/',elon_detail,name='ArticleElon_detail'),
     
+    path('Axborot-xizmati/',ax,name='ax'),
+   path('live/',video,name='video'),
+    
+    path('create-korupsiya-article/', create_korupsiya_article, name='create_korupsiya_article'),
+    path('delete-korupsiya-article/<int:pk>/', delete_korupsiya_article, name='delete_korupsiya_article'),
+    path('korupsiya/<int:pk>/', korupsiya_detail, name='korupsiya_detail'),
+    
     
     path('institut',institut, name='institut'),
     path('kengashlar',kengash, name='kengash'),
@@ -207,6 +214,13 @@ urlpatterns = [
     path('Moliyaviy-faoliyat/pageMF6', pageMF6, name="pageMF6"),
     path('Moliyaviy-faoliyat/pageMF7', pageMF7, name="pageMF7"),
     
+     ###################################
+    path('Korupsiya-faoliyat/', korupsiyaFaoliyat, name="korupsiyaFaoliyat"),
+    path('Korupsiya-faoliyat/pageKF1', pageKF1, name="pageKF1"),
+    path('Korupsiya-faoliyat/pageKF2', pageKF2, name="pageKF2"),
+    
+    ####################################
+    
     
     path('callCenter/', callCenter, name="callCenter"),
     path('bakalavr/', bakalavr, name="bakalavr"),
@@ -294,6 +308,10 @@ urlpatterns = [
     path('talabalar/bakalavr/tBp8', tBp8, name='tBp8'),
     path('talabalar/bakalavr/tBp9', tBp9, name='tBp9'),
     path('talabalar/bakalavr/tBp10', tBp10, name='tBp10'),
+    
+    path('talabalar/bakalavr/tBp11', tBp11, name='tBp11'),
+    path('talabalar/bakalavr/tBp12', tBp12, name='tBp12'),
+    path('talabalar/bakalavr/tBp13', tBp13, name='tBp13'),
 
 
     path('talabalar/Magistratura', tM, name='tM'),
@@ -306,6 +324,10 @@ urlpatterns = [
     path('talabalar/Magistratura/tMp7', tMp7, name='tMp7'),
     path('talabalar/Magistratura/tMp8', tMp8, name='tMp8'),
     path('talabalar/Magistratura/tMp9', tMp9, name='tMp9'),
+    
+    path('talabalar/Magistratura/tMp10', tMp10, name='tMp10'),
+    path('talabalar/Magistratura/tMp11', tMp11, name='tMp11'),
+    path('talabalar/Magistratura/tMp12', tMp12, name='tMp12'),
 
 
     path('talabalar/sirtqi-talim', sirtqiT, name='sirtqiT'),

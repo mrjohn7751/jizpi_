@@ -3,7 +3,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.core.paginator import Paginator
 from django.views import View
-from .forms import ArticleElonForm, ArticleNewsForm, Qabul24Form
+from .forms import ArticleElonForm, ArticleNewsForm, Qabul24Form, KorupsiyaForm
 from .models import *
 from django.conf import settings
 from django.utils import translation
@@ -159,6 +159,44 @@ def delete_article_elon(request, pk):
 
 
 ################################################################################################
+
+
+def video(request):
+    return render(request,'news/video.html')
+
+
+# Korupsiya
+from .forms import KorupsiyaForm
+from .models import Korupsiya
+
+def create_korupsiya_article(request):
+    korupsiya = Korupsiya.objects.all()  # Barcha korupsiya obyektlarini olish
+    if request.method == 'POST':
+        form = KorupsiyaForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            return redirect('home')  # Kerakli URL manzilga yo'naltirish
+    else:
+        form = KorupsiyaForm()
+    
+    context = {
+        'korupsiya': korupsiya,
+        'form': form,
+    }
+    return render(request, 'users/create_korupsiya_article.html', context)
+
+
+################################################################################################
+################################################################################################
+# delete koruptions
+def delete_korupsiya_article(request, pk):
+    article = get_object_or_404(Korupsiya, pk=pk)
+    if request.method == 'POST':
+        article.delete()
+        return redirect('home')  # O'chirishdan keyin kerakli URLga yo'naltirish
+    return render(request, 'users/delete_korupsiya_article.html', {'article': article})
+
+
 ################################################################################################
 
 def trigger(request):
@@ -242,6 +280,10 @@ def index(request):
     return render(request,'index.html',context)
 
 
+def ax(request):
+    return render(request,'news/axborot-xizmati.html')
+    
+    
 
 def news(request):
     Article_news = ArticleNews.objects.all()
@@ -745,6 +787,25 @@ def pageMF7(request):
 ################################################################################################
 
 
+def korupsiyaFaoliyat(request):
+    articles = Korupsiya.objects.all()  # O'zgaruvchi nomini 'articles' deb o'zgartirdik
+    return render(request, 'faoliyat/korupsiya/korupsiya.html', {'korupsiya': articles})  # kalit nomi 'korupsiya'
+
+def korupsiya_detail(request, pk):
+    article = get_object_or_404(Korupsiya, pk=pk)
+    return render(request, 'korupsiya/korupsiya_copy.html', {'item': article})
+
+def pageKF1(request):
+    return render(request,'faoliyat/korupsiya/page-kf1.html')
+
+def pageKF2(request):
+    return render(request,'faoliyat/korupsiya/page-kf2.html')
+
+################################################################################################
+################################################################################################
+
+
+
 def callCenter(request):
     return render(request,'qabul/call-center.html')
 
@@ -978,6 +1039,16 @@ def tBp9(request):
 
 def tBp10(request):
     return render(request,'talabalar/bakalavr/page-b10.html')
+    
+
+def tBp11(request):
+    return render(request,'talabalar/bakalavr/page-b11.html')
+
+def tBp12(request):
+    return render(request,'talabalar/bakalavr/page-b12.html')
+
+def tBp13(request):
+    return render(request,'talabalar/bakalavr/page-b13.html')
 
 
 
@@ -1014,6 +1085,16 @@ def tMp8(request):
 
 def tMp9(request):
     return render(request,'talabalar/magistr/page-m9.html')
+
+
+def tMp10(request):
+    return render(request,'talabalar/magistr/page-m10.html')
+
+def tMp11(request):
+    return render(request,'talabalar/magistr/page-m11.html')
+
+def tMp12(request):
+    return render(request,'talabalar/magistr/page-m12.html')
 
 
 ################################################################################################

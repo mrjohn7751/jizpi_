@@ -12,25 +12,21 @@ SECRET_KEY = 'django-insecure-zqg*j(ujh*7hloqm2k6u+!eeu-9)7vbmfs)jpwhu-*!#s9gpa2
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
-CSRF_TRUSTED_ORIGINS = ['https://jizpi.uz', 'https://www.jizpi.uz']
-
+ALLOWED_HOSTS = ['jizpi.uz','195.158.14.142', '10.1.20.253' ,'*']
+CSRF_TRUSTED_ORIGINS = ['https://jizpi.uz', 'http://jizpi.uz']
 
 
 # Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',
-    'modeltranslation',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp',
-    'rosetta',
-    
-    
+    'modeltranslation',
 ]
 
 MIDDLEWARE = [
@@ -103,7 +99,6 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'uz'
 MODELTRANSLATION_DEFAULT_LANGUAGE = 'uz'
-
 TIME_ZONE = 'Asia/Tashkent'
 
 USE_I18N = True
