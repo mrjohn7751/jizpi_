@@ -4,6 +4,39 @@
     box-sizing: border-box;
   }
   /* ############################################################################## */
+  .elonlar_blocki .card .korupsion{
+    display: block;
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #144c84;
+    color: #fff;
+    transition: all .3s;
+  }
+  .koruption {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+    gap: 20px; /* Kartalar orasidagi bo'sh joy */
+    flex-wrap: wrap; /* Kartalarni yangi qatorga joylashtirish */
+}
+
+/* #################################################################################### */
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.footer_bottom{
+  height: 40px;
+  background-color: white;
+  color: black;
+}
+.footer_bottom p{
+  text-align: center;
+  line-height: 40px;
+  /* font-family: "Manrope", serif; */
+
+}
+  
+
+
   /* ############################################################################## */
   
 #languageForm{
@@ -211,6 +244,26 @@
     width: 100px;
     height: 40px;
     background: rgba(0, 0, 0, 0.315);
+  }
+   @media only screen and (max-width: 1400px) {
+    .XA-box{
+     
+      right: 33%;
+  
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .XA-box{
+     
+      right: 23%;
+  
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    .XA-box{
+     
+     display: none !important;
+    }
   }
 
 @media only screen and (max-width: 576px) {
@@ -641,6 +694,7 @@
   color: #fff;
   text-decoration: none;
   margin-top: 2px;
+   display: none;
   }
   
   /* ############################################## */
@@ -898,11 +952,12 @@
     /* background-color: #06203a; */
     margin-top: 10px;
     padding: 50px 0;
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../Photos/icons/statistika.jpg)  !important;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../Photos/icons/statistika.jpg), url(../Photos/icons/snow.gif)  !important;
     background-attachment:fixed !important ;
     background-size: cover !important;
     background-repeat: no-repeat !important;
   }
+  
 
   .kursatgich h1{
     font-size: 40px;

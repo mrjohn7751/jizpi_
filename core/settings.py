@@ -12,7 +12,7 @@ SECRET_KEY = 'django-insecure-zqg*j(ujh*7hloqm2k6u+!eeu-9)7vbmfs)jpwhu-*!#s9gpa2
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['jizpi.uz','195.158.14.142', '10.1.20.253' ,'*']
+ALLOWED_HOSTS = ['jizpi.uz','195.158.14.142', '10.1.20.253', '213.230.125.243', '213.230.125.242', '*']
 CSRF_TRUSTED_ORIGINS = ['https://jizpi.uz', 'http://jizpi.uz']
 
 
@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'myapp',
     'modeltranslation',
+    'rosetta',
 ]
 
 MIDDLEWARE = [
@@ -118,7 +119,7 @@ LOCALE_PATHS = [
 
 
 STATIC_URL = '/static/'
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_ROOT = BASE_DIR/'staticfiles'
 STATICFILES_DIRS = [BASE_DIR / 'static',]
 
 MEDIA_URL = 'media/'

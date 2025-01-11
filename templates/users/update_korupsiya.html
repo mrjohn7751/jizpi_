@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "css/login.css" %}">
+    <link rel="stylesheet" href="{% static "css/bootstrap_5_3_2.css" %}">
+    <title>Admin</title>
+</head>
+<body>
+    <div class="container">
+        
+        {% include "users/__admin-navbar.html" %}
+
+          <h2 class="text-h2">Korrupsiya Yangiliklarni Taxrirlash Bo'limi</h2>
+ 
+                <form method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <button type="submit" class="btn btn-success">Saqlash</button>
+                    <a href="{% url 'home' %}" class="btn btn-danger">orqaga</a>
+                </form>
+       
+          </div>
+    </div>
+
+    <!-- script my JS -->
+    <script src="{% static "js/bootstrap5.3.js" %}"></script>
+</body>
+</html>
+
+

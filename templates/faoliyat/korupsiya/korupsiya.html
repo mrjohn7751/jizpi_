@@ -14,14 +14,14 @@
     </div>
     <div class="row mt-4">
         <div class="block_right col col-xxl-12 col-xl-12 col-lg-12 ">
-            <div class="card-box_right">
-                <div class="elonlar_blocki">
+            <div class="card-box_right ">
+                <div class="elonlar_blocki koruption">
                     {% for item in korupsiya %}
-                        <div class="card mb-3"> 
+                        <div class="card mb-3 "> 
                             <img src="{{ item.img.url }}" alt="Rasm 1">
                             <h5>{{ item.title }}</h5>
                             <p>{{ item.body }}</p>
-                            <a href="{{ item.get_absolute_url }}" class="btn korupsion">{% blocktrans %}Batafsil{% endblocktrans %}</a>
+                            <a href="{% url 'korupsiya_detail' item.pk %}" class="btn korupsion">{% blocktrans %}Batafsil{% endblocktrans %}</a>
                         </div>
                         
                     

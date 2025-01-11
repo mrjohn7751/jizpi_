@@ -38,9 +38,10 @@ urlpatterns = [
     path('Axborot-xizmati/',ax,name='ax'),
    path('live/',video,name='video'),
     
-    path('create-korupsiya-article/', create_korupsiya_article, name='create_korupsiya_article'),
-    path('delete-korupsiya-article/<int:pk>/', delete_korupsiya_article, name='delete_korupsiya_article'),
     path('korupsiya/<int:pk>/', korupsiya_detail, name='korupsiya_detail'),
+    path('users/create_korupsiya_article/', create_korupsiya_article, name='create_korupsiya_article'),
+    path('users/update/<int:pk>/', update_korupsiya, name='update_korupsiya_news'),
+    path('users/delete/<int:pk>/', delete_korupsiya_article, name='delete_korupsiya_article'),
     
     
     path('institut',institut, name='institut'),

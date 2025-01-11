@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+<div class="container">
+      <div class="parent mt-5">
+        <div class="right-content">
+          <div class="right-content-img">
+            {% if item.img %}
+            <img src="{{ item.img.url }}" class='main-img' alt="Img"/>
+          {% endif %}
+          </div>
+          <div class="right-content-time mt-3">
+            <div>
+              {{ item.create_time|date:"Y-m-d" }}
+
+              <p>item</p>
+            </div>
+            <span></span>
+          </div>
+
+          <div class="right-content-title">
+            <h2>{{ item.title }}</h2>
+          </div>
+          <div class="right-content-decr mt-4">
+            <p>{{ item.body }}</p>
+          </div>
+        </div>
+        <div class="left-content">
+          <div class="left-content-img">
+                {% if item.img1 %}
+                    <img src="{{ item.img1.url }}" class='thumbnail' alt="Qo'shimcha rasm 1">
+                {% endif %}
+                {% if item.img2 %}
+                    <img src="{{ item.img2.url }}" class='thumbnail' alt="Qo'shimcha rasm 2">
+                {% endif %}
+                {% if item.img3 %}
+                    <img src="{{ item.img3.url }}" class='thumbnail' alt="Qo'shimcha rasm 3">
+                {% endif %}
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+<script>
+  // JavaScript funksiyasi
+  function switchImage(event) {
+      const mainImage = document.querySelector('.main-img');
+      mainImage.src = event.target.src;
+  }
+
+  // Rasm elementlariga event listener qo'shish
+  const thumbnails = document.querySelectorAll('.thumbnail');
+  thumbnails.forEach(thumbnail => {
+      thumbnail.addEventListener('click', switchImage);
+  });
+  
+</script>
+
+{% endblock content %}

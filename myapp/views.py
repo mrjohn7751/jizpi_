@@ -165,12 +165,21 @@ def video(request):
     return render(request,'news/video.html')
 
 
-# Korupsiya
-from .forms import KorupsiyaForm
-from .models import Korupsiya
+def create_article_elon(request):
+    if request.method == 'POST':
+        form = ArticleElonForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            return redirect('home')  # yoki kerakli URL
+    else:
+        form = ArticleElonForm()
+    return render(request, 'users/create_article_elon.html', {'form': form})
 
+
+
+# Korupsiya
 def create_korupsiya_article(request):
-    korupsiya = Korupsiya.objects.all()  # Barcha korupsiya obyektlarini olish
+    # korupsiya = Korupsiya.objects.all()  # Barcha korupsiya obyektlarini olish
     if request.method == 'POST':
         form = KorupsiyaForm(request.POST, request.FILES)
         if form.is_valid():
@@ -179,15 +188,15 @@ def create_korupsiya_article(request):
     else:
         form = KorupsiyaForm()
     
-    context = {
-        'korupsiya': korupsiya,
-        'form': form,
-    }
-    return render(request, 'users/create_korupsiya_article.html', context)
+    return render(request, 'users/create_korupsiya_article.html', {'form':form,})
+
+
+
 
 
 ################################################################################################
 ################################################################################################
+
 # delete koruptions
 def delete_korupsiya_article(request, pk):
     article = get_object_or_404(Korupsiya, pk=pk)
@@ -196,6 +205,19 @@ def delete_korupsiya_article(request, pk):
         return redirect('home')  # O'chirishdan keyin kerakli URLga yo'naltirish
     return render(request, 'users/delete_korupsiya_article.html', {'article': article})
 
+
+def update_korupsiya(request, pk):
+    korupsiya = get_object_or_404(Korupsiya, pk=pk)
+    if request.method == 'POST':
+        form = KorupsiyaForm(request.POST, request.FILES, instance=korupsiya)
+        if form.is_valid():
+            form.save()
+            return redirect('home')
+
+    else:
+        form = KorupsiyaForm(instance=korupsiya)
+    
+    return render(request, 'korupsiya/update_korupsiya.html', {'form', form})
 
 ################################################################################################
 
@@ -793,7 +815,7 @@ def korupsiyaFaoliyat(request):
 
 def korupsiya_detail(request, pk):
     article = get_object_or_404(Korupsiya, pk=pk)
-    return render(request, 'korupsiya/korupsiya_copy.html', {'item': article})
+    return render(request, 'faoliyat/korupsiya/korupsiya_detail.html', {'item': article})
 
 def pageKF1(request):
     return render(request,'faoliyat/korupsiya/page-kf1.html')

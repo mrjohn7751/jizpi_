@@ -13,6 +13,30 @@
     color: #fff;
     transition: all .3s;
   }
+  .koruption {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+    gap: 20px; /* Kartalar orasidagi bo'sh joy */
+    flex-wrap: wrap; /* Kartalarni yangi qatorga joylashtirish */
+}
+
+/* #################################################################################### */
+.footer_bottom{
+  height: 40px;
+  background-color: white;
+  color: black;
+}
+.footer_bottom p{
+  text-align: center;
+  line-height: 40px;
+  /* font-family: "Manrope", serif; */
+
+}
+.footer_bottom p a{
+  text-decoration: none;
+
+}
   
 
 
@@ -931,11 +955,12 @@
     /* background-color: #06203a; */
     margin-top: 10px;
     padding: 50px 0;
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../Photos/icons/statistika.jpg)  !important;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../Photos/icons/statistika.jpg), url(../Photos/icons/snow.gif)  !important;
     background-attachment:fixed !important ;
     background-size: cover !important;
     background-repeat: no-repeat !important;
   }
+  
 
   .kursatgich h1{
     font-size: 40px;

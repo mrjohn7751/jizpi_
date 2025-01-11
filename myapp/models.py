@@ -102,7 +102,7 @@ class Korupsiya(models.Model):
 
 
     def get_absolute_url(self):
-        return reverse('korupsiya_detail', args=[str(self.id)])
+        return reverse('korupsiya_detail', kwargs={'pk': self.pk})
     
     
     class Meta:
